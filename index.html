@@ -1,1 +1,137 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="theme-color" content="#101010"/><meta name="description" content="Discover the best live music, art, bookshops, games, markets and unusual dates around Dallas–Fort Worth."/><link rel="canonical" href="https://dfwdaily.midnightmeta.dev/"/><meta property="og:url" content="https://dfwdaily.midnightmeta.dev/"/><title>DFW After Dark — Good plans, no guesswork.</title><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/><link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet"/><link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoq6xR1e5rFfI=" crossorigin=""/><link rel="stylesheet" href="styles.css"/></head><body><header class="top"><a class="brand" href="#"><span class="brandmark">✳</span> DFW <em>AFTER DARK</em></a><div class="topright"><span class="status"><i></i> DALLAS–FORT WORTH</span><a href="#explore" class="navlink">EXPLORE THE RADAR ↗</a></div></header><main><section class="hero"><p class="eyebrow">THE CULTURE & CONNECTION EDITION <span>✦</span> NORTH TEXAS</p><h1>GOOD PLANS.<br/><span>NO GUESSWORK.</span></h1><div class="herofoot"><p>Jazz in old mansions. Bookish little corners. Art worth getting lost in. Interesting things to do, together.</p><div class="asterisk">✳</div></div></section><section id="explore" class="mainsection"><div class="sectionheading"><div><p class="eyebrow orange">YOUR NEXT SEVEN DAYS</p><h2>THE RADAR <span id="count">/ —</span></h2></div><p class="dateperiod" id="period"></p></div><div class="tools"><div class="dayfilters" id="days" aria-label="Date filters"></div><div class="filterrow"><input id="search" type="search" placeholder="Search events, venues, neighborhoods..." aria-label="Search"/><select id="category" aria-label="Category"><option value="all">All experiences</option></select><select id="area" aria-label="Area"><option value="all">All of DFW</option></select><button id="savedToggle" class="minor">♡ Saved only</button><button id="mapToggle" class="minor" aria-pressed="true">◉ Map</button></div></div><div class="contentgrid"><div><div id="cards" class="cards" aria-live="polite"></div><p id="empty" class="empty" hidden>No verified event listings match this view right now. Try another date or explore the evergreen spots below.</p></div><aside class="mapaside" id="mapPanel"><div class="maptitle"><span>◉ THE NEIGHBORHOOD VIEW</span><small>Tap pins for details</small></div><div id="map" aria-label="Map of event venues"></div><p class="mapcaption">Approximate venue locations · Open directions for exact routes</p></aside></div></section><section class="evergreen"><div class="sectionheading"><div><p class="eyebrow orange">WHENEVER YOU FEEL LIKE IT</p><h2>ANY-DAY ADVENTURES.</h2></div></div><div id="places" class="placegrid"></div></section><section class="endcap"><span>LESS SCROLLING. MORE DOING.</span><h2>GO MAKE<br/><i>A STORY.</i></h2><p>DFW is full of places worth leaving the house for.</p></section></main><footer><span>✳ DFW AFTER DARK</span><span>CURATED FOR CURIOUS PEOPLE · ALL TIMES CENTRAL</span><span>Always verify with the organizer before visiting.</span></footer><script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script><script src="app.js"></script></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#0D0F2B">
+  <title>DFW After Dark: good plans, no guesswork</title>
+  <meta name="description" content="Live music, art, bookshops, games, markets and unusual dates around Dallas–Fort Worth, checked against the organizer and updated every week.">
+  <link rel="canonical" href="https://dfwdaily.midnightmeta.dev/">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://dfwdaily.midnightmeta.dev/">
+  <meta property="og:title" content="DFW After Dark">
+  <meta property="og:description" content="Good plans for the next seven days in Dallas–Fort Worth. No guesswork.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="fonts/big-shoulders-display-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/hanken-grotesk-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="vendor/leaflet/leaflet.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-view="list">
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0 1 13 0c0 5.4-6.5 11-6.5 11z"/><circle cx="12" cy="10" r="2.3"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+    <symbol id="i-ticket" viewBox="0 0 24 24"><path d="M4 7h16v3a2 2 0 0 0 0 4v3H4v-3a2 2 0 0 0 0-4z"/><path d="M14 7.5v1.5M14 11.2v1.6M14 15v1.5"/></symbol>
+    <symbol id="i-heart" viewBox="0 0 24 24"><path d="M12 20s-7.5-4.6-7.5-10.2A4.3 4.3 0 0 1 12 7.3a4.3 4.3 0 0 1 7.5 2.5C19.5 15.4 12 20 12 20z"/></symbol>
+    <symbol id="i-cal" viewBox="0 0 24 24"><rect x="4" y="5" width="16" height="15" rx="2"/><path d="M4 10h16M9 3v4M15 3v4M12 13v4M10 15h4"/></symbol>
+    <symbol id="i-out" viewBox="0 0 24 24"><path d="M7 17 17 7M9 7h8v8"/></symbol>
+    <symbol id="i-nav" viewBox="0 0 24 24"><path d="M4 11.5 20 4l-7.5 16-2-6.5z"/></symbol>
+    <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4 4"/></symbol>
+    <symbol id="i-map" viewBox="0 0 24 24"><path d="M9 4 3 6v14l6-2 6 2 6-2V4l-6 2zM9 4v14M15 6v14"/></symbol>
+    <symbol id="i-list" viewBox="0 0 24 24"><path d="M9 6h11M9 12h11M9 18h11M4.5 6h.01M4.5 12h.01M4.5 18h.01"/></symbol>
+  </defs>
+</svg>
+
+<a class="skip" href="#explore">Skip to events</a>
+
+<header class="top">
+  <a class="brand" href="#top" aria-label="DFW After Dark, home">
+    <svg class="brandmark" viewBox="0 0 32 32" aria-hidden="true"><g stroke="currentColor" stroke-width="3.2" stroke-linecap="round"><line x1="16" y1="16" x2="16" y2="5"/><line x1="16" y1="16" x2="25.5" y2="21.5"/><line x1="16" y1="16" x2="6.5" y2="21.5"/><line x1="16" y1="16" x2="16" y2="27"/><line x1="16" y1="16" x2="25.5" y2="10.5"/><line x1="16" y1="16" x2="6.5" y2="10.5"/></g></svg>
+    <span class="neon">DFW After Dark</span>
+  </a>
+  <p class="topnote">Dallas–Fort Worth · all times Central</p>
+</header>
+
+<main id="top">
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="skyline" aria-hidden="true"></div>
+    <div class="hero-inner">
+      <div class="hero-copy">
+        <h1 id="hero-title">Good plans.<br>No guesswork.</h1>
+        <p class="lede">Jazz in old mansions, bookish corners, art worth getting lost in. Every listing is checked against the organizer, and only the next seven days make the cut.</p>
+        <p class="pulse" id="pulse" aria-live="polite"></p>
+      </div>
+      <div class="hero-next" id="heroNext" aria-live="polite"></div>
+    </div>
+  </section>
+
+  <section id="explore" class="explore" aria-labelledby="radar-title">
+    <div class="daybar" role="group" aria-label="Choose a day">
+      <div class="days" id="days"></div>
+    </div>
+
+    <div class="wrap">
+      <div class="heading">
+        <h2 id="radar-title">The next seven days</h2>
+        <p class="range" id="period"></p>
+      </div>
+
+      <div class="filters">
+        <div class="chips" id="chips" role="group" aria-label="Filter by type"></div>
+        <div class="filterrow">
+          <label class="field search">
+            <svg class="ico" aria-hidden="true"><use href="#i-search"/></svg>
+            <span class="sr">Search events</span>
+            <input id="search" type="search" placeholder="Search events, venues, neighborhoods" autocomplete="off">
+          </label>
+          <label class="field">
+            <span class="sr">Area</span>
+            <select id="area"><option value="all">All of DFW</option></select>
+          </label>
+          <button id="savedToggle" class="toggle" type="button" aria-pressed="false">
+            <svg class="ico" aria-hidden="true"><use href="#i-heart"/></svg>
+            Saved <span id="savedCount" class="badge" hidden></span>
+          </button>
+          <div class="viewswitch" role="group" aria-label="View">
+            <button id="viewList" type="button" aria-pressed="true"><svg class="ico" aria-hidden="true"><use href="#i-list"/></svg>List</button>
+            <button id="viewMap" type="button" aria-pressed="false"><svg class="ico" aria-hidden="true"><use href="#i-map"/></svg>Map</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="layout">
+        <div class="listcol">
+          <p class="sr" id="count" role="status" aria-live="polite"></p>
+          <div id="cards" class="cards" aria-busy="true">
+            <div class="skeleton" aria-hidden="true"></div>
+            <div class="skeleton" aria-hidden="true"></div>
+            <div class="skeleton" aria-hidden="true"></div>
+          </div>
+          <div id="empty" class="empty" hidden></div>
+        </div>
+
+        <aside class="mapcol" id="mapPanel" aria-label="Map of event venues">
+          <div class="mapcard">
+            <div id="map" role="application" aria-label="Map of event venues. Event details are in the list."></div>
+            <p class="mapnote"><span class="key key-event"></span>Event <span class="key key-place"></span>Open any day · Pins show approximate locations. Use Directions for the exact spot.</p>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <section class="anytime" aria-labelledby="anytime-title">
+    <div class="wrap">
+      <div class="heading">
+        <h2 id="anytime-title">Open any day</h2>
+        <p class="range">Nothing on the calendar? Start here.</p>
+      </div>
+      <div id="places" class="places"></div>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <span class="neon small">DFW After Dark</span>
+    <span>Curated for curious people. Always confirm with the organizer before you go.</span>
+  </div>
+</footer>
+
+<noscript><p class="noscript">DFW After Dark needs JavaScript to load the event list.</p></noscript>
+<script src="vendor/leaflet/leaflet.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
