@@ -1,0 +1,5 @@
+[
+{"id":"neighbor-books","title":"Neighbor Books","category":"Books & Shops","venue":"Neighbor Books","area":"McKinney","address":"Downtown McKinney, TX","lat":33.1976,"lng":-96.6153,"url":"https://www.google.com/maps/search/?api=1&query=Neighbor+Books+McKinney+TX","description":"Independent books and a wander through the historic square.","price":"Check venue"},
+{"id":"arcade92","title":"Arcade 92","category":"Games & Play","venue":"Arcade 92","area":"McKinney","address":"Downtown McKinney, TX","lat":33.1973,"lng":-96.6158,"url":"https://www.google.com/maps/search/?api=1&query=Arcade+92+McKinney+TX","description":"Retro video games and pinball.","price":"Check venue"},
+{"id":"bibliobar","title":"Bibliobar","category":"Books & Shops","venue":"Bibliobar","area":"Plano","address":"Downtown Plano, TX","lat":33.0198,"lng":-96.7003,"url":"https://www.google.com/maps/search/?api=1&query=Bibliobar+Plano+TX","description":"Book browsing and a walk through downtown Plano.","price":"Free to browse"}
+]
