@@ -102,5 +102,18 @@
     "url": "https://www.visitmckinney.com/things-to-do/arts-and-entertainment/visual-arts/",
     "description": "Self-guided hunt for miniature art doors in the downtown shopping district. Outdoor, free to explore.",
     "price": "Free"
+  },
+  {
+    "id": "comedy-arena",
+    "title": "The Comedy Arena",
+    "category": "Comedy & Improv",
+    "venue": "The Comedy Arena",
+    "area": "McKinney",
+    "address": "305 E Virginia St Suite 104, McKinney, TX 75069",
+    "lat": null,
+    "lng": null,
+    "url": "https://www.thecomedyarena.com/home/",
+    "description": "Local improv and stand-up venue with some all-ages performances and youth classes; check the specific show for age guidance before visiting.",
+    "price": "Tickets and schedules vary"
   }
 ]
