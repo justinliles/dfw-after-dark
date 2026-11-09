@@ -127,7 +127,8 @@
   /* ---------- hero ---------- */
   function renderHero() {
     const el = $('heroNext');
-    const next = state.events[0];
+    // A date-only listing must not be advertised as an active live session.
+    const next = state.events.find((e) => !e.timeTBD && e._start > now()) || state.events.find((e) => !e.timeTBD) || state.events[0];
     const n = state.events.length;
     $('pulse').textContent = n
       ? `${n} verified ${n === 1 ? 'plan' : 'plans'} in the next seven days.`
@@ -139,7 +140,8 @@
     const today = keyOf(now());
     const live = next._start <= now();
     let when;
-    if (live) when = 'Happening now';
+    if (next.timeTBD) when = 'Hours: See organizer';
+    else if (live) when = 'Happening now';
     else if (next._first === today) when = `Today at ${F.time.format(next._start)}`;
     else if (next._first === addDays(today, 1)) when = `Tomorrow at ${F.time.format(next._start)}`;
     else when = `${F.wdLong.format(next._start)} at ${F.time.format(next._start)}`;
