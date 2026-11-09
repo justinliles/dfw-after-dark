@@ -76,6 +76,7 @@
   }
 
   function timeLabel(e) {
+    if (e.timeTBD) return 'Hours: See organizer';
     const s = new Date(e.start);
     if (Number.isNaN(+s)) return 'Check organizer';
     const hasEnd = e.end && !Number.isNaN(+new Date(e.end));
