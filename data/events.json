@@ -689,18 +689,17 @@
     "id": "portal-pets-2026-11-14",
     "title": "Portal Pets",
     "category": "Pets & Animals",
-    "start": "2026-11-14T00:00:00-06:00",
-    "end": "2026-11-14T23:59:00-06:00",
+    "start": "2026-11-14T13:00:00-06:00",
+    "end": "2026-11-14T15:00:00-06:00",
     "venue": "Meow Wolf Grapevine",
     "area": "Grapevine",
     "address": "3000 Grapevine Mills Pkwy, Grapevine, TX 76051",
     "lat": 32.9668,
     "lng": -97.0415,
-    "price": "Included with exhibition ticket; adoption fee $85",
-    "url": "https://tickets.meowwolf.com/grapevine/events/portal-pets-11-14-2026/",
-    "description": "Doors 1 PM; all-ages pet adoption event with Grapevine Animal Services inside Meow Wolf. Adoption requires an adult 18+ with ID; event end time not published.",
-    "featured": false,
-    "timeTBD": true
+    "price": "Adoption area free; exhibition ticket separate; adoption fees vary ($60–$85)",
+    "url": "https://www.grapevinepd.org/m/calendar/event/detail/736",
+    "description": "Visit adoptable animals inside the Matt King Mystery Center, 1–3 PM. All ages can visit; adopters must be 18+ with valid ID. Exhibition admission is separate.",
+    "featured": false
   },
   {
     "id": "mckinney-chestnut-farmers-2026-11-14",
@@ -1003,7 +1002,7 @@
     "lng": -96.8092,
     "price": "$25 listed",
     "url": "https://reuniontower.com/get-lit-a-grown-up-bookfair/",
-    "description": "Bookish vendors, local authors and skyline views.",
+    "description": "Local authors, books and stationery with skyline views; this book fair caters to adult readers and may have mature vendor content. Organizer permits under-21 visitors.",
     "featured": true
   },
   {
