@@ -9,6 +9,7 @@ on:
       - 'app.js'
       - 'changelog.html'
       - 'changelog.js'
+      - 'how-it-works.html'
       - 'netlify.toml'
       - 'assets/**'
       - 'vendor/**'
@@ -71,7 +72,7 @@ jobs:
               for key in sorted(prior.keys()-latest.keys()):
                   e=prior[key]
                   updates.append(dict(id=f'removed:{after}:{key}',type='removed',date=date,title=e.get('title','Unnamed event'),description='Removed from the rolling event feed; may have expired or been rescheduled. Not a cancellation notice.',area=e.get('area'),url=e.get('url'),commitUrl=f'https://github.com/justinliles/dfw-after-dark/commit/{after}'))
-          sitefiles={'index.html','styles.css','app.js','changelog.html','changelog.js','netlify.toml'}
+          sitefiles={'index.html','styles.css','app.js','changelog.html','changelog.js','how-it-works.html','netlify.toml'}
           tech=sorted(x for x in files if x in sitefiles or x.startswith(('assets/','vendor/','fonts/')))
           if tech:
               subject=git('show','-s','--format=%s',after).stdout.strip() or 'Website update'
