@@ -1,5 +1,13 @@
 [
   {
+    "id": "tech:f300a60960f89f301d5ce26491f29ddf3a09f98e",
+    "type": "technology",
+    "date": "2026-11-15T17:42:41+00:00",
+    "title": "Add Mood Finder to how-it-works.html navigation and discovery",
+    "description": "Website files updated: how-it-works.html",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/f300a60960f89f301d5ce26491f29ddf3a09f98e"
+  },
+  {
     "id": "tech:f40583a20979d573f658e851dd6eff1d6ef0df96",
     "type": "technology",
     "date": "2026-11-15T17:42:21+00:00",
