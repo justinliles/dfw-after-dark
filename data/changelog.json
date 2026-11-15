@@ -4,39 +4,2905 @@
     "type": "technology",
     "date": "2026-11-15T16:28:06+00:00",
     "title": "Style dated changelog sections",
-    "description": "Website files updated: styles.css",
-    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/543720bf24f8be09bda33d69a8cbfcbd5910499b"
+    "description": "Website files updated: styles.css"
   },
   {
     "id": "tech:0c93afcfef12116d4b05b7b5b6932b1c37b48537",
     "type": "technology",
     "date": "2026-11-15T16:27:56+00:00",
     "title": "Present changelog as dated descriptions without GitHub links",
-    "description": "Website files updated: changelog.js",
-    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/0c93afcfef12116d4b05b7b5b6932b1c37b48537"
+    "description": "Website files updated: changelog.js"
   },
   {
     "id": "tech:6b5e9e346ead8c56bbe1ceddcf0354555bcdd879",
     "type": "technology",
     "date": "2026-11-15T15:59:15+00:00",
     "title": "Improve changelog statistics readability",
-    "description": "Website files updated: styles.css",
-    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/6b5e9e346ead8c56bbe1ceddcf0354555bcdd879"
+    "description": "Website files updated: styles.css"
   },
   {
-    "id": "tech-changelog-introduction-2026-11-15",
+    "id": "history:tech:2dd5cddd3a83f7e5812b0e13c6f2479dad66f1b0",
     "type": "technology",
-    "date": "2026-11-15T10:00:00-06:00",
-    "title": "Changelog and team credits",
-    "description": "Launched a public change history for event additions, removals and website improvements, with Midnight Meta, Justin Liles and Nayra Salamanca credits.",
-    "commitUrl": null
+    "date": "2026-11-15T15:57:53Z",
+    "title": "Meet the builders",
+    "description": "Added site credits for Midnight Meta and Vibe Coding Engineers Justin Liles and Nayra Salamanca."
   },
   {
-    "id": "tech-out-about-brand-2026-11-15",
+    "id": "history:tech:9c6f0b7e2ac52ce1fe02ce4083b4a0fd7ddd2e75",
     "type": "technology",
-    "date": "2026-11-15T09:32:00-06:00",
-    "title": "A new name, a brighter look",
-    "description": "Rebranded DFW After Dark as Out & About DFW with warm coral, deep teal, cream and gold, while keeping the same domain and seven-day event radar.",
-    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/98ec83577bfec98cb1c36c6cb39224bc778d1fd7"
+    "date": "2026-11-15T15:57:07Z",
+    "title": "A public changelog",
+    "description": "Added a dedicated page for event additions, removals and technology improvements."
+  },
+  {
+    "id": "history:tech:9a2987d5379fd558fa8cb98bcd478891b265d992",
+    "type": "technology",
+    "date": "2026-11-15T15:44:37Z",
+    "title": "More accurate day filtering",
+    "description": "Selecting a date now updates the featured event and the list together, avoiding unrelated days."
+  },
+  {
+    "id": "history:tech:98ec83577bfec98cb1c36c6cb39224bc778d1fd7",
+    "type": "technology",
+    "date": "2026-11-15T15:32:25Z",
+    "title": "Meet Out & About DFW",
+    "description": "Renamed DFW After Dark and refreshed the colors to teal, coral, gold and cream while keeping the existing website address."
+  },
+  {
+    "id": "history:add:102ee781625f9ec9f7e1fd3bec7c7e5d9ea3cd98:chestnut-market-2026-11-21",
+    "type": "added",
+    "date": "2026-11-15T15:15:06Z",
+    "title": "Chestnut Square Farmers Market",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "McKinney",
+    "url": "https://www.chestnutsquare.org/farmers-market"
+  },
+  {
+    "id": "history:add:102ee781625f9ec9f7e1fd3bec7c7e5d9ea3cd98:dallas-debussy-la-mer-2026-11-21",
+    "type": "added",
+    "date": "2026-11-15T15:15:06Z",
+    "title": "Dallas Symphony — Debussy's La mer & Karen Gomyo",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Dallas",
+    "url": "https://www.dallassymphony.org/productions/debussys-la-mer/"
+  },
+  {
+    "id": "history:add:102ee781625f9ec9f7e1fd3bec7c7e5d9ea3cd98:dallas-young-strings-recital-2026-11-21",
+    "type": "added",
+    "date": "2026-11-15T15:15:06Z",
+    "title": "DSO Young Musicians & Young Strings Recital",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Dallas",
+    "url": "https://www.dallassymphony.org/productions/young-musicians-young-strings-2026/"
+  },
+  {
+    "id": "history:add:102ee781625f9ec9f7e1fd3bec7c7e5d9ea3cd98:grapevine-fall-fest-2026-11-21",
+    "type": "added",
+    "date": "2026-11-15T15:15:06Z",
+    "title": "Fall Fest at the Huddle",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Grapevine",
+    "url": "https://www.grapevinetexasusa.com/event/fall-fest-at-the-huddle/42371/"
+  },
+  {
+    "id": "history:add:102ee781625f9ec9f7e1fd3bec7c7e5d9ea3cd98:grapevine-knit-pillow-2026-11-21",
+    "type": "added",
+    "date": "2026-11-15T15:15:06Z",
+    "title": "Chunky Knit Pillow Workshop",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Grapevine",
+    "url": "https://www.grapevinetexasusa.com/event/new-chunky-knit-pillow-with-bows/42364/"
+  },
+  {
+    "id": "history:add:102ee781625f9ec9f7e1fd3bec7c7e5d9ea3cd98:grapevine-nutcracker-short-sweet-2026-11-21",
+    "type": "added",
+    "date": "2026-11-15T15:15:06Z",
+    "title": "Nutcracker: Short and Sweet Ballet",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Grapevine",
+    "url": "https://www.grapevinetexasusa.com/event/north-central-ballet-presents-nutcracker-short-and-sweet/41954/"
+  },
+  {
+    "id": "history:add:102ee781625f9ec9f7e1fd3bec7c7e5d9ea3cd98:grapevine-nutcracker-tea-2026-11-21",
+    "type": "added",
+    "date": "2026-11-15T15:15:06Z",
+    "title": "Sugar Plum Fairy Tea Party",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Grapevine",
+    "url": "https://www.grapevinetexasusa.com/event/north-central-ballet-presents-nutcracker-short-and-sweet/41954/"
+  },
+  {
+    "id": "history:add:102ee781625f9ec9f7e1fd3bec7c7e5d9ea3cd98:grapevine-peace-plaza-skating-2026-11-21",
+    "type": "added",
+    "date": "2026-11-15T15:15:06Z",
+    "title": "Peace Plaza Ice Rink — Opening Day",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Grapevine",
+    "url": "https://www.grapevinetexasusa.com/event/peace-plaza-ice-rink/42324/"
+  },
+  {
+    "id": "history:add:102ee781625f9ec9f7e1fd3bec7c7e5d9ea3cd98:grapevine-porcelain-adult-2026-11-21",
+    "type": "added",
+    "date": "2026-11-15T15:15:06Z",
+    "title": "Learn to China Paint — Adults & Mature Teens",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Grapevine",
+    "url": "https://www.grapevinetexasusa.com/event/learn-to-china-paint%3A-adult/42353/"
+  },
+  {
+    "id": "history:add:102ee781625f9ec9f7e1fd3bec7c7e5d9ea3cd98:grapevine-porcelain-kids-2026-11-21",
+    "type": "added",
+    "date": "2026-11-15T15:15:06Z",
+    "title": "Learn to China Paint — Kids",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Grapevine",
+    "url": "https://www.grapevinetexasusa.com/event/learn-to-china-paint%3A-kids/42354/"
+  },
+  {
+    "id": "history:add:102ee781625f9ec9f7e1fd3bec7c7e5d9ea3cd98:grapevine-repticon-2026-11-21",
+    "type": "added",
+    "date": "2026-11-15T15:15:06Z",
+    "title": "Repticon — Reptile & Exotic Animal Expo",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Grapevine",
+    "url": "https://www.grapevinetexasusa.com/event/repticon/41409/"
+  },
+  {
+    "id": "history:add:102ee781625f9ec9f7e1fd3bec7c7e5d9ea3cd98:mckinney-clay-workshop-2026-11-21",
+    "type": "added",
+    "date": "2026-11-15T15:15:06Z",
+    "title": "Come Clay with Me! Pottery Experience",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "McKinney",
+    "url": "https://www.visitmckinney.com/events/come-clay-with-me-pottery-experience-hkwhe2xp"
+  },
+  {
+    "id": "history:add:102ee781625f9ec9f7e1fd3bec7c7e5d9ea3cd98:mckinney-jewelry-workshop-2026-11-21",
+    "type": "added",
+    "date": "2026-11-15T15:15:06Z",
+    "title": "Jewelry Class: Beginners and Beyond",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "McKinney",
+    "url": "https://www.visitmckinney.com/events/jewelry-class-beginners-and-beyond-srqlfp6o"
+  },
+  {
+    "id": "history:add:102ee781625f9ec9f7e1fd3bec7c7e5d9ea3cd98:mckinney-lady-bird-museum-2026-11-21",
+    "type": "added",
+    "date": "2026-11-15T15:15:06Z",
+    "title": "50 Years in Bloom — Lady Bird Johnson Museum Celebration",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "McKinney",
+    "url": "https://www.visitmckinney.com/events/50-years-in-bloom-the-celebration-of-lady-bird-johnson-and-the-museum-sht24myo"
+  },
+  {
+    "id": "history:add:102ee781625f9ec9f7e1fd3bec7c7e5d9ea3cd98:mckinney-vintage-market-days-2026-11-21",
+    "type": "added",
+    "date": "2026-11-15T15:15:06Z",
+    "title": "Vintage Market Days of Dallas–McKinney",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "McKinney",
+    "url": "https://www.vintagemarketdays.com/market/dallas-mckinney/index.php"
+  },
+  {
+    "id": "history:add:102ee781625f9ec9f7e1fd3bec7c7e5d9ea3cd98:mckinney-vintage-tree-2026-11-21",
+    "type": "added",
+    "date": "2026-11-15T15:15:06Z",
+    "title": "Vintage Ceramic Tree & Cactus Painting Workshop",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "McKinney",
+    "url": "https://www.visitmckinney.com/events/vintage-tree-and-cactus-workshop-sury4j30"
+  },
+  {
+    "id": "history:add:102ee781625f9ec9f7e1fd3bec7c7e5d9ea3cd98:mckinney-walkin-2026-11-21",
+    "type": "added",
+    "date": "2026-11-15T15:15:06Z",
+    "title": "Walls of Clay — Walk-In Pottery Studio",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "McKinney",
+    "url": "https://wallsofclaymckinney.com/events/"
+  },
+  {
+    "id": "history:add:102ee781625f9ec9f7e1fd3bec7c7e5d9ea3cd98:plano-art-culture-quest-2026-11-21",
+    "type": "added",
+    "date": "2026-11-15T15:15:06Z",
+    "title": "Plano Art & Culture Quest",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/art-culture-quest-3880"
+  },
+  {
+    "id": "history:add:102ee781625f9ec9f7e1fd3bec7c7e5d9ea3cd98:plano-art-impact-2026-11-21",
+    "type": "added",
+    "date": "2026-11-15T15:15:06Z",
+    "title": "Art with Impact 2026 Exhibition",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/for-the-love-of-art-art-with-impact"
+  },
+  {
+    "id": "history:add:102ee781625f9ec9f7e1fd3bec7c7e5d9ea3cd98:plano-assembly-lights-2026-11-21",
+    "type": "added",
+    "date": "2026-11-15T15:15:06Z",
+    "title": "Holiday Lights at Assembly Park",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/holiday-lights-at-assembly-park"
+  },
+  {
+    "id": "history:add:102ee781625f9ec9f7e1fd3bec7c7e5d9ea3cd98:plano-bibliobar-nutcracker-2026-11-21",
+    "type": "added",
+    "date": "2026-11-15T15:15:06Z",
+    "title": "Nutcracker Storytime with Chamberlain Ballet",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/calendar/day/2026/11/21"
+  },
+  {
+    "id": "history:add:102ee781625f9ec9f7e1fd3bec7c7e5d9ea3cd98:plano-christmas-bazaar-2026-11-21",
+    "type": "added",
+    "date": "2026-11-15T15:15:06Z",
+    "title": "Christmas Bazaar 2026",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/christmas-bazaar-2026"
+  },
+  {
+    "id": "history:add:102ee781625f9ec9f7e1fd3bec7c7e5d9ea3cd98:plano-farmers-market-2026-11-21",
+    "type": "added",
+    "date": "2026-11-15T15:15:06Z",
+    "title": "Plano Farmers Market",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/berkeley-sqaure-388"
+  },
+  {
+    "id": "history:add:102ee781625f9ec9f7e1fd3bec7c7e5d9ea3cd98:plano-farmstead-lights-2026-11-21",
+    "type": "added",
+    "date": "2026-11-15T15:15:06Z",
+    "title": "Lights on the Farmstead — Historic Holiday Walk",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/lights-on-the-farm-2026"
+  },
+  {
+    "id": "history:add:102ee781625f9ec9f7e1fd3bec7c7e5d9ea3cd98:plano-french-macarons-2026-11-21",
+    "type": "added",
+    "date": "2026-11-15T15:15:06Z",
+    "title": "The Art of French Macarons",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/calendar/day/2026/11/21"
+  },
+  {
+    "id": "history:add:102ee781625f9ec9f7e1fd3bec7c7e5d9ea3cd98:plano-global-grooves-2026-11-21",
+    "type": "added",
+    "date": "2026-11-15T15:15:06Z",
+    "title": "Global Grooves: Native American Heritage",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/global-grooves-native-american-heritage"
+  },
+  {
+    "id": "history:add:102ee781625f9ec9f7e1fd3bec7c7e5d9ea3cd98:plano-holiday-market-2026-11-21",
+    "type": "added",
+    "date": "2026-11-15T15:15:06Z",
+    "title": "Plano Holiday Market",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/plano-holiday-market-2026"
+  },
+  {
+    "id": "history:add:102ee781625f9ec9f7e1fd3bec7c7e5d9ea3cd98:plano-legacy-west-music-2026-11-21",
+    "type": "added",
+    "date": "2026-11-15T15:15:06Z",
+    "title": "Legacy West Live Music Series",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/calendar/day/2026/11/21/2"
+  },
+  {
+    "id": "history:add:102ee781625f9ec9f7e1fd3bec7c7e5d9ea3cd98:plano-mousetrap-deaf-theatre-2026-11-21",
+    "type": "added",
+    "date": "2026-11-15T15:15:06Z",
+    "title": "The Mousetrap — NTPA Deaf Theatre",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/the-mousetrap-ntpa-deaf-theatre"
+  },
+  {
+    "id": "history:add:102ee781625f9ec9f7e1fd3bec7c7e5d9ea3cd98:plano-streuth-clue-2026-11-21",
+    "type": "added",
+    "date": "2026-11-15T15:15:06Z",
+    "title": "Streuth & Clue — Theatre",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/streuth-clue"
+  },
+  {
+    "id": "history:add:102ee781625f9ec9f7e1fd3bec7c7e5d9ea3cd98:plano-trolls-musical-2026-11-21",
+    "type": "added",
+    "date": "2026-11-15T15:15:06Z",
+    "title": "Trolls the Musical JR",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Plano",
+    "url": "https://ntpa.org/event/trolls-jr-plano/"
+  },
+  {
+    "id": "history:remove:102ee781625f9ec9f7e1fd3bec7c7e5d9ea3cd98:arboretum-holiday-day-2026-11-14",
+    "type": "removed",
+    "date": "2026-11-15T15:15:06Z",
+    "title": "Holiday at the Arboretum — Daytime",
+    "description": "Left the rolling event guide. This may reflect expiry, rescheduling or editorial cleanup; it is not a cancellation notice.",
+    "area": "Dallas",
+    "url": "https://www.dallasarboretum.org/events-activities/holiday-at-the-arboretum/"
+  },
+  {
+    "id": "history:remove:102ee781625f9ec9f7e1fd3bec7c7e5d9ea3cd98:arboretum-holiday-night-2026-11-14",
+    "type": "removed",
+    "date": "2026-11-15T15:15:06Z",
+    "title": "Holiday at the Arboretum — Lights",
+    "description": "Left the rolling event guide. This may reflect expiry, rescheduling or editorial cleanup; it is not a cancellation notice.",
+    "area": "Dallas",
+    "url": "https://www.dallasarboretum.org/events-activities/holiday-at-the-arboretum/"
+  },
+  {
+    "id": "history:remove:102ee781625f9ec9f7e1fd3bec7c7e5d9ea3cd98:assembly-park-lights-2026-11-14",
+    "type": "removed",
+    "date": "2026-11-15T15:15:06Z",
+    "title": "Holiday Lights at Assembly Park",
+    "description": "Left the rolling event guide. This may reflect expiry, rescheduling or editorial cleanup; it is not a cancellation notice.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/holiday-lights-at-assembly-park"
+  },
+  {
+    "id": "history:remove:102ee781625f9ec9f7e1fd3bec7c7e5d9ea3cd98:barking-project-2026-11-14",
+    "type": "removed",
+    "date": "2026-11-15T15:15:06Z",
+    "title": "The Barking Project",
+    "description": "Left the rolling event guide. This may reflect expiry, rescheduling or editorial cleanup; it is not a cancellation notice.",
+    "area": "Dallas",
+    "url": "https://www.thebarkingproject.com/event"
+  },
+  {
+    "id": "history:remove:102ee781625f9ec9f7e1fd3bec7c7e5d9ea3cd98:come-clay-with-me-2026-11-14",
+    "type": "removed",
+    "date": "2026-11-15T15:15:06Z",
+    "title": "Come Clay with Me! Pottery Experience",
+    "description": "Left the rolling event guide. This may reflect expiry, rescheduling or editorial cleanup; it is not a cancellation notice.",
+    "area": "McKinney",
+    "url": "https://www.visitmckinney.com/events/come-clay-with-me-pottery-experience-hkwhe2xp"
+  },
+  {
+    "id": "history:remove:102ee781625f9ec9f7e1fd3bec7c7e5d9ea3cd98:comedysportz-2026-11-14",
+    "type": "removed",
+    "date": "2026-11-15T15:15:06Z",
+    "title": "ComedySportz — Interactive Improv",
+    "description": "Left the rolling event guide. This may reflect expiry, rescheduling or editorial cleanup; it is not a cancellation notice.",
+    "area": "McKinney",
+    "url": "https://www.thecomedyarena.com/home/"
+  },
+  {
+    "id": "history:remove:102ee781625f9ec9f7e1fd3bec7c7e5d9ea3cd98:dallas-zoo-lights-2026-11-14",
+    "type": "removed",
+    "date": "2026-11-15T15:15:06Z",
+    "title": "Dallas Zoo Lights",
+    "description": "Left the rolling event guide. This may reflect expiry, rescheduling or editorial cleanup; it is not a cancellation notice.",
+    "area": "Dallas",
+    "url": "https://www.dallaszoo.com/event/lights/"
+  },
+  {
+    "id": "history:remove:102ee781625f9ec9f7e1fd3bec7c7e5d9ea3cd98:frisco-fresh-market-2026-11-14",
+    "type": "removed",
+    "date": "2026-11-15T15:15:06Z",
+    "title": "Frisco Fresh Market",
+    "description": "Left the rolling event guide. This may reflect expiry, rescheduling or editorial cleanup; it is not a cancellation notice.",
+    "area": "Frisco",
+    "url": "https://friscofreshmarket.com/market/clock/"
+  },
+  {
+    "id": "history:remove:102ee781625f9ec9f7e1fd3bec7c7e5d9ea3cd98:get-lit-2026-11-14",
+    "type": "removed",
+    "date": "2026-11-15T15:15:06Z",
+    "title": "Get Lit Book Fair",
+    "description": "Left the rolling event guide. This may reflect expiry, rescheduling or editorial cleanup; it is not a cancellation notice.",
+    "area": "Dallas",
+    "url": "https://reuniontower.com/get-lit-a-grown-up-bookfair/"
+  },
+  {
+    "id": "history:remove:102ee781625f9ec9f7e1fd3bec7c7e5d9ea3cd98:grapevine-built-by-heart-launch-2026-11-14",
+    "type": "removed",
+    "date": "2026-11-15T15:15:06Z",
+    "title": "Built by Heart — Author Meet & Greet",
+    "description": "Left the rolling event guide. This may reflect expiry, rescheduling or editorial cleanup; it is not a cancellation notice.",
+    "area": "Grapevine",
+    "url": "https://www.grapevinetexasusa.com/event/meet-the-author-of-built-by-heart/42488/"
+  },
+  {
+    "id": "history:remove:102ee781625f9ec9f7e1fd3bec7c7e5d9ea3cd98:grapevine-candlelight-homes-2026-11-14",
+    "type": "removed",
+    "date": "2026-11-15T15:15:06Z",
+    "title": "Candlelight Tour of Historic Grapevine Homes",
+    "description": "Left the rolling event guide. This may reflect expiry, rescheduling or editorial cleanup; it is not a cancellation notice.",
+    "area": "Grapevine",
+    "url": "https://tickets.grapevineticketline.com/tickets/candlelight-tour-of-homes-2026"
+  },
+  {
+    "id": "history:remove:102ee781625f9ec9f7e1fd3bec7c7e5d9ea3cd98:grapevine-dean-martin-15-2026-11-14",
+    "type": "removed",
+    "date": "2026-11-15T15:15:06Z",
+    "title": "Dean Martin & Friends — Musical Comedy",
+    "description": "Left the rolling event guide. This may reflect expiry, rescheduling or editorial cleanup; it is not a cancellation notice.",
+    "area": "Grapevine",
+    "url": "https://www.grapevinetexasusa.com/event/dean-martin-%26-friends-%26%238211%3B-a-hilarious-christmas-celebration-presented-by-tribute-masters/41901/"
+  },
+  {
+    "id": "history:remove:102ee781625f9ec9f7e1fd3bec7c7e5d9ea3cd98:grapevine-dean-martin-19-2026-11-14",
+    "type": "removed",
+    "date": "2026-11-15T15:15:06Z",
+    "title": "Dean Martin & Friends — Musical Comedy",
+    "description": "Left the rolling event guide. This may reflect expiry, rescheduling or editorial cleanup; it is not a cancellation notice.",
+    "area": "Grapevine",
+    "url": "https://www.grapevinetexasusa.com/event/dean-martin-%26-friends-%26%238211%3B-a-hilarious-christmas-celebration-presented-by-tribute-masters/41901/"
+  },
+  {
+    "id": "history:remove:102ee781625f9ec9f7e1fd3bec7c7e5d9ea3cd98:grapevine-planes-trains-2026-11-14",
+    "type": "removed",
+    "date": "2026-11-15T15:15:06Z",
+    "title": "Planes & Trains Guided Tour",
+    "description": "Left the rolling event guide. This may reflect expiry, rescheduling or editorial cleanup; it is not a cancellation notice.",
+    "area": "Grapevine",
+    "url": "https://www.grapevinetexasusa.com/event/planes-and-trains-guided-tour/41394/"
+  },
+  {
+    "id": "history:remove:102ee781625f9ec9f7e1fd3bec7c7e5d9ea3cd98:greek-festival-2026-11-14",
+    "type": "removed",
+    "date": "2026-11-15T15:15:06Z",
+    "title": "Fort Worth Greek Festival",
+    "description": "Left the rolling event guide. This may reflect expiry, rescheduling or editorial cleanup; it is not a cancellation notice.",
+    "area": "Fort Worth",
+    "url": "https://www.fortworthgreekfestival.com/"
+  },
+  {
+    "id": "history:remove:102ee781625f9ec9f7e1fd3bec7c7e5d9ea3cd98:harry-potter-stage-2026-11-14-215pm",
+    "type": "removed",
+    "date": "2026-11-15T15:15:06Z",
+    "title": "Harry Potter and the Cursed Child — High School Edition",
+    "description": "Left the rolling event guide. This may reflect expiry, rescheduling or editorial cleanup; it is not a cancellation notice.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/harry-potter-and-the-cursed-child"
+  },
+  {
+    "id": "history:remove:102ee781625f9ec9f7e1fd3bec7c7e5d9ea3cd98:harry-potter-stage-2026-11-14-715pm",
+    "type": "removed",
+    "date": "2026-11-15T15:15:06Z",
+    "title": "Harry Potter and the Cursed Child — High School Edition",
+    "description": "Left the rolling event guide. This may reflect expiry, rescheduling or editorial cleanup; it is not a cancellation notice.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/harry-potter-and-the-cursed-child"
+  },
+  {
+    "id": "history:remove:102ee781625f9ec9f7e1fd3bec7c7e5d9ea3cd98:harry-potter-stage-2026-11-15-615pm",
+    "type": "removed",
+    "date": "2026-11-15T15:15:06Z",
+    "title": "Harry Potter and the Cursed Child — High School Edition",
+    "description": "Left the rolling event guide. This may reflect expiry, rescheduling or editorial cleanup; it is not a cancellation notice.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/harry-potter-and-the-cursed-child"
+  },
+  {
+    "id": "history:remove:102ee781625f9ec9f7e1fd3bec7c7e5d9ea3cd98:ipat-porcelain-ornament-2026-11-14",
+    "type": "removed",
+    "date": "2026-11-15T15:15:06Z",
+    "title": "Make a Christmas Ornament — Porcelain Art Museum",
+    "description": "Left the rolling event guide. This may reflect expiry, rescheduling or editorial cleanup; it is not a cancellation notice.",
+    "area": "Grapevine",
+    "url": "https://www.grapevinetexasusa.com/listing/ipat-museum-of-porcelain-art/95/"
+  },
+  {
+    "id": "history:remove:102ee781625f9ec9f7e1fd3bec7c7e5d9ea3cd98:johnny-case-jazz-2026-11-14",
+    "type": "removed",
+    "date": "2026-11-15T15:15:06Z",
+    "title": "Johnny Case Trio — Second Saturday Jazz",
+    "description": "Left the rolling event guide. This may reflect expiry, rescheduling or editorial cleanup; it is not a cancellation notice.",
+    "area": "Fort Worth",
+    "url": "https://artsfifthavenue.org/coming-events"
+  },
+  {
+    "id": "history:remove:102ee781625f9ec9f7e1fd3bec7c7e5d9ea3cd98:library-chess-2026-11-14",
+    "type": "removed",
+    "date": "2026-11-15T15:15:06Z",
+    "title": "Saturday Chess Meetup (All Ages)",
+    "description": "Left the rolling event guide. This may reflect expiry, rescheduling or editorial cleanup; it is not a cancellation notice.",
+    "area": "McKinney",
+    "url": "https://mckinneytexas.libcal.com/event/16774135"
+  },
+  {
+    "id": "history:remove:102ee781625f9ec9f7e1fd3bec7c7e5d9ea3cd98:making-god-laugh-2026-11-14-15",
+    "type": "removed",
+    "date": "2026-11-15T15:15:06Z",
+    "title": "Making God Laugh — Stage Comedy",
+    "description": "Left the rolling event guide. This may reflect expiry, rescheduling or editorial cleanup; it is not a cancellation notice.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/cox_playhouse"
+  },
+  {
+    "id": "history:remove:102ee781625f9ec9f7e1fd3bec7c7e5d9ea3cd98:making-god-laugh-2026-11-14-20",
+    "type": "removed",
+    "date": "2026-11-15T15:15:06Z",
+    "title": "Making God Laugh — Stage Comedy",
+    "description": "Left the rolling event guide. This may reflect expiry, rescheduling or editorial cleanup; it is not a cancellation notice.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/cox_playhouse"
+  },
+  {
+    "id": "history:remove:102ee781625f9ec9f7e1fd3bec7c7e5d9ea3cd98:mckinney-art-studio-tour-2026-11-14",
+    "type": "removed",
+    "date": "2026-11-15T15:15:06Z",
+    "title": "McKinney Art Studio Tour",
+    "description": "Left the rolling event guide. This may reflect expiry, rescheduling or editorial cleanup; it is not a cancellation notice.",
+    "area": "McKinney",
+    "url": "https://www.mastmckinney.org/"
+  },
+  {
+    "id": "history:remove:102ee781625f9ec9f7e1fd3bec7c7e5d9ea3cd98:mckinney-chestnut-farmers-2026-11-14",
+    "type": "removed",
+    "date": "2026-11-15T15:15:06Z",
+    "title": "Chestnut Square Farmers Market",
+    "description": "Left the rolling event guide. This may reflect expiry, rescheduling or editorial cleanup; it is not a cancellation notice.",
+    "area": "McKinney",
+    "url": "https://www.chestnutsquare.org/events-and-tours"
+  },
+  {
+    "id": "history:remove:102ee781625f9ec9f7e1fd3bec7c7e5d9ea3cd98:mckinney-millhouse-makers-2026-11-14",
+    "type": "removed",
+    "date": "2026-11-15T15:15:06Z",
+    "title": "MillHouse Makers Market + Live Music",
+    "description": "Left the rolling event guide. This may reflect expiry, rescheduling or editorial cleanup; it is not a cancellation notice.",
+    "area": "McKinney",
+    "url": "https://millhousefoundation.org/makers-market"
+  },
+  {
+    "id": "history:remove:102ee781625f9ec9f7e1fd3bec7c7e5d9ea3cd98:mckinney-philharmonic-three-bs-2026-11-14",
+    "type": "removed",
+    "date": "2026-11-15T15:15:06Z",
+    "title": "Beethoven, Bach and Brahms — McKinney Philharmonic",
+    "description": "Left the rolling event guide. This may reflect expiry, rescheduling or editorial cleanup; it is not a cancellation notice.",
+    "area": "McKinney",
+    "url": "https://app.gopassage.com/venues/4515"
+  },
+  {
+    "id": "history:remove:102ee781625f9ec9f7e1fd3bec7c7e5d9ea3cd98:merry-bright-toy-drive-2026-11-14",
+    "type": "removed",
+    "date": "2026-11-15T15:15:06Z",
+    "title": "Merry & Bright Toy Drive, Reindeer & Live Music",
+    "description": "Left the rolling event guide. This may reflect expiry, rescheduling or editorial cleanup; it is not a cancellation notice.",
+    "area": "McKinney",
+    "url": "https://www.visitmckinney.com/events/merry-and-bright-toy-drive-njx65blc"
+  },
+  {
+    "id": "history:remove:102ee781625f9ec9f7e1fd3bec7c7e5d9ea3cd98:paw-patrol-experience-2026-11-14",
+    "type": "removed",
+    "date": "2026-11-15T15:15:06Z",
+    "title": "PAW Patrol: Rescue Pups Immersive Experience",
+    "description": "Left the rolling event guide. This may reflect expiry, rescheduling or editorial cleanup; it is not a cancellation notice.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/paw-patrol-rescue-pups-an-immersive-experience"
+  },
+  {
+    "id": "history:remove:102ee781625f9ec9f7e1fd3bec7c7e5d9ea3cd98:plano-art-with-impact-2026-11-14",
+    "type": "removed",
+    "date": "2026-11-15T15:15:06Z",
+    "title": "Art with Impact Exhibition",
+    "description": "Left the rolling event guide. This may reflect expiry, rescheduling or editorial cleanup; it is not a cancellation notice.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/for-the-love-of-art-art-with-impact"
+  },
+  {
+    "id": "history:remove:102ee781625f9ec9f7e1fd3bec7c7e5d9ea3cd98:plano-corey-breedlove-2026-11-14",
+    "type": "removed",
+    "date": "2026-11-15T15:15:06Z",
+    "title": "Saturday Night Live Music: Corey Breedlove",
+    "description": "Left the rolling event guide. This may reflect expiry, rescheduling or editorial cleanup; it is not a cancellation notice.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/the_boardwalk_at_granite_park_773"
+  },
+  {
+    "id": "history:remove:102ee781625f9ec9f7e1fd3bec7c7e5d9ea3cd98:plano-downtown-dragons-2026-11-14",
+    "type": "removed",
+    "date": "2026-11-15T15:15:06Z",
+    "title": "Downtown & Dragons",
+    "description": "Left the rolling event guide. This may reflect expiry, rescheduling or editorial cleanup; it is not a cancellation notice.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/mccall_plaza"
+  },
+  {
+    "id": "history:remove:102ee781625f9ec9f7e1fd3bec7c7e5d9ea3cd98:plano-farmers-market-2026-11-14",
+    "type": "removed",
+    "date": "2026-11-15T15:15:06Z",
+    "title": "Plano Farmers Market",
+    "description": "Left the rolling event guide. This may reflect expiry, rescheduling or editorial cleanup; it is not a cancellation notice.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/plano-farmers-market"
+  },
+  {
+    "id": "history:remove:102ee781625f9ec9f7e1fd3bec7c7e5d9ea3cd98:plano-flags-of-honor-2026",
+    "type": "removed",
+    "date": "2026-11-15T15:15:06Z",
+    "title": "Plano Flags of Honor",
+    "description": "Left the rolling event guide. This may reflect expiry, rescheduling or editorial cleanup; it is not a cancellation notice.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/plano-flags-of-honor-2026"
+  },
+  {
+    "id": "history:remove:102ee781625f9ec9f7e1fd3bec7c7e5d9ea3cd98:plano-legacywest-live-music-2026-11-14",
+    "type": "removed",
+    "date": "2026-11-15T15:15:06Z",
+    "title": "Legacy West Free Live Music",
+    "description": "Left the rolling event guide. This may reflect expiry, rescheduling or editorial cleanup; it is not a cancellation notice.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/calendar/day/2026/11/14"
+  },
+  {
+    "id": "history:remove:102ee781625f9ec9f7e1fd3bec7c7e5d9ea3cd98:plano-neath-wreath-2026-11-14",
+    "type": "removed",
+    "date": "2026-11-15T15:15:06Z",
+    "title": "'Neath the Wreath Gift Market",
+    "description": "Left the rolling event guide. This may reflect expiry, rescheduling or editorial cleanup; it is not a cancellation notice.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/neath-the-wreath-holiday-gift-market-2026"
+  },
+  {
+    "id": "history:remove:102ee781625f9ec9f7e1fd3bec7c7e5d9ea3cd98:portal-pets-2026-11-14",
+    "type": "removed",
+    "date": "2026-11-15T15:15:06Z",
+    "title": "Portal Pets",
+    "description": "Left the rolling event guide. This may reflect expiry, rescheduling or editorial cleanup; it is not a cancellation notice.",
+    "area": "Grapevine",
+    "url": "https://www.grapevinepd.org/m/calendar/event/detail/736"
+  },
+  {
+    "id": "history:remove:102ee781625f9ec9f7e1fd3bec7c7e5d9ea3cd98:pug-rescue-friendsgiving-2026-11-14",
+    "type": "removed",
+    "date": "2026-11-15T15:15:06Z",
+    "title": "DFW Pug Rescue Friendsgiving Meetup",
+    "description": "Left the rolling event guide. This may reflect expiry, rescheduling or editorial cleanup; it is not a cancellation notice.",
+    "area": "Plano",
+    "url": "https://www.dfwpugs.com/upcoming"
+  },
+  {
+    "id": "history:remove:102ee781625f9ec9f7e1fd3bec7c7e5d9ea3cd98:santa-village-day-2026-11-14",
+    "type": "removed",
+    "date": "2026-11-15T15:15:06Z",
+    "title": "Santa at the Arboretum — Daytime",
+    "description": "Left the rolling event guide. This may reflect expiry, rescheduling or editorial cleanup; it is not a cancellation notice.",
+    "area": "Dallas",
+    "url": "https://www.dallasarboretum.org/event/visits-with-santa/"
+  },
+  {
+    "id": "history:remove:102ee781625f9ec9f7e1fd3bec7c7e5d9ea3cd98:santa-village-night-2026-11-14",
+    "type": "removed",
+    "date": "2026-11-15T15:15:06Z",
+    "title": "Santa at the Arboretum — Evening",
+    "description": "Left the rolling event guide. This may reflect expiry, rescheduling or editorial cleanup; it is not a cancellation notice.",
+    "area": "Dallas",
+    "url": "https://www.dallasarboretum.org/event/visits-with-santa/"
+  },
+  {
+    "id": "history:remove:102ee781625f9ec9f7e1fd3bec7c7e5d9ea3cd98:snowflake-bazaar-2026-11-14",
+    "type": "removed",
+    "date": "2026-11-15T15:15:06Z",
+    "title": "Snowflake Bazaar",
+    "description": "Left the rolling event guide. This may reflect expiry, rescheduling or editorial cleanup; it is not a cancellation notice.",
+    "area": "Plano",
+    "url": "https://www.planowestband.org/snowflake"
+  },
+  {
+    "id": "history:remove:102ee781625f9ec9f7e1fd3bec7c7e5d9ea3cd98:talking-animals-storytime-2026-11-15",
+    "type": "removed",
+    "date": "2026-11-15T15:15:06Z",
+    "title": "Sunday Storytime at Talking Animals Books",
+    "description": "Left the rolling event guide. This may reflect expiry, rescheduling or editorial cleanup; it is not a cancellation notice.",
+    "area": "Grapevine",
+    "url": "https://www.grapevinetexasusa.com/tickets/"
+  },
+  {
+    "id": "history:remove:102ee781625f9ec9f7e1fd3bec7c7e5d9ea3cd98:vetro-ornament-nov11-14",
+    "type": "removed",
+    "date": "2026-11-15T15:15:06Z",
+    "title": "Make a Holiday Glass Ornament",
+    "description": "Left the rolling event guide. This may reflect expiry, rescheduling or editorial cleanup; it is not a cancellation notice.",
+    "area": "Grapevine",
+    "url": "https://www.grapevinetexasusa.com/event/create-a-holiday-ornament-event-at-vetro-glassblowing%21/42256/"
+  },
+  {
+    "id": "history:remove:102ee781625f9ec9f7e1fd3bec7c7e5d9ea3cd98:walls-clay-open-2026-11-14",
+    "type": "removed",
+    "date": "2026-11-15T15:15:06Z",
+    "title": "Walls of Clay — Walk-In Pottery Studio",
+    "description": "Left the rolling event guide. This may reflect expiry, rescheduling or editorial cleanup; it is not a cancellation notice.",
+    "area": "McKinney",
+    "url": "https://wallsofclaymckinney.com/events/"
+  },
+  {
+    "id": "history:add:908477de33ae45222b77bd76cf00129052abda99:addison-elephant-man-2026-11-20",
+    "type": "added",
+    "date": "2026-11-14T15:51:48Z",
+    "title": "The Real & Imagined History of the Elephant Man",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Addison",
+    "url": "https://events.visitplano.com/event/the-real-imagined-history-of-the-elephant-man"
+  },
+  {
+    "id": "history:add:908477de33ae45222b77bd76cf00129052abda99:dallas-arboretum-day-2026-11-20",
+    "type": "added",
+    "date": "2026-11-14T15:51:48Z",
+    "title": "Holiday at the Arboretum — Daytime",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Dallas",
+    "url": "https://www.dallasarboretum.org/events-activities/holiday-at-the-arboretum/"
+  },
+  {
+    "id": "history:add:908477de33ae45222b77bd76cf00129052abda99:dallas-arboretum-night-2026-11-20",
+    "type": "added",
+    "date": "2026-11-14T15:51:48Z",
+    "title": "Holiday at the Arboretum — Evening Lights",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Dallas",
+    "url": "https://www.dallasarboretum.org/events-activities/holiday-at-the-arboretum/"
+  },
+  {
+    "id": "history:add:908477de33ae45222b77bd76cf00129052abda99:dallas-zoo-lights-2026-11-20",
+    "type": "added",
+    "date": "2026-11-14T15:51:48Z",
+    "title": "Dallas Zoo Lights",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Dallas",
+    "url": "https://www.dallaszoo.com/event/lights/"
+  },
+  {
+    "id": "history:add:908477de33ae45222b77bd76cf00129052abda99:grapevine-books-food-drive-2026",
+    "type": "added",
+    "date": "2026-11-14T15:51:48Z",
+    "title": "GRACE Thanksgiving Food Drive at Talking Animals Books",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Grapevine",
+    "url": "https://www.grapevinetexasusa.com/event/grace-grapevine-thanksgiving-food-drive%21/42501/"
+  },
+  {
+    "id": "history:add:908477de33ae45222b77bd76cf00129052abda99:grapevine-house-of-shine-life-maps-2026-11-19",
+    "type": "added",
+    "date": "2026-11-14T15:51:48Z",
+    "title": "What's Your Shine? Life Maps Workshop",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Grapevine",
+    "url": "https://www.grapevinetexasusa.com/event/what%E2%80%99s-your-shine%3F-life-maps/42396/"
+  },
+  {
+    "id": "history:add:908477de33ae45222b77bd76cf00129052abda99:grapevine-miracle-34th-2026-11-20",
+    "type": "added",
+    "date": "2026-11-14T15:51:48Z",
+    "title": "Miracle on 34th Street (1947) — Classic Film",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Grapevine",
+    "url": "https://www.grapevinetexasusa.com/event/miracle-on-34th-street-%281947%29/42112/"
+  },
+  {
+    "id": "history:add:908477de33ae45222b77bd76cf00129052abda99:grapevine-pink-friday-shop-hop-2026-11-20",
+    "type": "added",
+    "date": "2026-11-14T15:51:48Z",
+    "title": "Historic Grapevine Pink Friday Shop Hop",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Grapevine",
+    "url": "https://www.grapevinetexasusa.com/event/shop-hop-pink-friday/42490/"
+  },
+  {
+    "id": "history:add:908477de33ae45222b77bd76cf00129052abda99:grapevine-watercolor-cards-2026-11-18",
+    "type": "added",
+    "date": "2026-11-14T15:51:48Z",
+    "title": "Watercolor Holiday Greeting Cards Workshop",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Grapevine",
+    "url": "https://www.grapevinetexasusa.com/event/new-watercolor-holiday-greeting-cards/42363/"
+  },
+  {
+    "id": "history:add:908477de33ae45222b77bd76cf00129052abda99:ipat-porcelain-ornament-2026-11-14",
+    "type": "added",
+    "date": "2026-11-14T15:51:48Z",
+    "title": "Make a Christmas Ornament — Porcelain Art Museum",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Grapevine",
+    "url": "https://www.grapevinetexasusa.com/listing/ipat-museum-of-porcelain-art/95/"
+  },
+  {
+    "id": "history:add:908477de33ae45222b77bd76cf00129052abda99:ipat-porcelain-ornament-2026-11-15",
+    "type": "added",
+    "date": "2026-11-14T15:51:48Z",
+    "title": "Make a Christmas Ornament — Porcelain Art Museum",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Grapevine",
+    "url": "https://www.grapevinetexasusa.com/listing/ipat-museum-of-porcelain-art/95/"
+  },
+  {
+    "id": "history:add:908477de33ae45222b77bd76cf00129052abda99:ipat-porcelain-ornament-2026-11-17",
+    "type": "added",
+    "date": "2026-11-14T15:51:48Z",
+    "title": "Make a Christmas Ornament — Porcelain Art Museum",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Grapevine",
+    "url": "https://www.grapevinetexasusa.com/listing/ipat-museum-of-porcelain-art/95/"
+  },
+  {
+    "id": "history:add:908477de33ae45222b77bd76cf00129052abda99:ipat-porcelain-ornament-2026-11-18",
+    "type": "added",
+    "date": "2026-11-14T15:51:48Z",
+    "title": "Make a Christmas Ornament — Porcelain Art Museum",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Grapevine",
+    "url": "https://www.grapevinetexasusa.com/listing/ipat-museum-of-porcelain-art/95/"
+  },
+  {
+    "id": "history:add:908477de33ae45222b77bd76cf00129052abda99:ipat-porcelain-ornament-2026-11-19",
+    "type": "added",
+    "date": "2026-11-14T15:51:48Z",
+    "title": "Make a Christmas Ornament — Porcelain Art Museum",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Grapevine",
+    "url": "https://www.grapevinetexasusa.com/listing/ipat-museum-of-porcelain-art/95/"
+  },
+  {
+    "id": "history:add:908477de33ae45222b77bd76cf00129052abda99:ipat-porcelain-ornament-2026-11-20",
+    "type": "added",
+    "date": "2026-11-14T15:51:48Z",
+    "title": "Make a Christmas Ornament — Porcelain Art Museum",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Grapevine",
+    "url": "https://www.grapevinetexasusa.com/listing/ipat-museum-of-porcelain-art/95/"
+  },
+  {
+    "id": "history:add:908477de33ae45222b77bd76cf00129052abda99:johnny-case-jazz-2026-11-14",
+    "type": "added",
+    "date": "2026-11-14T15:51:48Z",
+    "title": "Johnny Case Trio — Second Saturday Jazz",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Fort Worth",
+    "url": "https://artsfifthavenue.org/coming-events"
+  },
+  {
+    "id": "history:add:908477de33ae45222b77bd76cf00129052abda99:karadise-pink-friday-2026-11-20",
+    "type": "added",
+    "date": "2026-11-14T15:51:48Z",
+    "title": "Karadise Boutique Pink Friday — Shop Small",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "McKinney",
+    "url": "https://www.visitmckinney.com/events/karadise-boutique-pink-friday-sip-and-shop-event-189euq3i"
+  },
+  {
+    "id": "history:add:908477de33ae45222b77bd76cf00129052abda99:mckinney-clay-pottery-2026-11-20",
+    "type": "added",
+    "date": "2026-11-14T15:51:48Z",
+    "title": "Come Clay With Me! Pottery Workshop",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "McKinney",
+    "url": "https://www.visitmckinney.com/events/come-clay-with-me-pottery-experience-hkwhe2xp"
+  },
+  {
+    "id": "history:add:908477de33ae45222b77bd76cf00129052abda99:mckinney-guided-art-walk-2026-11-18",
+    "type": "added",
+    "date": "2026-11-14T15:51:48Z",
+    "title": "Guided Downtown Public Art Walk",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "McKinney",
+    "url": "https://www.visitmckinney.com/events/guided-art-tour-uxjm6dt3"
+  },
+  {
+    "id": "history:add:908477de33ae45222b77bd76cf00129052abda99:mckinney-philharmonic-three-bs-2026-11-14",
+    "type": "added",
+    "date": "2026-11-14T15:51:48Z",
+    "title": "Beethoven, Bach and Brahms — McKinney Philharmonic",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "McKinney",
+    "url": "https://app.gopassage.com/venues/4515"
+  },
+  {
+    "id": "history:add:908477de33ae45222b77bd76cf00129052abda99:plano-art-impact-2026-11-20",
+    "type": "added",
+    "date": "2026-11-14T15:51:48Z",
+    "title": "Art with Impact — Texas Artist Exhibition",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/for-the-love-of-art-art-with-impact"
+  },
+  {
+    "id": "history:add:908477de33ae45222b77bd76cf00129052abda99:plano-assembly-lights-2026-11-20",
+    "type": "added",
+    "date": "2026-11-14T15:51:48Z",
+    "title": "Holiday Lights at Assembly Park",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/holiday-lights-at-assembly-park"
+  },
+  {
+    "id": "history:add:908477de33ae45222b77bd76cf00129052abda99:plano-deaf-theatre-mousetrap-2026-11-20",
+    "type": "added",
+    "date": "2026-11-14T15:51:48Z",
+    "title": "The Mousetrap — Deaf Theatre",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/the-mousetrap-ntpa-deaf-theatre"
+  },
+  {
+    "id": "history:add:908477de33ae45222b77bd76cf00129052abda99:plano-farmstead-lights-2026-11-20",
+    "type": "added",
+    "date": "2026-11-14T15:51:48Z",
+    "title": "Lights on the Farmstead — Opening Night",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/lights-on-the-farm-2026"
+  },
+  {
+    "id": "history:add:908477de33ae45222b77bd76cf00129052abda99:plano-interurban-storytime-2026-11-20",
+    "type": "added",
+    "date": "2026-11-14T15:51:48Z",
+    "title": "Story Time at the Interurban Railway Museum",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/story-time-2026"
+  },
+  {
+    "id": "history:add:908477de33ae45222b77bd76cf00129052abda99:plano-paint-your-home-2026-11-20",
+    "type": "added",
+    "date": "2026-11-14T15:51:48Z",
+    "title": "Paint Your Home Workshop",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/paint-your-home-2026"
+  },
+  {
+    "id": "history:add:908477de33ae45222b77bd76cf00129052abda99:plano-paw-patrol-2026-11-20",
+    "type": "added",
+    "date": "2026-11-14T15:51:48Z",
+    "title": "PAW Patrol Rescue Pups — Immersive Adventure",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/paw-patrol-rescue-pups-an-immersive-experience"
+  },
+  {
+    "id": "history:add:908477de33ae45222b77bd76cf00129052abda99:plano-streuth-clue-2026-11-20",
+    "type": "added",
+    "date": "2026-11-14T15:51:48Z",
+    "title": "Streuth & Clue — Community Theatre",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/streuth-clue"
+  },
+  {
+    "id": "history:add:908477de33ae45222b77bd76cf00129052abda99:vintage-market-days-2026-11-20",
+    "type": "added",
+    "date": "2026-11-14T15:51:48Z",
+    "title": "Vintage Market Days — Holiday Shopping",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "McKinney",
+    "url": "https://www.visitmckinney.com/events/vintage-market-days-9ctp3502"
+  },
+  {
+    "id": "history:add:908477de33ae45222b77bd76cf00129052abda99:walls-clay-open-2026-11-14",
+    "type": "added",
+    "date": "2026-11-14T15:51:48Z",
+    "title": "Walls of Clay — Walk-In Pottery Studio",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "McKinney",
+    "url": "https://wallsofclaymckinney.com/events/"
+  },
+  {
+    "id": "history:add:908477de33ae45222b77bd76cf00129052abda99:walls-clay-open-2026-11-15",
+    "type": "added",
+    "date": "2026-11-14T15:51:48Z",
+    "title": "Walls of Clay — Walk-In Pottery Studio",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "McKinney",
+    "url": "https://wallsofclaymckinney.com/events/"
+  },
+  {
+    "id": "history:add:908477de33ae45222b77bd76cf00129052abda99:walls-clay-open-2026-11-16",
+    "type": "added",
+    "date": "2026-11-14T15:51:48Z",
+    "title": "Walls of Clay — Walk-In Pottery Studio",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "McKinney",
+    "url": "https://wallsofclaymckinney.com/events/"
+  },
+  {
+    "id": "history:add:908477de33ae45222b77bd76cf00129052abda99:walls-clay-open-2026-11-20",
+    "type": "added",
+    "date": "2026-11-14T15:51:48Z",
+    "title": "Walls of Clay — Walk-In Pottery Studio",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "McKinney",
+    "url": "https://wallsofclaymckinney.com/events/"
+  },
+  {
+    "id": "history:remove:908477de33ae45222b77bd76cf00129052abda99:arboretum-holiday-day-2026-11-13",
+    "type": "removed",
+    "date": "2026-11-14T15:51:48Z",
+    "title": "Holiday at the Arboretum — Daytime",
+    "description": "Left the rolling event guide. This may reflect expiry, rescheduling or editorial cleanup; it is not a cancellation notice.",
+    "area": "Dallas",
+    "url": "https://www.dallasarboretum.org/events-activities/holiday-at-the-arboretum/"
+  },
+  {
+    "id": "history:remove:908477de33ae45222b77bd76cf00129052abda99:arboretum-holiday-night-2026-11-13",
+    "type": "removed",
+    "date": "2026-11-14T15:51:48Z",
+    "title": "Holiday at the Arboretum — Lights",
+    "description": "Left the rolling event guide. This may reflect expiry, rescheduling or editorial cleanup; it is not a cancellation notice.",
+    "area": "Dallas",
+    "url": "https://www.dallasarboretum.org/events-activities/holiday-at-the-arboretum/"
+  },
+  {
+    "id": "history:remove:908477de33ae45222b77bd76cf00129052abda99:assembly-park-lights-2026-11-13",
+    "type": "removed",
+    "date": "2026-11-14T15:51:48Z",
+    "title": "Holiday Lights at Assembly Park",
+    "description": "Left the rolling event guide. This may reflect expiry, rescheduling or editorial cleanup; it is not a cancellation notice.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/holiday-lights-at-assembly-park"
+  },
+  {
+    "id": "history:remove:908477de33ae45222b77bd76cf00129052abda99:come-clay-with-me-2026-11-13",
+    "type": "removed",
+    "date": "2026-11-14T15:51:48Z",
+    "title": "Come Clay with Me! Pottery Experience",
+    "description": "Left the rolling event guide. This may reflect expiry, rescheduling or editorial cleanup; it is not a cancellation notice.",
+    "area": "McKinney",
+    "url": "https://www.visitmckinney.com/events/come-clay-with-me-pottery-experience-hkwhe2xp"
+  },
+  {
+    "id": "history:remove:908477de33ae45222b77bd76cf00129052abda99:dallas-zoo-lights-2026-11-13",
+    "type": "removed",
+    "date": "2026-11-14T15:51:48Z",
+    "title": "Dallas Zoo Lights",
+    "description": "Left the rolling event guide. This may reflect expiry, rescheduling or editorial cleanup; it is not a cancellation notice.",
+    "area": "Dallas",
+    "url": "https://www.dallaszoo.com/event/lights/"
+  },
+  {
+    "id": "history:remove:908477de33ae45222b77bd76cf00129052abda99:grapevine-printing-past-2026-11-13",
+    "type": "removed",
+    "date": "2026-11-14T15:51:48Z",
+    "title": "Printing the Past — Historic Press Demonstration",
+    "description": "Left the rolling event guide. This may reflect expiry, rescheduling or editorial cleanup; it is not a cancellation notice.",
+    "area": "Grapevine",
+    "url": "https://tickets.grapevineticketline.com/tickets/printing-the-past"
+  },
+  {
+    "id": "history:remove:908477de33ae45222b77bd76cf00129052abda99:greek-festival-2026-11-13",
+    "type": "removed",
+    "date": "2026-11-14T15:51:48Z",
+    "title": "Fort Worth Greek Festival",
+    "description": "Left the rolling event guide. This may reflect expiry, rescheduling or editorial cleanup; it is not a cancellation notice.",
+    "area": "Fort Worth",
+    "url": "https://www.fortworthgreekfestival.com/"
+  },
+  {
+    "id": "history:remove:908477de33ae45222b77bd76cf00129052abda99:harry-potter-stage-2026-11-13-715pm",
+    "type": "removed",
+    "date": "2026-11-14T15:51:48Z",
+    "title": "Harry Potter and the Cursed Child — High School Edition",
+    "description": "Left the rolling event guide. This may reflect expiry, rescheduling or editorial cleanup; it is not a cancellation notice.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/harry-potter-and-the-cursed-child"
+  },
+  {
+    "id": "history:remove:908477de33ae45222b77bd76cf00129052abda99:interurban-storytime-2026-11-13",
+    "type": "removed",
+    "date": "2026-11-14T15:51:48Z",
+    "title": "Story Time at the Interurban Railway Museum",
+    "description": "Left the rolling event guide. This may reflect expiry, rescheduling or editorial cleanup; it is not a cancellation notice.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/story-time-2026"
+  },
+  {
+    "id": "history:remove:908477de33ae45222b77bd76cf00129052abda99:making-god-laugh-2026-11-13-20",
+    "type": "removed",
+    "date": "2026-11-14T15:51:48Z",
+    "title": "Making God Laugh — Stage Comedy",
+    "description": "Left the rolling event guide. This may reflect expiry, rescheduling or editorial cleanup; it is not a cancellation notice.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/cox_playhouse"
+  },
+  {
+    "id": "history:remove:908477de33ae45222b77bd76cf00129052abda99:mckinney-guided-art-2026-11-13",
+    "type": "removed",
+    "date": "2026-11-14T15:51:48Z",
+    "title": "Guided Downtown Public Art Tour",
+    "description": "Left the rolling event guide. This may reflect expiry, rescheduling or editorial cleanup; it is not a cancellation notice.",
+    "area": "McKinney",
+    "url": "https://www.visitmckinney.com/events/guided-art-tour-uxjm6dt3"
+  },
+  {
+    "id": "history:remove:908477de33ae45222b77bd76cf00129052abda99:meet-artists-2026-11-13",
+    "type": "removed",
+    "date": "2026-11-14T15:51:48Z",
+    "title": "Meet the Artists",
+    "description": "Left the rolling event guide. This may reflect expiry, rescheduling or editorial cleanup; it is not a cancellation notice.",
+    "area": "McKinney",
+    "url": "https://www.visitmckinney.com/events/meet-the-artists-1mgze5bs"
+  },
+  {
+    "id": "history:remove:908477de33ae45222b77bd76cf00129052abda99:paint-your-home-2026-11-13",
+    "type": "removed",
+    "date": "2026-11-14T15:51:48Z",
+    "title": "Paint Your Home Workshop",
+    "description": "Left the rolling event guide. This may reflect expiry, rescheduling or editorial cleanup; it is not a cancellation notice.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/paint-your-home-2026"
+  },
+  {
+    "id": "history:remove:908477de33ae45222b77bd76cf00129052abda99:paw-patrol-experience-2026-11-13",
+    "type": "removed",
+    "date": "2026-11-14T15:51:48Z",
+    "title": "PAW Patrol: Rescue Pups Immersive Experience",
+    "description": "Left the rolling event guide. This may reflect expiry, rescheduling or editorial cleanup; it is not a cancellation notice.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/paw-patrol-rescue-pups-an-immersive-experience"
+  },
+  {
+    "id": "history:remove:908477de33ae45222b77bd76cf00129052abda99:plano-art-with-impact-2026-11-13",
+    "type": "removed",
+    "date": "2026-11-14T15:51:48Z",
+    "title": "Art with Impact Exhibition",
+    "description": "Left the rolling event guide. This may reflect expiry, rescheduling or editorial cleanup; it is not a cancellation notice.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/for-the-love-of-art-art-with-impact"
+  },
+  {
+    "id": "history:remove:908477de33ae45222b77bd76cf00129052abda99:plano-buskers-2026-11-13",
+    "type": "removed",
+    "date": "2026-11-14T15:51:48Z",
+    "title": "2026 Busker's Showcase",
+    "description": "Left the rolling event guide. This may reflect expiry, rescheduling or editorial cleanup; it is not a cancellation notice.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/mccall_plaza"
+  },
+  {
+    "id": "history:remove:908477de33ae45222b77bd76cf00129052abda99:plano-neath-wreath-2026-11-13",
+    "type": "removed",
+    "date": "2026-11-14T15:51:48Z",
+    "title": "'Neath the Wreath Gift Market",
+    "description": "Left the rolling event guide. This may reflect expiry, rescheduling or editorial cleanup; it is not a cancellation notice.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/neath-the-wreath-holiday-gift-market-2026"
+  },
+  {
+    "id": "history:remove:908477de33ae45222b77bd76cf00129052abda99:tiles-and-tinsel-2026-11-13",
+    "type": "removed",
+    "date": "2026-11-14T15:51:48Z",
+    "title": "Tiles & Tinsel Workshop at 'Neath the Wreath",
+    "description": "Left the rolling event guide. This may reflect expiry, rescheduling or editorial cleanup; it is not a cancellation notice.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/tiles-tinsel-at-neath-the-wreath"
+  },
+  {
+    "id": "history:remove:908477de33ae45222b77bd76cf00129052abda99:tony-stride-2026-11-13",
+    "type": "removed",
+    "date": "2026-11-14T15:51:48Z",
+    "title": "Tony Stride Jazz Showcase",
+    "description": "Left the rolling event guide. This may reflect expiry, rescheduling or editorial cleanup; it is not a cancellation notice.",
+    "area": "McKinney",
+    "url": "https://www.visitmckinney.com/events/jazz-showcase-with-tony-stride-ut8libdo"
+  },
+  {
+    "id": "history:remove:908477de33ae45222b77bd76cf00129052abda99:vintage-pop-up-2026-11-13",
+    "type": "removed",
+    "date": "2026-11-14T15:51:48Z",
+    "title": "Art of Entertaining Vintage Pop-Up",
+    "description": "Left the rolling event guide. This may reflect expiry, rescheduling or editorial cleanup; it is not a cancellation notice.",
+    "area": "McKinney",
+    "url": "https://www.visitmckinney.com/events/the-art-of-entertaining-a-vintage-pop-up-with-wild-ember-design-awdo1uwo"
+  },
+  {
+    "id": "history:add:5a6c6dd58c5a797742610edc1db6378bb78f1d9a:arboretum-day-2026-11-19",
+    "type": "added",
+    "date": "2026-11-13T15:41:15Z",
+    "title": "Holiday at the Arboretum — Daytime",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Dallas",
+    "url": "https://www.dallasarboretum.org/visitor-information/hours-and-admission/"
+  },
+  {
+    "id": "history:add:5a6c6dd58c5a797742610edc1db6378bb78f1d9a:arboretum-night-2026-11-19",
+    "type": "added",
+    "date": "2026-11-13T15:41:15Z",
+    "title": "Holiday at the Arboretum — Lights",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Dallas",
+    "url": "https://www.dallasarboretum.org/events-activities/holiday-at-the-arboretum/"
+  },
+  {
+    "id": "history:add:5a6c6dd58c5a797742610edc1db6378bb78f1d9a:art-with-impact-2026-11-19",
+    "type": "added",
+    "date": "2026-11-13T15:41:15Z",
+    "title": "Art with Impact Exhibition",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/artcentre_of_plano"
+  },
+  {
+    "id": "history:add:5a6c6dd58c5a797742610edc1db6378bb78f1d9a:assembly-lights-2026-11-19",
+    "type": "added",
+    "date": "2026-11-13T15:41:15Z",
+    "title": "Holiday Lights at Assembly Park",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/holiday-lights-at-assembly-park"
+  },
+  {
+    "id": "history:add:5a6c6dd58c5a797742610edc1db6378bb78f1d9a:clay-ornaments-2026-11-19",
+    "type": "added",
+    "date": "2026-11-13T15:41:15Z",
+    "title": "Clay Christmas Ornaments Workshop",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "McKinney",
+    "url": "https://www.visitmckinney.com/events/clay-christmas-ornaments-workshop-62q265pc"
+  },
+  {
+    "id": "history:add:5a6c6dd58c5a797742610edc1db6378bb78f1d9a:comedysportz-2026-11-14",
+    "type": "added",
+    "date": "2026-11-13T15:41:15Z",
+    "title": "ComedySportz — Interactive Improv",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "McKinney",
+    "url": "https://www.thecomedyarena.com/home/"
+  },
+  {
+    "id": "history:add:5a6c6dd58c5a797742610edc1db6378bb78f1d9a:farmstead-fiber-art-2026-11-19",
+    "type": "added",
+    "date": "2026-11-13T15:41:15Z",
+    "title": "Fiber Arts Demonstration — Weaving & Spinning",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/fiber-arts-demonstration-fall-2026"
+  },
+  {
+    "id": "history:add:5a6c6dd58c5a797742610edc1db6378bb78f1d9a:farmstead-storytime-2026-11-19",
+    "type": "added",
+    "date": "2026-11-13T15:41:15Z",
+    "title": "Story Time on the Farm",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/heritage_farmstead_museum"
+  },
+  {
+    "id": "history:add:5a6c6dd58c5a797742610edc1db6378bb78f1d9a:library-chess-2026-11-14",
+    "type": "added",
+    "date": "2026-11-13T15:41:15Z",
+    "title": "Saturday Chess Meetup (All Ages)",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "McKinney",
+    "url": "https://mckinneytexas.libcal.com/event/16774135"
+  },
+  {
+    "id": "history:add:5a6c6dd58c5a797742610edc1db6378bb78f1d9a:making-god-laugh-2026-11-13-20",
+    "type": "added",
+    "date": "2026-11-13T15:41:15Z",
+    "title": "Making God Laugh — Stage Comedy",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/cox_playhouse"
+  },
+  {
+    "id": "history:add:5a6c6dd58c5a797742610edc1db6378bb78f1d9a:making-god-laugh-2026-11-14-15",
+    "type": "added",
+    "date": "2026-11-13T15:41:15Z",
+    "title": "Making God Laugh — Stage Comedy",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/cox_playhouse"
+  },
+  {
+    "id": "history:add:5a6c6dd58c5a797742610edc1db6378bb78f1d9a:making-god-laugh-2026-11-14-20",
+    "type": "added",
+    "date": "2026-11-13T15:41:15Z",
+    "title": "Making God Laugh — Stage Comedy",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/cox_playhouse"
+  },
+  {
+    "id": "history:add:5a6c6dd58c5a797742610edc1db6378bb78f1d9a:making-god-laugh-2026-11-19-20",
+    "type": "added",
+    "date": "2026-11-13T15:41:15Z",
+    "title": "Making God Laugh — Stage Comedy",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/cox_playhouse"
+  },
+  {
+    "id": "history:add:5a6c6dd58c5a797742610edc1db6378bb78f1d9a:night-at-museum-2026-11-19",
+    "type": "added",
+    "date": "2026-11-13T15:41:15Z",
+    "title": "Night at the Museum — Play Street Plano",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/night-at-the-museum-play-street-plano-2026"
+  },
+  {
+    "id": "history:add:5a6c6dd58c5a797742610edc1db6378bb78f1d9a:ntpa-trolls-2026-11-19",
+    "type": "added",
+    "date": "2026-11-13T15:41:15Z",
+    "title": "Trolls the Musical JR",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Plano",
+    "url": "https://ntpa.org/event/trolls-jr-plano/"
+  },
+  {
+    "id": "history:add:5a6c6dd58c5a797742610edc1db6378bb78f1d9a:paw-patrol-2026-11-19",
+    "type": "added",
+    "date": "2026-11-13T15:41:15Z",
+    "title": "PAW Patrol Rescue Pups: Immersive Experience",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/paw-patrol-rescue-pups-an-immersive-experience"
+  },
+  {
+    "id": "history:add:5a6c6dd58c5a797742610edc1db6378bb78f1d9a:spoon-ring-2026-11-19",
+    "type": "added",
+    "date": "2026-11-13T15:41:15Z",
+    "title": "Spoon Ring Workshop",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/spoon-ring-workshops"
+  },
+  {
+    "id": "history:add:5a6c6dd58c5a797742610edc1db6378bb78f1d9a:zoo-lights-2026-11-19",
+    "type": "added",
+    "date": "2026-11-13T15:41:15Z",
+    "title": "Dallas Zoo Lights",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Dallas",
+    "url": "https://www.dallaszoo.com/event/lights/"
+  },
+  {
+    "id": "history:remove:5a6c6dd58c5a797742610edc1db6378bb78f1d9a:arboretum-holiday-day-2026-11-12",
+    "type": "removed",
+    "date": "2026-11-13T15:41:15Z",
+    "title": "Holiday at the Arboretum — Daytime",
+    "description": "Left the rolling event guide. This may reflect expiry, rescheduling or editorial cleanup; it is not a cancellation notice.",
+    "area": "Dallas",
+    "url": "https://www.dallasarboretum.org/events-activities/holiday-at-the-arboretum/"
+  },
+  {
+    "id": "history:remove:5a6c6dd58c5a797742610edc1db6378bb78f1d9a:arboretum-holiday-night-2026-11-12",
+    "type": "removed",
+    "date": "2026-11-13T15:41:15Z",
+    "title": "Holiday at the Arboretum — Lights",
+    "description": "Left the rolling event guide. This may reflect expiry, rescheduling or editorial cleanup; it is not a cancellation notice.",
+    "area": "Dallas",
+    "url": "https://www.dallasarboretum.org/events-activities/holiday-at-the-arboretum/"
+  },
+  {
+    "id": "history:remove:5a6c6dd58c5a797742610edc1db6378bb78f1d9a:assembly-park-lights-2026-11-12",
+    "type": "removed",
+    "date": "2026-11-13T15:41:15Z",
+    "title": "Holiday Lights at Assembly Park",
+    "description": "Left the rolling event guide. This may reflect expiry, rescheduling or editorial cleanup; it is not a cancellation notice.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/holiday-lights-at-assembly-park"
+  },
+  {
+    "id": "history:remove:5a6c6dd58c5a797742610edc1db6378bb78f1d9a:glass-tree-2026-11-12",
+    "type": "removed",
+    "date": "2026-11-13T15:41:15Z",
+    "title": "Glass Fusing Workshop",
+    "description": "Left the rolling event guide. This may reflect expiry, rescheduling or editorial cleanup; it is not a cancellation notice.",
+    "area": "McKinney",
+    "url": "https://www.visitmckinney.com/events/glass-fusing-christmas-tree-cqtx0hy6"
+  },
+  {
+    "id": "history:remove:5a6c6dd58c5a797742610edc1db6378bb78f1d9a:harry-potter-stage-2026-11-12-715pm",
+    "type": "removed",
+    "date": "2026-11-13T15:41:15Z",
+    "title": "Harry Potter and the Cursed Child — High School Edition",
+    "description": "Left the rolling event guide. This may reflect expiry, rescheduling or editorial cleanup; it is not a cancellation notice.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/harry-potter-and-the-cursed-child"
+  },
+  {
+    "id": "history:remove:5a6c6dd58c5a797742610edc1db6378bb78f1d9a:heard-craig-museum-tour-2026-11-12",
+    "type": "removed",
+    "date": "2026-11-13T15:41:15Z",
+    "title": "Heard-Craig Historic Museum Tour",
+    "description": "Left the rolling event guide. This may reflect expiry, rescheduling or editorial cleanup; it is not a cancellation notice.",
+    "area": "McKinney",
+    "url": "https://www.heardcraig.org/"
+  },
+  {
+    "id": "history:remove:5a6c6dd58c5a797742610edc1db6378bb78f1d9a:making-god-laugh-2026-11-12",
+    "type": "removed",
+    "date": "2026-11-13T15:41:15Z",
+    "title": "Making God Laugh — Stage Play",
+    "description": "Left the rolling event guide. This may reflect expiry, rescheduling or editorial cleanup; it is not a cancellation notice.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/home/calendar"
+  },
+  {
+    "id": "history:remove:5a6c6dd58c5a797742610edc1db6378bb78f1d9a:matchbook-twenty-tribute-2026-11-12",
+    "type": "removed",
+    "date": "2026-11-13T15:41:15Z",
+    "title": "Matchbook 20 — Matchbox Twenty Tribute",
+    "description": "Left the rolling event guide. This may reflect expiry, rescheduling or editorial cleanup; it is not a cancellation notice.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/matchbox-twenty-tribute-matchbook-november"
+  },
+  {
+    "id": "history:remove:5a6c6dd58c5a797742610edc1db6378bb78f1d9a:paw-patrol-experience-2026-11-12",
+    "type": "removed",
+    "date": "2026-11-13T15:41:15Z",
+    "title": "PAW Patrol: Rescue Pups Immersive Experience",
+    "description": "Left the rolling event guide. This may reflect expiry, rescheduling or editorial cleanup; it is not a cancellation notice.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/paw-patrol-rescue-pups-an-immersive-experience"
+  },
+  {
+    "id": "history:remove:5a6c6dd58c5a797742610edc1db6378bb78f1d9a:plano-art-with-impact-2026-11-12",
+    "type": "removed",
+    "date": "2026-11-13T15:41:15Z",
+    "title": "Art with Impact Exhibition",
+    "description": "Left the rolling event guide. This may reflect expiry, rescheduling or editorial cleanup; it is not a cancellation notice.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/for-the-love-of-art-art-with-impact"
+  },
+  {
+    "id": "history:remove:5a6c6dd58c5a797742610edc1db6378bb78f1d9a:plano-neath-wreath-2026-11-12",
+    "type": "removed",
+    "date": "2026-11-13T15:41:15Z",
+    "title": "'Neath the Wreath Gift Market",
+    "description": "Left the rolling event guide. This may reflect expiry, rescheduling or editorial cleanup; it is not a cancellation notice.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/neath-the-wreath-holiday-gift-market-2026"
+  },
+  {
+    "id": "history:remove:5a6c6dd58c5a797742610edc1db6378bb78f1d9a:plano-spoon-ring-2026-11-12",
+    "type": "removed",
+    "date": "2026-11-13T15:41:15Z",
+    "title": "Spoon Ring Workshop",
+    "description": "Left the rolling event guide. This may reflect expiry, rescheduling or editorial cleanup; it is not a cancellation notice.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/spoon-ring-workshops"
+  },
+  {
+    "id": "history:add:af4455326293478b90d4a27a49c2aea06522d2fe:arboretum-day-2026-11-18",
+    "type": "added",
+    "date": "2026-11-12T15:49:12Z",
+    "title": "Holiday at the Arboretum — Daytime",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Dallas",
+    "url": "https://www.dallasarboretum.org/events-activities/holiday-at-the-arboretum/"
+  },
+  {
+    "id": "history:add:af4455326293478b90d4a27a49c2aea06522d2fe:arboretum-night-2026-11-18",
+    "type": "added",
+    "date": "2026-11-12T15:49:12Z",
+    "title": "Holiday at the Arboretum — Lights",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Dallas",
+    "url": "https://www.dallasarboretum.org/events-activities/holiday-at-the-arboretum/"
+  },
+  {
+    "id": "history:add:af4455326293478b90d4a27a49c2aea06522d2fe:assembly-lights-2026-11-18",
+    "type": "added",
+    "date": "2026-11-12T15:49:12Z",
+    "title": "Holiday Lights at Assembly Park",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/holiday-lights-at-assembly-park"
+  },
+  {
+    "id": "history:add:af4455326293478b90d4a27a49c2aea06522d2fe:ceci-ceci-2026-11-18",
+    "type": "added",
+    "date": "2026-11-12T15:49:12Z",
+    "title": "Ceci Ceci — Live Latin Pop",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/ceci-ceci-3542"
+  },
+  {
+    "id": "history:add:af4455326293478b90d4a27a49c2aea06522d2fe:celestial-winter-paint-2026-11-16",
+    "type": "added",
+    "date": "2026-11-12T15:49:12Z",
+    "title": "Celestial Winter Wonder Painting Night",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "McKinney",
+    "url": "https://www.paintingwithatwist.com/studio/mckinney/event/4368876/"
+  },
+  {
+    "id": "history:add:af4455326293478b90d4a27a49c2aea06522d2fe:heard-craig-museum-tour-2026-11-12",
+    "type": "added",
+    "date": "2026-11-12T15:49:12Z",
+    "title": "Heard-Craig Historic Museum Tour",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "McKinney",
+    "url": "https://www.heardcraig.org/"
+  },
+  {
+    "id": "history:add:af4455326293478b90d4a27a49c2aea06522d2fe:heard-craig-museum-tour-2026-11-17",
+    "type": "added",
+    "date": "2026-11-12T15:49:12Z",
+    "title": "Heard-Craig Historic Museum Tour",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "McKinney",
+    "url": "https://www.heardcraig.org/"
+  },
+  {
+    "id": "history:add:af4455326293478b90d4a27a49c2aea06522d2fe:impact-art-2026-11-18",
+    "type": "added",
+    "date": "2026-11-12T15:49:12Z",
+    "title": "Art with Impact Exhibition",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/for-the-love-of-art-art-with-impact"
+  },
+  {
+    "id": "history:add:af4455326293478b90d4a27a49c2aea06522d2fe:making-god-laugh-2026-11-12",
+    "type": "added",
+    "date": "2026-11-12T15:49:12Z",
+    "title": "Making God Laugh — Stage Play",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/home/calendar"
+  },
+  {
+    "id": "history:add:af4455326293478b90d4a27a49c2aea06522d2fe:merry-bright-toy-drive-2026-11-14",
+    "type": "added",
+    "date": "2026-11-12T15:49:12Z",
+    "title": "Merry & Bright Toy Drive, Reindeer & Live Music",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "McKinney",
+    "url": "https://www.visitmckinney.com/events/merry-and-bright-toy-drive-njx65blc"
+  },
+  {
+    "id": "history:add:af4455326293478b90d4a27a49c2aea06522d2fe:paw-patrol-2026-11-18",
+    "type": "added",
+    "date": "2026-11-12T15:49:12Z",
+    "title": "PAW Patrol: Rescue Pups Immersive Experience",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/paw-patrol-rescue-pups-an-immersive-experience"
+  },
+  {
+    "id": "history:add:af4455326293478b90d4a27a49c2aea06522d2fe:pumpkin-hallow-2026-11-18",
+    "type": "added",
+    "date": "2026-11-12T15:49:12Z",
+    "title": "Pumpkin Hallow Painting Workshop",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "McKinney",
+    "url": "https://www.paintingwithatwist.com/studio/mckinney/event/4368880/"
+  },
+  {
+    "id": "history:add:af4455326293478b90d4a27a49c2aea06522d2fe:santa-village-day-2026-11-14",
+    "type": "added",
+    "date": "2026-11-12T15:49:12Z",
+    "title": "Santa at the Arboretum — Daytime",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Dallas",
+    "url": "https://www.dallasarboretum.org/event/visits-with-santa/"
+  },
+  {
+    "id": "history:add:af4455326293478b90d4a27a49c2aea06522d2fe:santa-village-day-2026-11-15",
+    "type": "added",
+    "date": "2026-11-12T15:49:12Z",
+    "title": "Santa at the Arboretum — Daytime",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Dallas",
+    "url": "https://www.dallasarboretum.org/event/visits-with-santa/"
+  },
+  {
+    "id": "history:add:af4455326293478b90d4a27a49c2aea06522d2fe:santa-village-night-2026-11-14",
+    "type": "added",
+    "date": "2026-11-12T15:49:12Z",
+    "title": "Santa at the Arboretum — Evening",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Dallas",
+    "url": "https://www.dallasarboretum.org/event/visits-with-santa/"
+  },
+  {
+    "id": "history:add:af4455326293478b90d4a27a49c2aea06522d2fe:santa-village-night-2026-11-15",
+    "type": "added",
+    "date": "2026-11-12T15:49:12Z",
+    "title": "Santa at the Arboretum — Evening",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Dallas",
+    "url": "https://www.dallasarboretum.org/event/visits-with-santa/"
+  },
+  {
+    "id": "history:add:af4455326293478b90d4a27a49c2aea06522d2fe:spoon-ring-2026-11-18",
+    "type": "added",
+    "date": "2026-11-12T15:49:12Z",
+    "title": "Spoon Ring Workshop",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/spoon-ring-workshops"
+  },
+  {
+    "id": "history:add:af4455326293478b90d4a27a49c2aea06522d2fe:zoo-lights-2026-11-18",
+    "type": "added",
+    "date": "2026-11-12T15:49:12Z",
+    "title": "Dallas Zoo Lights",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Dallas",
+    "url": "https://www.dallaszoo.com/event/lights/"
+  },
+  {
+    "id": "history:remove:af4455326293478b90d4a27a49c2aea06522d2fe:arboretum-holiday-day-2026-11-11",
+    "type": "removed",
+    "date": "2026-11-12T15:49:12Z",
+    "title": "Holiday at the Arboretum — Daytime",
+    "description": "Left the rolling event guide. This may reflect expiry, rescheduling or editorial cleanup; it is not a cancellation notice.",
+    "area": "Dallas",
+    "url": "https://www.dallasarboretum.org/events-activities/holiday-at-the-arboretum/"
+  },
+  {
+    "id": "history:remove:af4455326293478b90d4a27a49c2aea06522d2fe:arboretum-holiday-night-2026-11-11",
+    "type": "removed",
+    "date": "2026-11-12T15:49:12Z",
+    "title": "Holiday at the Arboretum — Lights",
+    "description": "Left the rolling event guide. This may reflect expiry, rescheduling or editorial cleanup; it is not a cancellation notice.",
+    "area": "Dallas",
+    "url": "https://www.dallasarboretum.org/events-activities/holiday-at-the-arboretum/"
+  },
+  {
+    "id": "history:remove:af4455326293478b90d4a27a49c2aea06522d2fe:paw-patrol-experience-2026-11-11",
+    "type": "removed",
+    "date": "2026-11-12T15:49:12Z",
+    "title": "PAW Patrol: Rescue Pups Immersive Experience",
+    "description": "Left the rolling event guide. This may reflect expiry, rescheduling or editorial cleanup; it is not a cancellation notice.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/paw-patrol-rescue-pups-an-immersive-experience"
+  },
+  {
+    "id": "history:remove:af4455326293478b90d4a27a49c2aea06522d2fe:plano-art-with-impact-2026-11-11",
+    "type": "removed",
+    "date": "2026-11-12T15:49:12Z",
+    "title": "Art with Impact Exhibition",
+    "description": "Left the rolling event guide. This may reflect expiry, rescheduling or editorial cleanup; it is not a cancellation notice.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/for-the-love-of-art-art-with-impact"
+  },
+  {
+    "id": "history:remove:af4455326293478b90d4a27a49c2aea06522d2fe:plano-spoon-ring-2026-11-11",
+    "type": "removed",
+    "date": "2026-11-12T15:49:12Z",
+    "title": "Spoon Ring Workshop",
+    "description": "Left the rolling event guide. This may reflect expiry, rescheduling or editorial cleanup; it is not a cancellation notice.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/spoon-ring-workshops"
+  },
+  {
+    "id": "history:add:26db4d10680c02ba32fb8cf4a0d3374b47c205c8:arboretum-holiday-day-2026-11-17",
+    "type": "added",
+    "date": "2026-11-11T15:15:04Z",
+    "title": "Holiday at the Arboretum — Daytime",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Dallas",
+    "url": "https://www.dallasarboretum.org/events-activities/holiday-at-the-arboretum/"
+  },
+  {
+    "id": "history:add:26db4d10680c02ba32fb8cf4a0d3374b47c205c8:arboretum-holiday-night-2026-11-17",
+    "type": "added",
+    "date": "2026-11-11T15:15:04Z",
+    "title": "Holiday at the Arboretum — Lights",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Dallas",
+    "url": "https://www.dallasarboretum.org/events-activities/holiday-at-the-arboretum/"
+  },
+  {
+    "id": "history:add:26db4d10680c02ba32fb8cf4a0d3374b47c205c8:assembly-park-lights-2026-11-17",
+    "type": "added",
+    "date": "2026-11-11T15:15:04Z",
+    "title": "Holiday Lights at Assembly Park",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/holiday-lights-at-assembly-park"
+  },
+  {
+    "id": "history:add:26db4d10680c02ba32fb8cf4a0d3374b47c205c8:dallas-zoo-sensory-night-2026-11-17",
+    "type": "added",
+    "date": "2026-11-11T15:15:04Z",
+    "title": "Dallas Zoo Lights — Sensory Friendly Night",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Dallas",
+    "url": "https://www.dallaszoo.com/zoo-lights/"
+  },
+  {
+    "id": "history:add:26db4d10680c02ba32fb8cf4a0d3374b47c205c8:grapevine-thanksgiving-cartoons-2026-11-17",
+    "type": "added",
+    "date": "2026-11-11T15:15:04Z",
+    "title": "Thanksgiving Cartoons & Crafts",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Grapevine",
+    "url": "https://www.grapevinetexasusa.com/event/thanksgiving-cartoons-%26-crafts/42151/"
+  },
+  {
+    "id": "history:add:26db4d10680c02ba32fb8cf4a0d3374b47c205c8:greek-festival-2026-11-14",
+    "type": "added",
+    "date": "2026-11-11T15:15:04Z",
+    "title": "Fort Worth Greek Festival",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Fort Worth",
+    "url": "https://www.fortworthgreekfestival.com/"
+  },
+  {
+    "id": "history:add:26db4d10680c02ba32fb8cf4a0d3374b47c205c8:greek-festival-2026-11-15",
+    "type": "added",
+    "date": "2026-11-11T15:15:04Z",
+    "title": "Fort Worth Greek Festival",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Fort Worth",
+    "url": "https://www.fortworthgreekfestival.com/"
+  },
+  {
+    "id": "history:add:26db4d10680c02ba32fb8cf4a0d3374b47c205c8:interurban-storytime-2026-11-13",
+    "type": "added",
+    "date": "2026-11-11T15:15:04Z",
+    "title": "Story Time at the Interurban Railway Museum",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/story-time-2026"
+  },
+  {
+    "id": "history:add:26db4d10680c02ba32fb8cf4a0d3374b47c205c8:mckinney-art-studio-tour-2026-11-14",
+    "type": "added",
+    "date": "2026-11-11T15:15:04Z",
+    "title": "McKinney Art Studio Tour",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "McKinney",
+    "url": "https://www.mastmckinney.org/"
+  },
+  {
+    "id": "history:add:26db4d10680c02ba32fb8cf4a0d3374b47c205c8:mckinney-art-studio-tour-2026-11-15",
+    "type": "added",
+    "date": "2026-11-11T15:15:04Z",
+    "title": "McKinney Art Studio Tour",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "McKinney",
+    "url": "https://www.mastmckinney.org/"
+  },
+  {
+    "id": "history:add:26db4d10680c02ba32fb8cf4a0d3374b47c205c8:mckinney-millhouse-lunch-bunch-2026-11-17",
+    "type": "added",
+    "date": "2026-11-11T15:15:04Z",
+    "title": "MillHouse Lunch Bunch — Making Space for Wonder",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "McKinney",
+    "url": "https://www.visitmckinney.com/events/lunch-bunch-meet-millhouse-member-ginny-mehta-making-space-for-wonder-xin5daa6"
+  },
+  {
+    "id": "history:add:26db4d10680c02ba32fb8cf4a0d3374b47c205c8:paw-patrol-experience-2026-11-11",
+    "type": "added",
+    "date": "2026-11-11T15:15:04Z",
+    "title": "PAW Patrol: Rescue Pups Immersive Experience",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/paw-patrol-rescue-pups-an-immersive-experience"
+  },
+  {
+    "id": "history:add:26db4d10680c02ba32fb8cf4a0d3374b47c205c8:paw-patrol-experience-2026-11-12",
+    "type": "added",
+    "date": "2026-11-11T15:15:04Z",
+    "title": "PAW Patrol: Rescue Pups Immersive Experience",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/paw-patrol-rescue-pups-an-immersive-experience"
+  },
+  {
+    "id": "history:add:26db4d10680c02ba32fb8cf4a0d3374b47c205c8:paw-patrol-experience-2026-11-13",
+    "type": "added",
+    "date": "2026-11-11T15:15:04Z",
+    "title": "PAW Patrol: Rescue Pups Immersive Experience",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/paw-patrol-rescue-pups-an-immersive-experience"
+  },
+  {
+    "id": "history:add:26db4d10680c02ba32fb8cf4a0d3374b47c205c8:paw-patrol-experience-2026-11-14",
+    "type": "added",
+    "date": "2026-11-11T15:15:04Z",
+    "title": "PAW Patrol: Rescue Pups Immersive Experience",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/paw-patrol-rescue-pups-an-immersive-experience"
+  },
+  {
+    "id": "history:add:26db4d10680c02ba32fb8cf4a0d3374b47c205c8:paw-patrol-experience-2026-11-15",
+    "type": "added",
+    "date": "2026-11-11T15:15:04Z",
+    "title": "PAW Patrol: Rescue Pups Immersive Experience",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/paw-patrol-rescue-pups-an-immersive-experience"
+  },
+  {
+    "id": "history:add:26db4d10680c02ba32fb8cf4a0d3374b47c205c8:plano-art-with-impact-2026-11-11",
+    "type": "added",
+    "date": "2026-11-11T15:15:04Z",
+    "title": "Art with Impact Exhibition",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/for-the-love-of-art-art-with-impact"
+  },
+  {
+    "id": "history:add:26db4d10680c02ba32fb8cf4a0d3374b47c205c8:plano-art-with-impact-2026-11-12",
+    "type": "added",
+    "date": "2026-11-11T15:15:04Z",
+    "title": "Art with Impact Exhibition",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/for-the-love-of-art-art-with-impact"
+  },
+  {
+    "id": "history:add:26db4d10680c02ba32fb8cf4a0d3374b47c205c8:plano-art-with-impact-2026-11-13",
+    "type": "added",
+    "date": "2026-11-11T15:15:04Z",
+    "title": "Art with Impact Exhibition",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/for-the-love-of-art-art-with-impact"
+  },
+  {
+    "id": "history:add:26db4d10680c02ba32fb8cf4a0d3374b47c205c8:plano-art-with-impact-2026-11-14",
+    "type": "added",
+    "date": "2026-11-11T15:15:04Z",
+    "title": "Art with Impact Exhibition",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/for-the-love-of-art-art-with-impact"
+  },
+  {
+    "id": "history:add:26db4d10680c02ba32fb8cf4a0d3374b47c205c8:plano-art-with-impact-2026-11-17",
+    "type": "added",
+    "date": "2026-11-11T15:15:04Z",
+    "title": "Art with Impact Exhibition",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/for-the-love-of-art-art-with-impact"
+  },
+  {
+    "id": "history:add:26db4d10680c02ba32fb8cf4a0d3374b47c205c8:plano-fluid-art-2026-11-17",
+    "type": "added",
+    "date": "2026-11-11T15:15:04Z",
+    "title": "Fluid Art Workshop",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/fluid-art-workshop-2026"
+  },
+  {
+    "id": "history:add:26db4d10680c02ba32fb8cf4a0d3374b47c205c8:plano-neath-wreath-2026-11-12",
+    "type": "added",
+    "date": "2026-11-11T15:15:04Z",
+    "title": "'Neath the Wreath Gift Market",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/neath-the-wreath-holiday-gift-market-2026"
+  },
+  {
+    "id": "history:add:26db4d10680c02ba32fb8cf4a0d3374b47c205c8:plano-neath-wreath-2026-11-13",
+    "type": "added",
+    "date": "2026-11-11T15:15:04Z",
+    "title": "'Neath the Wreath Gift Market",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/neath-the-wreath-holiday-gift-market-2026"
+  },
+  {
+    "id": "history:add:26db4d10680c02ba32fb8cf4a0d3374b47c205c8:plano-neath-wreath-2026-11-14",
+    "type": "added",
+    "date": "2026-11-11T15:15:04Z",
+    "title": "'Neath the Wreath Gift Market",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/neath-the-wreath-holiday-gift-market-2026"
+  },
+  {
+    "id": "history:add:26db4d10680c02ba32fb8cf4a0d3374b47c205c8:plano-neath-wreath-2026-11-15",
+    "type": "added",
+    "date": "2026-11-11T15:15:04Z",
+    "title": "'Neath the Wreath Gift Market",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/neath-the-wreath-holiday-gift-market-2026"
+  },
+  {
+    "id": "history:add:26db4d10680c02ba32fb8cf4a0d3374b47c205c8:plano-paint-your-home-2026-11-17",
+    "type": "added",
+    "date": "2026-11-11T15:15:04Z",
+    "title": "Paint Your Home Workshop",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/paint-your-home-2026"
+  },
+  {
+    "id": "history:add:26db4d10680c02ba32fb8cf4a0d3374b47c205c8:plano-paint-your-pet-2026-11-15",
+    "type": "added",
+    "date": "2026-11-11T15:15:04Z",
+    "title": "Paint Your Pet Workshop",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/pipe_palette_plano_at_the_shops_at_willow_bend/calendar"
+  },
+  {
+    "id": "history:add:26db4d10680c02ba32fb8cf4a0d3374b47c205c8:plano-pumpkin-roll-2026-11-15",
+    "type": "added",
+    "date": "2026-11-11T15:15:04Z",
+    "title": "Pumpkin Roll & Caramel Sauce Class",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/calendar/day/2026/11/15"
+  },
+  {
+    "id": "history:add:26db4d10680c02ba32fb8cf4a0d3374b47c205c8:plano-spoon-ring-2026-11-11",
+    "type": "added",
+    "date": "2026-11-11T15:15:04Z",
+    "title": "Spoon Ring Workshop",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/spoon-ring-workshops"
+  },
+  {
+    "id": "history:add:26db4d10680c02ba32fb8cf4a0d3374b47c205c8:plano-spoon-ring-2026-11-12",
+    "type": "added",
+    "date": "2026-11-11T15:15:04Z",
+    "title": "Spoon Ring Workshop",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/spoon-ring-workshops"
+  },
+  {
+    "id": "history:add:26db4d10680c02ba32fb8cf4a0d3374b47c205c8:plano-spoon-ring-2026-11-17",
+    "type": "added",
+    "date": "2026-11-11T15:15:04Z",
+    "title": "Spoon Ring Workshop",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/spoon-ring-workshops"
+  },
+  {
+    "id": "history:add:26db4d10680c02ba32fb8cf4a0d3374b47c205c8:snowflake-bazaar-2026-11-15",
+    "type": "added",
+    "date": "2026-11-11T15:15:04Z",
+    "title": "Snowflake Bazaar",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Plano",
+    "url": "https://www.planowestband.org/snowflake"
+  },
+  {
+    "id": "history:add:26db4d10680c02ba32fb8cf4a0d3374b47c205c8:talking-animals-storytime-2026-11-15",
+    "type": "added",
+    "date": "2026-11-11T15:15:04Z",
+    "title": "Sunday Storytime at Talking Animals Books",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Grapevine",
+    "url": "https://www.grapevinetexasusa.com/tickets/"
+  },
+  {
+    "id": "history:add:26db4d10680c02ba32fb8cf4a0d3374b47c205c8:tiles-and-tinsel-2026-11-13",
+    "type": "added",
+    "date": "2026-11-11T15:15:04Z",
+    "title": "Tiles & Tinsel Workshop at 'Neath the Wreath",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/tiles-tinsel-at-neath-the-wreath"
+  },
+  {
+    "id": "history:remove:26db4d10680c02ba32fb8cf4a0d3374b47c205c8:mckinney-art-studio-tour-2026",
+    "type": "removed",
+    "date": "2026-11-11T15:15:04Z",
+    "title": "McKinney Art Studio Tour",
+    "description": "Left the rolling event guide. This may reflect expiry, rescheduling or editorial cleanup; it is not a cancellation notice.",
+    "area": "McKinney",
+    "url": "https://www.mastmckinney.org/"
+  },
+  {
+    "id": "history:remove:26db4d10680c02ba32fb8cf4a0d3374b47c205c8:mckinney-history-tour-2026-11-10",
+    "type": "removed",
+    "date": "2026-11-11T15:15:04Z",
+    "title": "Historic Downtown McKinney Walking Tour",
+    "description": "Left the rolling event guide. This may reflect expiry, rescheduling or editorial cleanup; it is not a cancellation notice.",
+    "area": "McKinney",
+    "url": "https://www.visitmckinney.com/events/guided-historic-walking-tour-6aipnxeg"
+  },
+  {
+    "id": "history:remove:26db4d10680c02ba32fb8cf4a0d3374b47c205c8:paint-your-home-2026-11-10",
+    "type": "removed",
+    "date": "2026-11-11T15:15:04Z",
+    "title": "Paint Your Home Workshop",
+    "description": "Left the rolling event guide. This may reflect expiry, rescheduling or editorial cleanup; it is not a cancellation notice.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/paint-your-home-2026"
+  },
+  {
+    "id": "history:remove:26db4d10680c02ba32fb8cf4a0d3374b47c205c8:plano-art-with-impact-2026",
+    "type": "removed",
+    "date": "2026-11-11T15:15:04Z",
+    "title": "Art with Impact Exhibition",
+    "description": "Left the rolling event guide. This may reflect expiry, rescheduling or editorial cleanup; it is not a cancellation notice.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/for-the-love-of-art-art-with-impact"
+  },
+  {
+    "id": "history:remove:26db4d10680c02ba32fb8cf4a0d3374b47c205c8:plano-fluid-art-2026-11-10",
+    "type": "removed",
+    "date": "2026-11-11T15:15:04Z",
+    "title": "Fluid Art Workshop",
+    "description": "Left the rolling event guide. This may reflect expiry, rescheduling or editorial cleanup; it is not a cancellation notice.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/fluid-art-workshop-2026"
+  },
+  {
+    "id": "history:remove:26db4d10680c02ba32fb8cf4a0d3374b47c205c8:plano-neath-wreath-2026",
+    "type": "removed",
+    "date": "2026-11-11T15:15:04Z",
+    "title": "'Neath the Wreath Gift Market",
+    "description": "Left the rolling event guide. This may reflect expiry, rescheduling or editorial cleanup; it is not a cancellation notice.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/neath-the-wreath-holiday-gift-market-2026"
+  },
+  {
+    "id": "history:remove:26db4d10680c02ba32fb8cf4a0d3374b47c205c8:plano-spoon-ring-nov10-12",
+    "type": "removed",
+    "date": "2026-11-11T15:15:04Z",
+    "title": "Spoon Ring Workshop",
+    "description": "Left the rolling event guide. This may reflect expiry, rescheduling or editorial cleanup; it is not a cancellation notice.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/spoon-ring-workshops"
+  },
+  {
+    "id": "history:add:906b8f579e1385ed35e42c8860206faa12858d6f:arboretum-holiday-day-2026-11-11",
+    "type": "added",
+    "date": "2026-11-10T15:51:19Z",
+    "title": "Holiday at the Arboretum — Daytime",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Dallas",
+    "url": "https://www.dallasarboretum.org/events-activities/holiday-at-the-arboretum/"
+  },
+  {
+    "id": "history:add:906b8f579e1385ed35e42c8860206faa12858d6f:arboretum-holiday-day-2026-11-12",
+    "type": "added",
+    "date": "2026-11-10T15:51:19Z",
+    "title": "Holiday at the Arboretum — Daytime",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Dallas",
+    "url": "https://www.dallasarboretum.org/events-activities/holiday-at-the-arboretum/"
+  },
+  {
+    "id": "history:add:906b8f579e1385ed35e42c8860206faa12858d6f:arboretum-holiday-day-2026-11-13",
+    "type": "added",
+    "date": "2026-11-10T15:51:19Z",
+    "title": "Holiday at the Arboretum — Daytime",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Dallas",
+    "url": "https://www.dallasarboretum.org/events-activities/holiday-at-the-arboretum/"
+  },
+  {
+    "id": "history:add:906b8f579e1385ed35e42c8860206faa12858d6f:arboretum-holiday-day-2026-11-14",
+    "type": "added",
+    "date": "2026-11-10T15:51:19Z",
+    "title": "Holiday at the Arboretum — Daytime",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Dallas",
+    "url": "https://www.dallasarboretum.org/events-activities/holiday-at-the-arboretum/"
+  },
+  {
+    "id": "history:add:906b8f579e1385ed35e42c8860206faa12858d6f:arboretum-holiday-day-2026-11-15",
+    "type": "added",
+    "date": "2026-11-10T15:51:19Z",
+    "title": "Holiday at the Arboretum — Daytime",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Dallas",
+    "url": "https://www.dallasarboretum.org/events-activities/holiday-at-the-arboretum/"
+  },
+  {
+    "id": "history:add:906b8f579e1385ed35e42c8860206faa12858d6f:arboretum-holiday-day-2026-11-16",
+    "type": "added",
+    "date": "2026-11-10T15:51:19Z",
+    "title": "Holiday at the Arboretum — Daytime",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Dallas",
+    "url": "https://www.dallasarboretum.org/events-activities/holiday-at-the-arboretum/"
+  },
+  {
+    "id": "history:add:906b8f579e1385ed35e42c8860206faa12858d6f:arboretum-holiday-night-2026-11-11",
+    "type": "added",
+    "date": "2026-11-10T15:51:19Z",
+    "title": "Holiday at the Arboretum — Lights",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Dallas",
+    "url": "https://www.dallasarboretum.org/events-activities/holiday-at-the-arboretum/"
+  },
+  {
+    "id": "history:add:906b8f579e1385ed35e42c8860206faa12858d6f:arboretum-holiday-night-2026-11-12",
+    "type": "added",
+    "date": "2026-11-10T15:51:19Z",
+    "title": "Holiday at the Arboretum — Lights",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Dallas",
+    "url": "https://www.dallasarboretum.org/events-activities/holiday-at-the-arboretum/"
+  },
+  {
+    "id": "history:add:906b8f579e1385ed35e42c8860206faa12858d6f:arboretum-holiday-night-2026-11-13",
+    "type": "added",
+    "date": "2026-11-10T15:51:19Z",
+    "title": "Holiday at the Arboretum — Lights",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Dallas",
+    "url": "https://www.dallasarboretum.org/events-activities/holiday-at-the-arboretum/"
+  },
+  {
+    "id": "history:add:906b8f579e1385ed35e42c8860206faa12858d6f:arboretum-holiday-night-2026-11-14",
+    "type": "added",
+    "date": "2026-11-10T15:51:19Z",
+    "title": "Holiday at the Arboretum — Lights",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Dallas",
+    "url": "https://www.dallasarboretum.org/events-activities/holiday-at-the-arboretum/"
+  },
+  {
+    "id": "history:add:906b8f579e1385ed35e42c8860206faa12858d6f:arboretum-holiday-night-2026-11-15",
+    "type": "added",
+    "date": "2026-11-10T15:51:19Z",
+    "title": "Holiday at the Arboretum — Lights",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Dallas",
+    "url": "https://www.dallasarboretum.org/events-activities/holiday-at-the-arboretum/"
+  },
+  {
+    "id": "history:add:906b8f579e1385ed35e42c8860206faa12858d6f:arboretum-holiday-night-2026-11-16",
+    "type": "added",
+    "date": "2026-11-10T15:51:19Z",
+    "title": "Holiday at the Arboretum — Lights",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Dallas",
+    "url": "https://www.dallasarboretum.org/events-activities/holiday-at-the-arboretum/"
+  },
+  {
+    "id": "history:add:906b8f579e1385ed35e42c8860206faa12858d6f:assembly-park-lights-2026-11-12",
+    "type": "added",
+    "date": "2026-11-10T15:51:19Z",
+    "title": "Holiday Lights at Assembly Park",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/holiday-lights-at-assembly-park"
+  },
+  {
+    "id": "history:add:906b8f579e1385ed35e42c8860206faa12858d6f:assembly-park-lights-2026-11-13",
+    "type": "added",
+    "date": "2026-11-10T15:51:19Z",
+    "title": "Holiday Lights at Assembly Park",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/holiday-lights-at-assembly-park"
+  },
+  {
+    "id": "history:add:906b8f579e1385ed35e42c8860206faa12858d6f:assembly-park-lights-2026-11-14",
+    "type": "added",
+    "date": "2026-11-10T15:51:19Z",
+    "title": "Holiday Lights at Assembly Park",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/holiday-lights-at-assembly-park"
+  },
+  {
+    "id": "history:add:906b8f579e1385ed35e42c8860206faa12858d6f:assembly-park-lights-2026-11-15",
+    "type": "added",
+    "date": "2026-11-10T15:51:19Z",
+    "title": "Holiday Lights at Assembly Park",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/holiday-lights-at-assembly-park"
+  },
+  {
+    "id": "history:add:906b8f579e1385ed35e42c8860206faa12858d6f:assembly-park-lights-2026-11-16",
+    "type": "added",
+    "date": "2026-11-10T15:51:19Z",
+    "title": "Holiday Lights at Assembly Park",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/holiday-lights-at-assembly-park"
+  },
+  {
+    "id": "history:add:906b8f579e1385ed35e42c8860206faa12858d6f:autumn-centerpiece-plano-2026-11-15",
+    "type": "added",
+    "date": "2026-11-10T15:51:19Z",
+    "title": "Autumn Blooms & Heirloom Pumpkins Workshop",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/calendar/day/2026/11/15"
+  },
+  {
+    "id": "history:add:906b8f579e1385ed35e42c8860206faa12858d6f:come-clay-with-me-2026-11-13",
+    "type": "added",
+    "date": "2026-11-10T15:51:19Z",
+    "title": "Come Clay with Me! Pottery Experience",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "McKinney",
+    "url": "https://www.visitmckinney.com/events/come-clay-with-me-pottery-experience-hkwhe2xp"
+  },
+  {
+    "id": "history:add:906b8f579e1385ed35e42c8860206faa12858d6f:come-clay-with-me-2026-11-14",
+    "type": "added",
+    "date": "2026-11-10T15:51:19Z",
+    "title": "Come Clay with Me! Pottery Experience",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "McKinney",
+    "url": "https://www.visitmckinney.com/events/come-clay-with-me-pottery-experience-hkwhe2xp"
+  },
+  {
+    "id": "history:add:906b8f579e1385ed35e42c8860206faa12858d6f:come-clay-with-me-2026-11-15",
+    "type": "added",
+    "date": "2026-11-10T15:51:19Z",
+    "title": "Come Clay with Me! Pottery Experience",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "McKinney",
+    "url": "https://www.visitmckinney.com/events/come-clay-with-me-pottery-experience-hkwhe2xp"
+  },
+  {
+    "id": "history:add:906b8f579e1385ed35e42c8860206faa12858d6f:dallas-zoo-lights-2026-11-13",
+    "type": "added",
+    "date": "2026-11-10T15:51:19Z",
+    "title": "Dallas Zoo Lights",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Dallas",
+    "url": "https://www.dallaszoo.com/event/lights/"
+  },
+  {
+    "id": "history:add:906b8f579e1385ed35e42c8860206faa12858d6f:dallas-zoo-lights-2026-11-14",
+    "type": "added",
+    "date": "2026-11-10T15:51:19Z",
+    "title": "Dallas Zoo Lights",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Dallas",
+    "url": "https://www.dallaszoo.com/event/lights/"
+  },
+  {
+    "id": "history:add:906b8f579e1385ed35e42c8860206faa12858d6f:dallas-zoo-lights-2026-11-15",
+    "type": "added",
+    "date": "2026-11-10T15:51:19Z",
+    "title": "Dallas Zoo Lights",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Dallas",
+    "url": "https://www.dallaszoo.com/event/lights/"
+  },
+  {
+    "id": "history:add:906b8f579e1385ed35e42c8860206faa12858d6f:frisco-fresh-market-2026-11-14",
+    "type": "added",
+    "date": "2026-11-10T15:51:19Z",
+    "title": "Frisco Fresh Market",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Frisco",
+    "url": "https://friscofreshmarket.com/market/clock/"
+  },
+  {
+    "id": "history:add:906b8f579e1385ed35e42c8860206faa12858d6f:frisco-fresh-market-2026-11-15",
+    "type": "added",
+    "date": "2026-11-10T15:51:19Z",
+    "title": "Frisco Fresh Market",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Frisco",
+    "url": "https://friscofreshmarket.com/market/clock/"
+  },
+  {
+    "id": "history:add:906b8f579e1385ed35e42c8860206faa12858d6f:grapevine-built-by-heart-launch-2026-11-14",
+    "type": "added",
+    "date": "2026-11-10T15:51:19Z",
+    "title": "Built by Heart — Author Meet & Greet",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Grapevine",
+    "url": "https://www.grapevinetexasusa.com/event/meet-the-author-of-built-by-heart/42488/"
+  },
+  {
+    "id": "history:add:906b8f579e1385ed35e42c8860206faa12858d6f:grapevine-candlelight-homes-2026-11-14",
+    "type": "added",
+    "date": "2026-11-10T15:51:19Z",
+    "title": "Candlelight Tour of Historic Grapevine Homes",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Grapevine",
+    "url": "https://tickets.grapevineticketline.com/tickets/candlelight-tour-of-homes-2026"
+  },
+  {
+    "id": "history:add:906b8f579e1385ed35e42c8860206faa12858d6f:grapevine-dean-martin-15-2026-11-14",
+    "type": "added",
+    "date": "2026-11-10T15:51:19Z",
+    "title": "Dean Martin & Friends — Musical Comedy",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Grapevine",
+    "url": "https://www.grapevinetexasusa.com/event/dean-martin-%26-friends-%26%238211%3B-a-hilarious-christmas-celebration-presented-by-tribute-masters/41901/"
+  },
+  {
+    "id": "history:add:906b8f579e1385ed35e42c8860206faa12858d6f:grapevine-dean-martin-19-2026-11-14",
+    "type": "added",
+    "date": "2026-11-10T15:51:19Z",
+    "title": "Dean Martin & Friends — Musical Comedy",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Grapevine",
+    "url": "https://www.grapevinetexasusa.com/event/dean-martin-%26-friends-%26%238211%3B-a-hilarious-christmas-celebration-presented-by-tribute-masters/41901/"
+  },
+  {
+    "id": "history:add:906b8f579e1385ed35e42c8860206faa12858d6f:grapevine-ice-harry-potter-2026",
+    "type": "added",
+    "date": "2026-11-10T15:51:19Z",
+    "title": "ICE! Featuring Harry Potter",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Grapevine",
+    "url": "https://www.grapevinetexasusa.com/articles/post/2026-writers-reference-guide-to-the-christmas-capital-of-texas/"
+  },
+  {
+    "id": "history:add:906b8f579e1385ed35e42c8860206faa12858d6f:grapevine-places-within-us-nov10",
+    "type": "added",
+    "date": "2026-11-10T15:51:19Z",
+    "title": "The Places Within Us — Art Exhibition",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Grapevine",
+    "url": "https://www.grapevinetexasusa.com/event/the-places-within-us-art-exhibit/42471/"
+  },
+  {
+    "id": "history:add:906b8f579e1385ed35e42c8860206faa12858d6f:grapevine-planes-trains-2026-11-14",
+    "type": "added",
+    "date": "2026-11-10T15:51:19Z",
+    "title": "Planes & Trains Guided Tour",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Grapevine",
+    "url": "https://www.grapevinetexasusa.com/event/planes-and-trains-guided-tour/41394/"
+  },
+  {
+    "id": "history:add:906b8f579e1385ed35e42c8860206faa12858d6f:grapevine-printing-past-2026-11-13",
+    "type": "added",
+    "date": "2026-11-10T15:51:19Z",
+    "title": "Printing the Past — Historic Press Demonstration",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Grapevine",
+    "url": "https://tickets.grapevineticketline.com/tickets/printing-the-past"
+  },
+  {
+    "id": "history:add:906b8f579e1385ed35e42c8860206faa12858d6f:grapevine-zak-mirz-magic-2026-11-15",
+    "type": "added",
+    "date": "2026-11-10T15:51:19Z",
+    "title": "Magician Zak Mirz — Kid at Heart",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Grapevine",
+    "url": "https://www.grapevinetexasusa.com/event/magician-zak-mirz/41902/"
+  },
+  {
+    "id": "history:add:906b8f579e1385ed35e42c8860206faa12858d6f:harry-potter-stage-2026-11-12-715pm",
+    "type": "added",
+    "date": "2026-11-10T15:51:19Z",
+    "title": "Harry Potter and the Cursed Child — High School Edition",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/harry-potter-and-the-cursed-child"
+  },
+  {
+    "id": "history:add:906b8f579e1385ed35e42c8860206faa12858d6f:harry-potter-stage-2026-11-13-715pm",
+    "type": "added",
+    "date": "2026-11-10T15:51:19Z",
+    "title": "Harry Potter and the Cursed Child — High School Edition",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/harry-potter-and-the-cursed-child"
+  },
+  {
+    "id": "history:add:906b8f579e1385ed35e42c8860206faa12858d6f:harry-potter-stage-2026-11-14-215pm",
+    "type": "added",
+    "date": "2026-11-10T15:51:19Z",
+    "title": "Harry Potter and the Cursed Child — High School Edition",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/harry-potter-and-the-cursed-child"
+  },
+  {
+    "id": "history:add:906b8f579e1385ed35e42c8860206faa12858d6f:harry-potter-stage-2026-11-14-715pm",
+    "type": "added",
+    "date": "2026-11-10T15:51:19Z",
+    "title": "Harry Potter and the Cursed Child — High School Edition",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/harry-potter-and-the-cursed-child"
+  },
+  {
+    "id": "history:add:906b8f579e1385ed35e42c8860206faa12858d6f:harry-potter-stage-2026-11-15-115pm",
+    "type": "added",
+    "date": "2026-11-10T15:51:19Z",
+    "title": "Harry Potter and the Cursed Child — High School Edition",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/harry-potter-and-the-cursed-child"
+  },
+  {
+    "id": "history:add:906b8f579e1385ed35e42c8860206faa12858d6f:harry-potter-stage-2026-11-15-615pm",
+    "type": "added",
+    "date": "2026-11-10T15:51:19Z",
+    "title": "Harry Potter and the Cursed Child — High School Edition",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/harry-potter-and-the-cursed-child"
+  },
+  {
+    "id": "history:add:906b8f579e1385ed35e42c8860206faa12858d6f:matchbook-twenty-tribute-2026-11-12",
+    "type": "added",
+    "date": "2026-11-10T15:51:19Z",
+    "title": "Matchbook 20 — Matchbox Twenty Tribute",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/matchbox-twenty-tribute-matchbook-november"
+  },
+  {
+    "id": "history:add:906b8f579e1385ed35e42c8860206faa12858d6f:meatless-friendsgiving-plano-2026-11-16",
+    "type": "added",
+    "date": "2026-11-10T15:51:19Z",
+    "title": "Meatless Friendsgiving Cooking Class",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/celebrate-with-a-meatless-friendsgiving-meal"
+  },
+  {
+    "id": "history:add:906b8f579e1385ed35e42c8860206faa12858d6f:paint-your-home-2026-11-10",
+    "type": "added",
+    "date": "2026-11-10T15:51:19Z",
+    "title": "Paint Your Home Workshop",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/paint-your-home-2026"
+  },
+  {
+    "id": "history:add:906b8f579e1385ed35e42c8860206faa12858d6f:paint-your-home-2026-11-13",
+    "type": "added",
+    "date": "2026-11-10T15:51:19Z",
+    "title": "Paint Your Home Workshop",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/paint-your-home-2026"
+  },
+  {
+    "id": "history:add:906b8f579e1385ed35e42c8860206faa12858d6f:plano-fluid-art-2026-11-10",
+    "type": "added",
+    "date": "2026-11-10T15:51:19Z",
+    "title": "Fluid Art Workshop",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/fluid-art-workshop-2026"
+  },
+  {
+    "id": "history:add:906b8f579e1385ed35e42c8860206faa12858d6f:plano-fluid-art-2026-11-15",
+    "type": "added",
+    "date": "2026-11-10T15:51:19Z",
+    "title": "Fluid Art Workshop",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/fluid-art-workshop-2026"
+  },
+  {
+    "id": "history:add:906b8f579e1385ed35e42c8860206faa12858d6f:plano-fluid-art-2026-11-16",
+    "type": "added",
+    "date": "2026-11-10T15:51:19Z",
+    "title": "Fluid Art Workshop",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/fluid-art-workshop-2026"
+  },
+  {
+    "id": "history:add:906b8f579e1385ed35e42c8860206faa12858d6f:plano-spoon-ring-nov10-12",
+    "type": "added",
+    "date": "2026-11-10T15:51:19Z",
+    "title": "Spoon Ring Workshop",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/spoon-ring-workshops"
+  },
+  {
+    "id": "history:add:906b8f579e1385ed35e42c8860206faa12858d6f:pug-rescue-friendsgiving-2026-11-14",
+    "type": "added",
+    "date": "2026-11-10T15:51:19Z",
+    "title": "DFW Pug Rescue Friendsgiving Meetup",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Plano",
+    "url": "https://www.dfwpugs.com/upcoming"
+  },
+  {
+    "id": "history:add:906b8f579e1385ed35e42c8860206faa12858d6f:vetro-ornament-nov11-14",
+    "type": "added",
+    "date": "2026-11-10T15:51:19Z",
+    "title": "Make a Holiday Glass Ornament",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Grapevine",
+    "url": "https://www.grapevinetexasusa.com/event/create-a-holiday-ornament-event-at-vetro-glassblowing%21/42256/"
+  },
+  {
+    "id": "history:remove:906b8f579e1385ed35e42c8860206faa12858d6f:fluid-art-plano-nov-09-2026",
+    "type": "removed",
+    "date": "2026-11-10T15:51:19Z",
+    "title": "Fluid Art Workshops",
+    "description": "Left the rolling event guide. This may reflect expiry, rescheduling or editorial cleanup; it is not a cancellation notice.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/calendar/day/2026/11/9"
+  },
+  {
+    "id": "history:remove:906b8f579e1385ed35e42c8860206faa12858d6f:plano-harry-potter-play-2026-11-14",
+    "type": "removed",
+    "date": "2026-11-10T15:51:19Z",
+    "title": "Harry Potter and the Cursed Child — Local Stage Production",
+    "description": "Left the rolling event guide. This may reflect expiry, rescheduling or editorial cleanup; it is not a cancellation notice.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/calendar/day/2026/11/14"
+  },
+  {
+    "id": "history:tech:bba9a310d49345fab907140162e18c4dbf176b48",
+    "type": "technology",
+    "date": "2026-11-09T15:27:41Z",
+    "title": "Comedy and improv options",
+    "description": "Expanded the anytime guide with a local comedy and improv destination and advice to check individual show age guidance."
+  },
+  {
+    "id": "history:tech:8d4455af275772babf425dc484904adb38041f3f",
+    "type": "technology",
+    "date": "2026-11-09T15:26:16Z",
+    "title": "Clearer event scheduling",
+    "description": "Distinguished events with unverified hours from confirmed timed sessions."
+  },
+  {
+    "id": "history:tech:557bd762740c8cf4e131f5c4abdc127111b06ed5",
+    "type": "technology",
+    "date": "2026-11-09T15:23:12Z",
+    "title": "Expanded anytime destinations",
+    "description": "Added more independent shops, games and activities that can be explored without a scheduled event."
+  },
+  {
+    "id": "history:add:9a3cbe03275e7f08afabf1b4768e0ce622e2cb6a:fluid-art-plano-nov-09-2026",
+    "type": "added",
+    "date": "2026-11-09T15:19:34Z",
+    "title": "Fluid Art Workshops",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/calendar/day/2026/11/9"
+  },
+  {
+    "id": "history:add:9a3cbe03275e7f08afabf1b4768e0ce622e2cb6a:mckinney-chestnut-farmers-2026-11-14",
+    "type": "added",
+    "date": "2026-11-09T15:19:34Z",
+    "title": "Chestnut Square Farmers Market",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "McKinney",
+    "url": "https://www.chestnutsquare.org/events-and-tours"
+  },
+  {
+    "id": "history:add:9a3cbe03275e7f08afabf1b4768e0ce622e2cb6a:mckinney-guided-art-2026-11-13",
+    "type": "added",
+    "date": "2026-11-09T15:19:34Z",
+    "title": "Guided Downtown Public Art Tour",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "McKinney",
+    "url": "https://www.visitmckinney.com/events/guided-art-tour-uxjm6dt3"
+  },
+  {
+    "id": "history:add:9a3cbe03275e7f08afabf1b4768e0ce622e2cb6a:mckinney-holiday-sale-2026",
+    "type": "added",
+    "date": "2026-11-09T15:19:34Z",
+    "title": "Downtown Holiday Decor Sale",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "McKinney",
+    "url": "https://www.visitmckinney.com/events/holiday-sale-fn3m269q"
+  },
+  {
+    "id": "history:add:9a3cbe03275e7f08afabf1b4768e0ce622e2cb6a:mckinney-millhouse-makers-2026-11-14",
+    "type": "added",
+    "date": "2026-11-09T15:19:34Z",
+    "title": "MillHouse Makers Market + Live Music",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "McKinney",
+    "url": "https://millhousefoundation.org/makers-market"
+  },
+  {
+    "id": "history:add:9a3cbe03275e7f08afabf1b4768e0ce622e2cb6a:plano-art-with-impact-2026",
+    "type": "added",
+    "date": "2026-11-09T15:19:34Z",
+    "title": "Art with Impact Exhibition",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/calendar/day/2026/11/11"
+  },
+  {
+    "id": "history:add:9a3cbe03275e7f08afabf1b4768e0ce622e2cb6a:plano-breaking-sound-barrier-2026-11-15",
+    "type": "added",
+    "date": "2026-11-09T15:19:34Z",
+    "title": "Breaking the Sound Barrier — Community Band",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/breaking-the-sound-barrier"
+  },
+  {
+    "id": "history:add:9a3cbe03275e7f08afabf1b4768e0ce622e2cb6a:plano-buskers-2026-11-13",
+    "type": "added",
+    "date": "2026-11-09T15:19:34Z",
+    "title": "2026 Busker's Showcase",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/mccall_plaza"
+  },
+  {
+    "id": "history:add:9a3cbe03275e7f08afabf1b4768e0ce622e2cb6a:plano-corey-breedlove-2026-11-14",
+    "type": "added",
+    "date": "2026-11-09T15:19:34Z",
+    "title": "Saturday Night Live Music: Corey Breedlove",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/the_boardwalk_at_granite_park_773"
+  },
+  {
+    "id": "history:add:9a3cbe03275e7f08afabf1b4768e0ce622e2cb6a:plano-downtown-dragons-2026-11-14",
+    "type": "added",
+    "date": "2026-11-09T15:19:34Z",
+    "title": "Downtown & Dragons",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/mccall_plaza"
+  },
+  {
+    "id": "history:add:9a3cbe03275e7f08afabf1b4768e0ce622e2cb6a:plano-farmers-market-2026-11-14",
+    "type": "added",
+    "date": "2026-11-09T15:19:34Z",
+    "title": "Plano Farmers Market",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/plano-farmers-market"
+  },
+  {
+    "id": "history:add:9a3cbe03275e7f08afabf1b4768e0ce622e2cb6a:plano-flags-of-honor-2026",
+    "type": "added",
+    "date": "2026-11-09T15:19:34Z",
+    "title": "Plano Flags of Honor",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/plano-flags-of-honor-2026"
+  },
+  {
+    "id": "history:add:9a3cbe03275e7f08afabf1b4768e0ce622e2cb6a:plano-harry-potter-play-2026-11-14",
+    "type": "added",
+    "date": "2026-11-09T15:19:34Z",
+    "title": "Harry Potter and the Cursed Child — Local Stage Production",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/calendar/day/2026/11/14"
+  },
+  {
+    "id": "history:add:9a3cbe03275e7f08afabf1b4768e0ce622e2cb6a:plano-legacywest-live-music-2026-11-14",
+    "type": "added",
+    "date": "2026-11-09T15:19:34Z",
+    "title": "Legacy West Free Live Music",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/calendar/day/2026/11/14"
+  },
+  {
+    "id": "history:add:9a3cbe03275e7f08afabf1b4768e0ce622e2cb6a:plano-neath-wreath-2026",
+    "type": "added",
+    "date": "2026-11-09T15:19:34Z",
+    "title": "'Neath the Wreath Gift Market",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/neath-the-wreath-holiday-gift-market-2026"
+  },
+  {
+    "id": "history:add:9a3cbe03275e7f08afabf1b4768e0ce622e2cb6a:plano-rodeo-barbie-market-2026-11-15",
+    "type": "added",
+    "date": "2026-11-09T15:19:34Z",
+    "title": "Rodeo Barbie Market",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/calendar/day/2026/11/15"
+  },
+  {
+    "id": "history:add:9a3cbe03275e7f08afabf1b4768e0ce622e2cb6a:plano-sunday-brunch-market-2026-11-15",
+    "type": "added",
+    "date": "2026-11-09T15:19:34Z",
+    "title": "Boardwalk Sunday Brunch Market",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/sunday-brunch-market-2026"
+  },
+  {
+    "id": "history:add:9a3cbe03275e7f08afabf1b4768e0ce622e2cb6a:vintage-pop-up-2026-11-13",
+    "type": "added",
+    "date": "2026-11-09T15:19:34Z",
+    "title": "Art of Entertaining Vintage Pop-Up",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "McKinney",
+    "url": "https://www.visitmckinney.com/events/the-art-of-entertaining-a-vintage-pop-up-with-wild-ember-design-awdo1uwo"
+  },
+  {
+    "id": "history:remove:9a3cbe03275e7f08afabf1b4768e0ce622e2cb6a:craft-guild-2026-11-08",
+    "type": "removed",
+    "date": "2026-11-09T15:19:34Z",
+    "title": "Craft Guild Fall Show & Sale",
+    "description": "Left the rolling event guide. This may reflect expiry, rescheduling or editorial cleanup; it is not a cancellation notice.",
+    "area": "Carrollton",
+    "url": "https://www.thecraftguild.org/showsandevents/"
+  },
+  {
+    "id": "history:remove:9a3cbe03275e7f08afabf1b4768e0ce622e2cb6a:greek-food-dallas-2026-11-08",
+    "type": "removed",
+    "date": "2026-11-09T15:19:34Z",
+    "title": "Greek Food Festival of Dallas",
+    "description": "Left the rolling event guide. This may reflect expiry, rescheduling or editorial cleanup; it is not a cancellation notice.",
+    "area": "Dallas",
+    "url": "https://greekfestivalofdallas.com/activities/"
+  },
+  {
+    "id": "history:remove:9a3cbe03275e7f08afabf1b4768e0ce622e2cb6a:romantic-grandeur-2026-11-08",
+    "type": "removed",
+    "date": "2026-11-09T15:19:34Z",
+    "title": "Tchaikovsky & Rachmaninoff Concert",
+    "description": "Left the rolling event guide. This may reflect expiry, rescheduling or editorial cleanup; it is not a cancellation notice.",
+    "area": "McKinney",
+    "url": "https://www.visitmckinney.com/events/tchaikovsky-and-rachmaninoff-a-night-of-romantic-grandeur-x9rvz90x"
+  },
+  {
+    "id": "history:remove:9a3cbe03275e7f08afabf1b4768e0ce622e2cb6a:st-martin-festival-2026-11-08",
+    "type": "removed",
+    "date": "2026-11-09T15:19:34Z",
+    "title": "St. Martin de Porres Fall Festival",
+    "description": "Left the rolling event guide. This may reflect expiry, rescheduling or editorial cleanup; it is not a cancellation notice.",
+    "area": "Prosper",
+    "url": "https://dfwcrafts.com/events/week/2026-11-08/"
+  },
+  {
+    "id": "history:tech:8791c003665983bb1c92c033ec13a2c045c6a484",
+    "type": "technology",
+    "date": "2026-11-08T21:05:24Z",
+    "title": "The ticket-stub redesign",
+    "description": "Added the Dallas skyline, local fonts, ticket-style cards, date navigation, calendar downloads and a mobile map switch."
+  },
+  {
+    "id": "history:add:7a291da97bf7f75acdbc6a2b49cd1cccb02eeea7:craft-guild-2026-11-08",
+    "type": "added",
+    "date": "2026-11-08T20:32:19Z",
+    "title": "Craft Guild Fall Show & Sale",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Carrollton",
+    "url": "https://www.thecraftguild.org/showsandevents/"
+  },
+  {
+    "id": "history:add:7a291da97bf7f75acdbc6a2b49cd1cccb02eeea7:greek-food-dallas-2026-11-08",
+    "type": "added",
+    "date": "2026-11-08T20:32:19Z",
+    "title": "Greek Food Festival of Dallas",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Dallas",
+    "url": "https://greekfestivalofdallas.com/activities/"
+  },
+  {
+    "id": "history:add:7a291da97bf7f75acdbc6a2b49cd1cccb02eeea7:mckinney-history-tour-2026-11-10",
+    "type": "added",
+    "date": "2026-11-08T20:32:19Z",
+    "title": "Historic Downtown McKinney Walking Tour",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "McKinney",
+    "url": "https://www.visitmckinney.com/events/guided-historic-walking-tour-6aipnxeg"
+  },
+  {
+    "id": "history:add:7a291da97bf7f75acdbc6a2b49cd1cccb02eeea7:meet-artists-2026-11-13",
+    "type": "added",
+    "date": "2026-11-08T20:32:19Z",
+    "title": "Meet the Artists",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "McKinney",
+    "url": "https://www.visitmckinney.com/events/meet-the-artists-1mgze5bs"
+  },
+  {
+    "id": "history:add:7a291da97bf7f75acdbc6a2b49cd1cccb02eeea7:romantic-grandeur-2026-11-08",
+    "type": "added",
+    "date": "2026-11-08T20:32:19Z",
+    "title": "Tchaikovsky & Rachmaninoff Concert",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "McKinney",
+    "url": "https://www.visitmckinney.com/events/tchaikovsky-and-rachmaninoff-a-night-of-romantic-grandeur-x9rvz90x"
+  },
+  {
+    "id": "history:add:7a291da97bf7f75acdbc6a2b49cd1cccb02eeea7:snowflake-bazaar-2026-11-14",
+    "type": "added",
+    "date": "2026-11-08T20:32:19Z",
+    "title": "Snowflake Bazaar",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/snowflake-bazaar-2026"
+  },
+  {
+    "id": "history:add:7a291da97bf7f75acdbc6a2b49cd1cccb02eeea7:st-martin-festival-2026-11-08",
+    "type": "added",
+    "date": "2026-11-08T20:32:19Z",
+    "title": "St. Martin de Porres Fall Festival",
+    "description": "Added to the upcoming seven-day activity radar.",
+    "area": "Prosper",
+    "url": "https://dfwcrafts.com/events/week/2026-11-08/"
+  },
+  {
+    "id": "history:tech:e6f5c4e79ec93d117bbbd70d693253bd13d3b078",
+    "type": "technology",
+    "date": "2026-11-08T20:27:43Z",
+    "title": "Restored event cards",
+    "description": "Fixed a JavaScript error that prevented event cards and the map from loading."
+  },
+  {
+    "id": "history:tech:08c2340270d7416cc74f80f27e0cd41369513a22",
+    "type": "technology",
+    "date": "2026-11-08T19:16:29Z",
+    "title": "Interactive event discovery",
+    "description": "Introduced event cards, an interactive map, browsing filters and permanent destination listings."
+  },
+  {
+    "id": "history:add:d8b313768202f3d68c0f4668ab842898c469f452:barking-project-2026-11-14",
+    "type": "added",
+    "date": "2026-11-08T19:15:22Z",
+    "title": "The Barking Project",
+    "description": "Included in the first published event collection.",
+    "area": "Dallas",
+    "url": "https://www.thebarkingproject.com/event"
+  },
+  {
+    "id": "history:add:d8b313768202f3d68c0f4668ab842898c469f452:get-lit-2026-11-14",
+    "type": "added",
+    "date": "2026-11-08T19:15:22Z",
+    "title": "Get Lit Book Fair",
+    "description": "Included in the first published event collection.",
+    "area": "Dallas",
+    "url": "https://reuniontower.com/get-lit-a-grown-up-bookfair/"
+  },
+  {
+    "id": "history:add:d8b313768202f3d68c0f4668ab842898c469f452:glass-tree-2026-11-12",
+    "type": "added",
+    "date": "2026-11-08T19:15:22Z",
+    "title": "Glass Fusing Workshop",
+    "description": "Included in the first published event collection.",
+    "area": "McKinney",
+    "url": "https://www.visitmckinney.com/events/glass-fusing-christmas-tree-cqtx0hy6"
+  },
+  {
+    "id": "history:add:d8b313768202f3d68c0f4668ab842898c469f452:greek-festival-2026-11-13",
+    "type": "added",
+    "date": "2026-11-08T19:15:22Z",
+    "title": "Fort Worth Greek Festival",
+    "description": "Included in the first published event collection.",
+    "area": "Fort Worth",
+    "url": "https://www.fortworthgreekfestival.com/"
+  },
+  {
+    "id": "history:add:d8b313768202f3d68c0f4668ab842898c469f452:mckinney-art-studio-tour-2026",
+    "type": "added",
+    "date": "2026-11-08T19:15:22Z",
+    "title": "McKinney Art Studio Tour",
+    "description": "Included in the first published event collection.",
+    "area": "McKinney",
+    "url": "https://www.mastmckinney.org/"
+  },
+  {
+    "id": "history:add:d8b313768202f3d68c0f4668ab842898c469f452:portal-pets-2026-11-14",
+    "type": "added",
+    "date": "2026-11-08T19:15:22Z",
+    "title": "Portal Pets",
+    "description": "Included in the first published event collection.",
+    "area": "Grapevine",
+    "url": "https://tickets.meowwolf.com/grapevine/events/portal-pets-11-14-2026/"
+  },
+  {
+    "id": "history:add:d8b313768202f3d68c0f4668ab842898c469f452:tony-stride-2026-11-13",
+    "type": "added",
+    "date": "2026-11-08T19:15:22Z",
+    "title": "Tony Stride Jazz Showcase",
+    "description": "Included in the first published event collection.",
+    "area": "McKinney",
+    "url": "https://www.visitmckinney.com/events/jazz-showcase-with-tony-stride-ut8libdo"
+  },
+  {
+    "id": "history:tech:77e6e3bed35d61203e1d52397fdcb9f3b427f847",
+    "type": "technology",
+    "date": "2026-11-08T19:14:55Z",
+    "title": "The first homepage",
+    "description": "Launched the website with its homepage published from the correct GitHub repository path."
   }
 ]
