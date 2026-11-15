@@ -1,5 +1,13 @@
 [
   {
+    "id": "tech:4d3d5fa1a22ce9275ee7262985d4fc3a021ab641",
+    "type": "technology",
+    "date": "2026-11-15T17:18:39+00:00",
+    "title": "Style separate How It Works page and changelog release artwork",
+    "description": "Website files updated: styles.css",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/4d3d5fa1a22ce9275ee7262985d4fc3a021ab641"
+  },
+  {
     "id": "tech:4991e0a4c0d897136a9cd0b5931d34c3b47d8cf2",
     "type": "technology",
     "date": "2026-11-15T16:54:31+00:00",
