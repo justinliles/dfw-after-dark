@@ -1,4 +1,4 @@
-# DFW After Dark — ChatGPT-curated site
+# Out & About DFW — ChatGPT-curated site
 
 A static, mobile-first DFW events guide: rolling seven-day events, interactive map, category and area filters, saved listings, ticket/organizer and directions links, and anytime destinations.
 
@@ -21,7 +21,7 @@ A static, mobile-first DFW events guide: rolling seven-day events, interactive m
 - Create or update a dated `editions/YYYY-MM-DD.md` written summary with source links and caveats, retaining history. The site itself reads `data/events.json` for live cards and map.
 - Commit via the **personal justinliles** GitHub account. Do not write to the Growthware account. Verify the commit exists and inspect Netlify deploy outcome where supported. If publishing fails, notify the user with the exact failed stage; still provide the day's researched radar in ChatGPT.
 
-## Design notes (v2)
+## Design notes (Out & About DFW brand refresh on v2)
 
 - Fonts (Big Shoulders Display, Hanken Grotesk) and Leaflet are self-hosted in `fonts/` and `vendor/`, so the page no longer depends on Google Fonts or unpkg.
 - The data contract is unchanged: the ChatGPT task keeps writing the same `events.json` / `places.json` fields.
@@ -32,3 +32,7 @@ A static, mobile-first DFW events guide: rolling seven-day events, interactive m
 ## Runtime details
 
 All data loads from local JSON; no backend or account logins. Leaflet tiles use a public CARTO/OSM tile service. Saved events persist only in local browser storage. The page hides events outside its rolling seven-day window. Map pins are only drawn when coordinates are present. External map tiles require internet access for visitors but **no credentials**.
+
+## Brand and domain
+
+The public-facing brand is **Out & About DFW** (tagline: **Less scrolling. More living.**). The canonical domain remains `https://dfwdaily.midnightmeta.dev/`. Keep GitHub repository `justinliles/dfw-after-dark`, the Netlify project `dfw-after-dark`, the existing saved-events localStorage key, and the daily ChatGPT events JSON publishing contract unchanged. This rebrand does not require environment variables.
