@@ -1,5 +1,13 @@
 [
   {
+    "id": "tech:4ee545eeee903c411bb7fc30bf5b244d040f2919",
+    "type": "technology",
+    "date": "2026-11-15T17:42:50+00:00",
+    "title": "Add Mood Finder to changelog.html navigation and discovery",
+    "description": "Website files updated: changelog.html",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/4ee545eeee903c411bb7fc30bf5b244d040f2919"
+  },
+  {
     "id": "tech:f300a60960f89f301d5ce26491f29ddf3a09f98e",
     "type": "technology",
     "date": "2026-11-15T17:42:41+00:00",
