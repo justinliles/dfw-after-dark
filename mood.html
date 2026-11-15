@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#102B36"><title>Mood Finder | Out &amp; About DFW</title>
+<meta name="description" content="Find what to do around DFW by mood, budget, date and neighborhood. Curated, real event recommendations. No account required.">
+<link rel="canonical" href="https://dfwdaily.midnightmeta.dev/mood.html"><meta property="og:title" content="Mood Finder | Out &amp; About DFW"><meta property="og:url" content="https://dfwdaily.midnightmeta.dev/mood.html">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="styles.css"></head>
+<body class="mood-page">
+<a class="skip" href="#mood-form">Skip to Mood Finder</a>
+<header class="top"><a class="brand" href="/" aria-label="Out &amp; About DFW home"><span class="brandmark">✳</span><span class="neon">Out &amp; About DFW</span></a>
+<nav class="site-nav" aria-label="Site navigation"><a href="/">Home</a><a href="/events.html">Events</a><a href="/search.html">Search</a><a href="/mood.html" aria-current="page">Mood Finder</a><a href="/how-it-works.html">How It Works</a><a href="/changelog.html">Changelog</a></nav></header>
+<main>
+<section class="mood-hero"><div class="wrap mood-hero-inner"><div>
+<p class="change-eyebrow">YOUR PLANS. YOUR VIBE.</p><h1>WHAT ARE YOU<br><span>IN THE MOOD FOR?</span></h1>
+<p class="mood-lede">Not sure where to go? Tell us what sounds good and we'll narrow this week's real DFW events into a handful worth considering.</p>
+<p class="mood-trust"><span aria-hidden="true">✦</span> Curated local listings. No account. No made-up recommendations.</p>
+</div><div class="mood-illustration" aria-hidden="true"><span>🎷</span><span>🎨</span><span>📚</span><span>🎲</span><strong>JUST<br>GO.</strong></div></div></section>
+<section class="wrap mood-main">
+<form id="mood-form" class="mood-form" autocomplete="off">
+<div class="mood-form-title"><div><p class="change-eyebrow">LET'S FIND YOUR THING</p><h2>Make it a good one.</h2></div><button class="mood-reset" id="reset-mood" type="reset">Start over ↺</button></div>
+<fieldset><legend><span class="mood-question">01</span> What's your vibe?</legend>
+<div class="mood-choices">
+<label><input type="radio" name="mood" value="surprise" checked><span>✦ <strong>Surprise me</strong><small>Anything interesting</small></span></label>
+<label><input type="radio" name="mood" value="music"><span>♫ <strong>Music &amp; shows</strong><small>Jazz, concerts, comedy</small></span></label>
+<label><input type="radio" name="mood" value="creative"><span>✎ <strong>Creative &amp; curious</strong><small>Art, books, workshops</small></span></label>
+<label><input type="radio" name="mood" value="play"><span>♟ <strong>Playful &amp; fun</strong><small>Games, activities, magic</small></span></label>
+<label><input type="radio" name="mood" value="explore"><span>⌖ <strong>Explore &amp; wander</strong><small>Markets, festivals, pets</small></span></label>
+</div></fieldset>
+<fieldset><legend><span class="mood-question">02</span> Who's coming?</legend><div class="mood-radio-row">
+<label><input type="radio" name="group" value="any" checked><span>Anyone</span></label>
+<label><input type="radio" name="group" value="couple"><span>Two people</span></label>
+<label><input type="radio" name="group" value="friends"><span>Friends</span></label>
+<label><input type="radio" name="group" value="family"><span>Family / group</span></label>
+<label><input type="radio" name="group" value="solo"><span>Just me</span></label>
+</div><p class="mood-hint">Group choice helps with suggestions; check organizer age and group requirements for individual events.</p></fieldset>
+<div class="mood-forms-grid"><div><label for="mood-day"><span class="mood-question">03</span> When?</label><select id="mood-day" name="day"><option value="all">Any day in the next seven</option></select></div>
+<div><label for="mood-area"><span class="mood-question">04</span> Where?</label><select id="mood-area" name="area"><option value="all">Anywhere in DFW</option></select></div>
+<div><label for="mood-budget"><span class="mood-question">05</span> Budget per person</label><select id="mood-budget" name="budget"><option value="any">Any budget</option><option value="free">Free only</option><option value="25">Up to $25</option><option value="50">Up to $50</option><option value="100">Up to $100</option></select></div>
+</div><p class="mood-hint">Budget filters exclude events with unclear prices. Listed admission may not include fees, parking or extras.</p>
+<div class="mood-submit-row"><button id="mood-submit" class="mood-go" type="submit">✦ Find my experiences →</button><span id="mood-loaded" role="status" aria-live="polite">Loading local event guide…</span></div>
+</form>
+<section class="mood-results" id="mood-results" aria-live="polite" aria-labelledby="mood-results-title" hidden>
+<div class="mood-results-head"><div><p class="change-eyebrow">PICKED FOR YOUR VIBE</p><h2 id="mood-results-title">Your shortlist.</h2><p id="mood-results-summary"></p></div><button type="button" id="mood-again" class="home-button">Find another mix ↻</button></div><div id="mood-cards" class="mood-cards"></div>
+<div class="mood-continue"><a href="/events.html">Browse every event →</a><a href="/search.html">Search something specific →</a></div>
+</section>
+</section>
+<section class="mood-bottom"><div class="wrap"><p class="change-eyebrow">HOW OUR MATCHES WORK</p><h2>REAL EVENTS.<br><span>RELEVANT PICKS.</span></h2><p>The Mood Finder scores the site's current verified event listings by your interests, date, place and advertised price. It's a lightweight recommendation tool, not live generative AI. It doesn't check real-time tickets or promise availability.</p><a href="/how-it-works.html">Learn how the site works →</a></div></section>
+</main>
+<footer class="foot"><div class="wrap credit-footer"><div><a class="neon small" href="/">Out &amp; About DFW</a><p>Less scrolling. More living.</p></div><div class="credit-links"><a href="/events.html">Events</a> · <a href="/search.html">Search</a> · <a href="/mood.html" aria-current="page">Mood Finder</a> · <a href="/how-it-works.html">How It Works</a> · <a href="/changelog.html">Changelog</a><p>Made by <a href="https://midnightmeta.dev/" target="_blank" rel="noopener noreferrer">Midnight Meta</a> with Vibe Coding Engineers <a href="https://justinliles.com/" target="_blank" rel="noopener noreferrer">Justin Liles</a> and <a href="https://nayrasalamanca.com/" target="_blank" rel="noopener noreferrer">Nayra Salamanca</a>.</p></div></div></footer>
+<script src="mood.js" defer></script></body></html>
