@@ -1,5 +1,13 @@
 [
   {
+    "id": "tech:be07f4befeab59b4e60e2780518734c8e6c0e338",
+    "type": "technology",
+    "date": "2026-11-15T17:20:07+00:00",
+    "title": "Add How It Works to navigation and footer",
+    "description": "Website files updated: changelog.html",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/be07f4befeab59b4e60e2780518734c8e6c0e338"
+  },
+  {
     "id": "tech:d211922a9d970f8d8bd5467542c82481d0ac29c0",
     "type": "technology",
     "date": "2026-11-15T17:19:49+00:00",
