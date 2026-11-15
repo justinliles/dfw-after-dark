@@ -630,3 +630,17 @@ h2{font-family:var(--display);font-weight:800;text-transform:uppercase;font-size
 .mood-bottom a{color:var(--amber);text-decoration:underline;text-underline-offset:4px;font-weight:800}
 @media(max-width:940px){.mood-choices{grid-template-columns:repeat(3,minmax(0,1fr))}.mood-hero-inner{grid-template-columns:1fr}.mood-illustration{display:none}}
 @media(max-width:620px){.mood-choices{grid-template-columns:repeat(2,minmax(0,1fr))}.mood-forms-grid{grid-template-columns:1fr}.mood-form-title{align-items:start;flex-direction:column}.mood-result-card{grid-template-columns:59px 1fr}.mood-result-number{font-size:34px}.mood-result-main{padding:18px}.mood-results-head{align-items:start;flex-direction:column}.mood-hero{padding:58px 0}.mood-choices label>span{min-height:128px}}
+
+
+/* Entry points for Mood Finder */
+.mood-invite{padding-top:40px;padding-bottom:42px}
+.mood-invite-inner{border:1px solid var(--line);border-radius:23px;padding:clamp(24px,5vw,48px);background:radial-gradient(550px 350px at 85% 10%,rgba(255,130,102,.15),transparent),var(--night-2);display:flex;justify-content:space-between;align-items:center;gap:35px}
+.mood-invite h2{font-size:clamp(43px,6vw,72px)}
+.mood-invite p:not(.change-eyebrow){color:var(--mist);line-height:1.6;max-width:590px;margin-top:14px}
+.mood-invite .home-button.primary{flex:none;margin-top:0}
+.mood-how-callout{display:flex;align-items:center;justify-content:space-between;gap:28px;padding-block:60px}
+.mood-how-callout h2{font-size:clamp(44px,6vw,75px)}
+.mood-how-callout p:not(.change-eyebrow){color:var(--mist);line-height:1.65;margin-top:14px;max-width:720px}
+.mood-how-callout .home-button{flex:none;margin:0}
+.events-mood-link{display:inline-block;margin-top:12px;color:var(--amber);font-size:15px;font-weight:850;text-decoration:underline;text-underline-offset:4px}
+@media(max-width:750px){.mood-invite-inner,.mood-how-callout{flex-direction:column;align-items:flex-start}.mood-invite .home-button.primary,.mood-how-callout .home-button{align-self:stretch}}
