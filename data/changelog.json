@@ -1,0 +1,18 @@
+[
+  {
+    "id": "tech-changelog-introduction-2026-11-15",
+    "type": "technology",
+    "date": "2026-11-15T10:00:00-06:00",
+    "title": "Changelog and team credits",
+    "description": "Launched a public change history for event additions, removals and website improvements, with Midnight Meta, Justin Liles and Nayra Salamanca credits.",
+    "commitUrl": null
+  },
+  {
+    "id": "tech-out-about-brand-2026-11-15",
+    "type": "technology",
+    "date": "2026-11-15T09:32:00-06:00",
+    "title": "A new name, a brighter look",
+    "description": "Rebranded DFW After Dark as Out & About DFW with warm coral, deep teal, cream and gold, while keeping the same domain and seven-day event radar.",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/98ec83577bfec98cb1c36c6cb39224bc778d1fd7"
+  }
+]
