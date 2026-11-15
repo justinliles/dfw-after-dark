@@ -796,6 +796,13 @@
     "url": "https://wallsofclaymckinney.com/events/"
   },
   {
+    "id": "tech-how-it-works-guide-2026-11-15",
+    "type": "technology",
+    "date": "2026-11-15T11:05:00-06:00",
+    "title": "How It Works — a new visitor guide",
+    "description": "Added a dedicated, easy-to-follow page explaining how to discover, browse, search, save and explore events, plus frequently asked questions. The changelog now features a new visual recap of the homepage, event directory, search and Lucky updates."
+  },
+  {
     "id": "history:add:908477de33ae45222b77bd76cf00129052abda99:addison-elephant-man-2026-11-20",
     "type": "added",
     "date": "2026-11-14T15:51:48Z",
