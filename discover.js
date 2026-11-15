@@ -41,9 +41,10 @@ function search(){
  const input=q('#query');if(!input)return;
  const date=q('#search-date'),category=q('#search-category'),results=q('#search-list'),pagination=q('#search-pagination'),count=q('#result-count');
  const params=new URLSearchParams(location.search);input.value=params.get('q')||'';
- const days=new Map();
- for(const e of events){const k=dateKey(e.start);if(!days.has(k))days.set(k,fmt(e.start,{weekday:'short',month:'short',day:'numeric'}))}
- [...days].sort(([a],[b])=>a.localeCompare(b)).forEach(([k,label])=>date.insertAdjacentHTML('beforeend','<option value="'+escape(k)+'">'+escape(label)+'</option>'));
+ const days=[];
+ const todayLocal=new Date(today+'T12:00:00-06:00');
+ for(let i=0;i<7;i++){const d=new Date(todayLocal);d.setUTCDate(d.getUTCDate()+i);days.push([key(d),fmt(d,{weekday:'short',month:'short',day:'numeric'})])}
+ days.forEach(([k,label])=>date.insertAdjacentHTML('beforeend','<option value="'+escape(k)+'">'+escape(label)+'</option>'));
  [...new Set(events.map(e=>e.category))].filter(Boolean).sort().forEach(c=>category.insertAdjacentHTML('beforeend','<option value="'+escape(c)+'">'+escape(c)+'</option>'));
  let page=1;const SIZE=12;
  const matches=()=>{const terms=input.value.toLowerCase().trim().split(/\s+/).filter(Boolean);return events.filter(e=>
