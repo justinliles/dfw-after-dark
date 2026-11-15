@@ -1,4 +1,4 @@
-/* DFW After Dark
+/* Out & About DFW
    Reads data/events.json and data/places.json (schema unchanged) and renders a rolling 7-day guide.
    Add ?preview=YYYY-MM-DD (or YYYY-MM-DDTHH:mm) to the URL to see the page as of another date. */
 (() => {
