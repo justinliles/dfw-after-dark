@@ -1,5 +1,13 @@
 [
   {
+    "id": "tech:8fae83685a1746f88ef1545b1dd26a6aa0be820f",
+    "type": "technology",
+    "date": "2026-11-15T16:51:08+00:00",
+    "title": "Paginate full event directory at six listings per page",
+    "description": "Website files updated: app.js",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/8fae83685a1746f88ef1545b1dd26a6aa0be820f"
+  },
+  {
     "id": "tech:543720bf24f8be09bda33d69a8cbfcbd5910499b",
     "type": "technology",
     "date": "2026-11-15T16:28:06+00:00",
