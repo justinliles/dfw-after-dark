@@ -836,6 +836,13 @@
     "url": "https://wallsofclaymckinney.com/events/"
   },
   {
+    "id": "feature-mood-finder-2026-11-15",
+    "type": "technology",
+    "date": "2026-11-15T11:17:00-06:00",
+    "title": "Mood Finder: discover plans that match your vibe",
+    "description": "Introduced a guided Mood Finder with music, creative, playful and exploring interests. Choose your group, date, DFW area and advertised budget to get a ranked shortlist of real upcoming events with reasons and organizer links. It works from the existing curated event feed without new accounts, APIs or keys."
+  },
+  {
     "id": "tech-how-it-works-guide-2026-11-15",
     "type": "technology",
     "date": "2026-11-15T11:05:00-06:00",
