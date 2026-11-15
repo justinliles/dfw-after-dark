@@ -15,14 +15,23 @@
     const kind = item.type === 'added' || item.type === 'removed' ? item.type : 'technology';
     const name = esc(item.title || item.name || 'Site update');
     const detail = esc(item.description || (kind === 'added' ? 'Added to the upcoming events feed' : kind === 'removed' ? 'Removed from the rolling event feed; not necessarily cancelled' : 'Website improvement'));
-    const source = okayUrl(item.url) ? '<a class="change-source" href="'+esc(item.url)+'" target="_blank" rel="noopener noreferrer">Organizer / source ↗</a>' : '';
-    const commit = okayUrl(item.commitUrl) ? '<a class="change-source" href="'+esc(item.commitUrl)+'" target="_blank" rel="noopener noreferrer">View change ↗</a>' : '';
     const label = kind === 'added' ? 'Event added' : kind === 'removed' ? 'Event removed' : 'Technology update';
-    return '<article class="change-item change-'+kind+'"><span class="change-kind">'+label+'</span><div><h3>'+name+'</h3><p>'+detail+'</p><div class="change-details"><span>'+esc(time(item.date))+'</span>'+(item.area?'<span>'+esc(item.area)+'</span>':'')+source+commit+'</div></div></article>';
+    return '<article class="change-item change-'+kind+'"><span class="change-kind">'+label+'</span><div><h3>'+name+'</h3><p>'+detail+'</p><div class="change-details"><span>'+esc(time(item.date))+'</span>'+(item.area?'<span>'+esc(item.area)+'</span>':'')+'</div></div></article>';
   };
   function draw() {
     const visible = entries.filter(e => current === 'all' || e.type === current);
-    list.innerHTML = visible.length ? visible.map(row).join('') : '<div class="change-message">No updates in this category yet. Check another filter.</div>';
+    if (!visible.length) list.innerHTML = '<div class="change-message">No updates in this category yet. Check another filter.</div>';
+    else {
+      const groups = new Map();
+      for (const item of visible) {
+        const date = time(item.date);
+        if (!groups.has(date)) groups.set(date, []);
+        groups.get(date).push(item);
+      }
+      list.innerHTML = [...groups].map(([date, items]) =>
+        '<section class="change-day"><h3 class="change-day-heading">'+esc(date)+' <span>'+items.length+' updates</span></h3><div class="change-day-items">'+items.map(row).join('')+'</div></section>'
+      ).join('');
+    }
     buttons.forEach(b => b.setAttribute('aria-pressed', String(b.dataset.filter === current)));
   }
   buttons.forEach(b => b.addEventListener('click', () => { current = b.dataset.filter; draw(); }));
