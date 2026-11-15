@@ -127,25 +127,31 @@
   /* ---------- hero ---------- */
   function renderHero() {
     const el = $('heroNext');
-    // A date-only listing must not be advertised as an active live session.
-    const next = state.events.find((e) => !e.timeTBD && e._start > now()) || state.events.find((e) => !e.timeTBD) || state.events[0];
-    const n = state.events.length;
-    $('pulse').textContent = n
-      ? `${n} verified ${n === 1 ? 'plan' : 'plans'} in the next seven days.`
-      : 'New plans are on the way.';
+    // Always use the same filters as the event list, including the selected date.
+    const visible = filtered().slice().sort((a, b) => a._start - b._start);
+    const next = visible.find((e) => !e.timeTBD && e._start > now())
+      || visible.find((e) => !e.timeTBD)
+      || visible[0];
+    const n = visible.length;
+    const selected = state.day !== 'all' ? dayTitle(state.day) : null;
+    $('pulse').textContent = selected
+      ? `${n} ${n === 1 ? 'plan' : 'plans'} for ${selected.sub}.`
+      : (n ? `${n} verified ${n === 1 ? 'plan' : 'plans'} in the next seven days.` : 'New plans are on the way.');
     if (!next) {
-      el.innerHTML = `<div class="quiet"><strong>The calendar is quiet right now.</strong><p>Check back soon, or start with the <a href="#anytime-title">spots that are open any day</a>.</p></div>`;
+      const label = selected ? `No matches for ${esc(selected.sub)}.` : 'The calendar is quiet right now.';
+      el.innerHTML = `<div class="quiet"><strong>${label}</strong><p>Choose another day or try clearing your filters.</p></div>`;
       return;
     }
     const today = keyOf(now());
-    const live = next._start <= now();
+    const live = !selected && next._start <= now() && next._end >= now();
     let when;
     if (next.timeTBD) when = 'Hours: See organizer';
+    else if (selected) when = `${selected.title} · ${F.time.format(next._start)}`;
     else if (live) when = 'Happening now';
     else if (next._first === today) when = `Today at ${F.time.format(next._start)}`;
     else if (next._first === addDays(today, 1)) when = `Tomorrow at ${F.time.format(next._start)}`;
     else when = `${F.wdLong.format(next._start)} at ${F.time.format(next._start)}`;
-    el.innerHTML = `<div class="nexthead"><strong>Next up</strong><span>${esc(when)}</span></div>${ticket(next, true)}`;
+    el.innerHTML = `<div class="nexthead"><strong>${selected ? 'Selected day' : 'Next up'}</strong><span>${esc(when)}</span></div>${ticket(next, true)}`;
   }
 
   /* ---------- day bar ---------- */
@@ -228,7 +234,7 @@
 
   /* ---------- list ---------- */
   function renderList() {
-    const items = filtered().sort((a, b) => a._start - b._start);
+    const items = filtered().slice().sort((a, b) => a._start - b._start);
     const cards = $('cards');
     const empty = $('empty');
     cards.setAttribute('aria-busy', 'false');
@@ -360,12 +366,15 @@
 
   /* ---------- render + events ---------- */
   function render() { renderHero(); renderDays(); renderChips(); renderSavedBadge(); renderList(); }
-  function refreshListOnly() { renderDays(); renderChips(); renderSavedBadge(); renderList(); }
+  function refreshListOnly() { renderHero(); renderDays(); renderChips(); renderSavedBadge(); renderList(); }
 
   function bind() {
     $('days').addEventListener('click', (ev) => {
       const b = ev.target.closest('[data-day]'); if (!b) return;
       state.day = b.dataset.day; refreshListOnly();
+      // Keep the selected day's actual listings in view on mobile and desktop.
+      if (state.day !== 'all') $('radar-title').textContent = `Plans for ${dayTitle(state.day).sub}`;
+      else $('radar-title').textContent = 'The next seven days';
     });
     $('chips').addEventListener('click', (ev) => {
       const b = ev.target.closest('[data-cat]'); if (!b) return;
