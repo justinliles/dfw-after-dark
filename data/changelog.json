@@ -1,5 +1,13 @@
 [
   {
+    "id": "tech:252c6be4dd95ec49aa5603dcd8869cc86e56f600",
+    "type": "technology",
+    "date": "2026-11-15T17:44:34+00:00",
+    "title": "Keep Mood Finder and other navigation links usable on mobile",
+    "description": "Website files updated: styles.css",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/252c6be4dd95ec49aa5603dcd8869cc86e56f600"
+  },
+  {
     "id": "tech:bbc6d8a921e42f2c27ef9e0538cdd1f718b5d569",
     "type": "technology",
     "date": "2026-11-15T17:43:08+00:00",
