@@ -1,5 +1,13 @@
 [
   {
+    "id": "tech:0c93afcfef12116d4b05b7b5b6932b1c37b48537",
+    "type": "technology",
+    "date": "2026-11-15T16:27:56+00:00",
+    "title": "Present changelog as dated descriptions without GitHub links",
+    "description": "Website files updated: changelog.js",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/0c93afcfef12116d4b05b7b5b6932b1c37b48537"
+  },
+  {
     "id": "tech:6b5e9e346ead8c56bbe1ceddcf0354555bcdd879",
     "type": "technology",
     "date": "2026-11-15T15:59:15+00:00",
