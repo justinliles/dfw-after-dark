@@ -1,0 +1,118 @@
+name: Backfill the public changelog from inception
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/backfill-out-about.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  reconstruct:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+          persist-credentials: true
+      - name: Rebuild historical changes from real event snapshots
+        run: |
+          from pathlib import Path
+          import json, subprocess
+          
+          def git(*args):
+              result = subprocess.run(['git', *args], capture_output=True, text=True, check=False)
+              if result.returncode != 0:
+                  raise RuntimeError('Git history read failed: ' + ' '.join(args))
+              return result.stdout.strip()
+          
+          path = Path('data/changelog.json')
+          existing = json.loads(path.read_text()) if path.exists() else []
+          if not isinstance(existing, list):
+              raise ValueError('Changelog must be an array')
+          
+          revisions = git('log','--reverse','--format=%H','--','data/events.json').splitlines()
+          if not revisions:
+              raise ValueError('No historical event snapshots found')
+          history = []
+          previous = {}
+          summary = []
+          for revision in revisions:
+              data = json.loads(git('show', f'{revision}:data/events.json'))
+              if not isinstance(data, list):
+                  raise ValueError('Event snapshot is not a list: '+ revision)
+              current = {str(e['id']):e for e in data if isinstance(e, dict) and e.get('id')}
+              when = git('show','-s','--format=%cI', revision)
+              added = sorted(current.keys() - previous.keys())
+              removed = sorted(previous.keys() - current.keys())
+              for key in added:
+                  e=current[key]
+                  history.append({
+                      'id':f'history:add:{revision}:{key}',
+                      'type':'added', 'date':when, 'title':e.get('title','Event added'),
+                      'description': 'Included in the first published event collection.' if not summary else 'Added to the upcoming seven-day events guide.',
+                      'area':e.get('area'), 'url':e.get('url')
+                  })
+              for key in removed:
+                  e=previous[key]
+                  history.append({
+                      'id':f'history:remove:{revision}:{key}',
+                      'type':'removed','date':when,'title':e.get('title','Event removed'),
+                      'description':'No longer included in the rolling event guide. The listing may have expired or been revised; this is not a cancellation notice.',
+                      'area':e.get('area'), 'url':e.get('url')
+                  })
+              summary.append((revision[:7],len(added),len(removed),len(current)))
+              previous=current
+          
+          technology = [
+          ('77e6e3bed35d61203e1d52397fdcb9f3b427f847','The first homepage','Launched the website with its homepage published from the correct GitHub repository path.'),
+          ('08c2340270d7416cc74f80f27e0cd41369513a22','Interactive event discovery','Introduced event cards, an interactive map, browsing filters and permanent destination listings.'),
+          ('e6f5c4e79ec93d117bbbd70d693253bd13d3b078','Restored event cards','Fixed a JavaScript error that prevented event cards and the map from loading.'),
+          ('8791c003665983bb1c92c033ec13a2c045c6a484','The ticket-stub redesign','Added the Dallas skyline design, self-hosted fonts, tickets, date navigation, calendar downloads and responsive map controls.'),
+          ('8d4455af275772babf425dc484904adb38041f3f','Clearer event scheduling','Distinguished events with unknown hours from confirmed timed sessions.'),
+          ('557bd762740c8cf4e131f5c4abdc127111b06ed5','Expanded anytime destinations','Added more independent shops, places to play and all-ages activities that can be visited without a scheduled event.'),
+          ('bba9a310d49345fab907140162e18c4dbf176b48','Comedy and improv options','Added local improv as an anytime option, with guidance to check show age ratings.'),
+          ('9a2987d5379fd558fa8cb98bcd478891b265d992','More accurate day filtering','Updated the featured card and list together so selecting a day shows only events relevant to that day.'),
+          ('98ec83577bfec98cb1c36c6cb39224bc778d1fd7','Meet Out & About DFW','Rebranded DFW After Dark with a welcoming teal, coral, cream and gold palette, keeping the same domain and discovery features.'),
+          ('2dd5cddd3a83f7e5812b0e13c6f2479dad66f1b0','Meet the builders','Added Midnight Meta and the Vibe Coding Engineers Justin Liles and Nayra Salamanca to the site credits.'),
+          ('9c6f0b7e2ac52ce1fe02ce4083b4a0fd7ddd2e75','The public changelog','Introduced a public timeline for updates to events, features and the experience.')
+          ]
+          for revision,title,description in technology:
+              when = git('show','-s','--format=%cI',revision)
+              history.append({'id':f'history:tech:{revision}','type':'technology','date':when,'title':title,'description':description})
+          
+          # Replace the initial manually-written seed entries with their source-grounded equivalents.
+          seed_ids={'tech-changelog-introduction-2026-11-15','tech-out-about-brand-2026-11-15'}
+          preserved = []
+          for row in existing:
+              if not isinstance(row,dict) or row.get('id') in seed_ids:
+                  continue
+              row=dict(row)
+              row.pop('commitUrl',None)
+              preserved.append(row)
+          seen = {row.get('id') for row in history}
+          all_rows = history + [row for row in preserved if row.get('id') not in seen]
+          all_rows.sort(key=lambda e:(e.get('date') or '',e.get('id') or ''),reverse=True)
+          assert len({r['id'] for r in all_rows})==len(all_rows)
+          assert all(r['type'] in {'added','removed','technology'} for r in all_rows)
+          path.write_text(json.dumps(all_rows,ensure_ascii=False,indent=2)+'\n')
+          print('HISTORY SNAPSHOTS:',len(summary))
+          print('INITIAL REVISION:',revisions[0][:7])
+          print('TOTAL RECORDS:',len(all_rows))
+          print('ADDITIONS:',sum(x['type']=='added' for x in all_rows))
+          print('REMOVALS:',sum(x['type']=='removed' for x in all_rows))
+          print('TECHNOLOGY:',sum(x['type']=='technology' for x in all_rows))
+          print('DAILY HISTORY:',summary)
+      - name: Commit historical change entries
+        run: |
+          if git diff --quiet -- data/changelog.json; then
+            echo "History already backfilled"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/changelog.json
+          git commit -m "Backfill dated events and site history from inception"
+          git pull --rebase origin main
+          git push origin HEAD:main
