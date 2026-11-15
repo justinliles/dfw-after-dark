@@ -36,3 +36,11 @@ All data loads from local JSON; no backend or account logins. Leaflet tiles use 
 ## Brand and domain
 
 The public-facing brand is **Out & About DFW** (tagline: **Less scrolling. More living.**). The canonical domain remains `https://dfwdaily.midnightmeta.dev/`. Keep GitHub repository `justinliles/dfw-after-dark`, the Netlify project `dfw-after-dark`, the existing saved-events localStorage key, and the daily ChatGPT events JSON publishing contract unchanged. This rebrand does not require environment variables.
+
+## Discovery UX (November 15, 2026)
+
+- `index.html` is a concise landing page: up to four curated event highlights, a search box and an "I'm Feeling Lucky" surprise.
+- `events.html` contains the complete seven-day directory with day/category/area filters, a map and six cards per page. Pagination affects visible cards, not the filtered map data.
+- `search.html` is a separate text-first, Google-style search experience. `discover.js` reads the same GitHub-published `data/events.json` file and returns compact clickable titles, dates, venues and descriptions, 12 per results page.
+- "I'm Feeling Lucky" uses only events actually found in the live feed and displays an event choice rather than inventing one. Homepage lucky uses the week's featured/curated listings; search lucky honors matching results when possible.
+- The daily ChatGPT research and publishing contract, data files, domain and no-API-key architecture are unchanged.
