@@ -401,3 +401,11 @@ h2{font-family:var(--display);font-weight:800;text-transform:uppercase;font-size
 
 /* Changelog readability: keep historical counts aligned. */
 .change-stat strong{font-variant-numeric:tabular-nums}
+
+/* Changelog is arranged as dated editorial chapters, not GitHub links. */
+.change-list{gap:38px}
+.change-day{display:grid;gap:13px}
+.change-day-heading{font-family:var(--display);font-size:clamp(28px,4vw,43px);font-weight:800;letter-spacing:.02em;text-transform:uppercase;border-bottom:1px solid var(--line);padding-bottom:10px;display:flex;align-items:baseline;justify-content:space-between;gap:12px}
+.change-day-heading span{font:600 13px var(--body);color:var(--mist);letter-spacing:0;text-transform:none}
+.change-day-items{display:grid;gap:10px}
+.change-day .change-details{font-size:12px;opacity:.88}
