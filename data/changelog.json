@@ -1,5 +1,13 @@
 [
   {
+    "id": "tech:c5e1a25112d0a81b64a747f213dbc14644ca5df7",
+    "type": "technology",
+    "date": "2026-11-15T17:21:21+00:00",
+    "title": "Add styled update poster graphic to changelog assets",
+    "description": "Website files updated: assets/newest-updates.svg",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/c5e1a25112d0a81b64a747f213dbc14644ca5df7"
+  },
+  {
     "id": "tech:be07f4befeab59b4e60e2780518734c8e6c0e338",
     "type": "technology",
     "date": "2026-11-15T17:20:07+00:00",
