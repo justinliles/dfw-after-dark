@@ -1,5 +1,13 @@
 [
   {
+    "id": "tech:a96f7e65257833825fbb82092b53a197537badb8",
+    "type": "technology",
+    "date": "2026-11-15T16:51:42+00:00",
+    "title": "Replace endless-scroll homepage with curated shortlist and lucky discovery",
+    "description": "Website files updated: index.html",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/a96f7e65257833825fbb82092b53a197537badb8"
+  },
+  {
     "id": "tech:8fae83685a1746f88ef1545b1dd26a6aa0be820f",
     "type": "technology",
     "date": "2026-11-15T16:51:08+00:00",
