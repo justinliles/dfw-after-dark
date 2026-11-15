@@ -1,0 +1,100 @@
+name: Record Out & About DFW changes
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'data/events.json'
+      - 'index.html'
+      - 'styles.css'
+      - 'app.js'
+      - 'changelog.html'
+      - 'changelog.js'
+      - 'netlify.toml'
+      - 'assets/**'
+      - 'vendor/**'
+      - 'fonts/**'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+concurrency:
+  group: out-about-dfw-changelog-main
+  cancel-in-progress: false
+
+jobs:
+  record:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+          persist-credentials: true
+      - name: Record additions, removals and technology changes
+        env:
+          BEFORE: ${{ github.event.before }}
+          AFTER: ${{ github.sha }}
+          EVENT_NAME: ${{ github.event_name }}
+        run: |
+          python - <<'PY'
+          import json,os,subprocess,datetime,pathlib,re
+          path=pathlib.Path('data/changelog.json')
+          try: rows=json.loads(path.read_text())
+          except (ValueError,FileNotFoundError): rows=[]
+          before=os.environ.get('BEFORE','')
+          after=os.environ.get('AFTER','')
+          if os.environ.get('EVENT_NAME')!='push' or not before or set(before)=={'0'}:
+              print('No reliable before/after pair; no inferred changes recorded')
+              raise SystemExit(0)
+          def git(*args):
+              return subprocess.run(['git',*args],capture_output=True,text=True)
+          changed=git('diff','--name-only',before,after)
+          if changed.returncode: raise SystemExit('Cannot compare revisions; abort changelog without guessing')
+          files=set(changed.stdout.splitlines())
+          def load(revision):
+              r=git('show',f'{revision}:data/events.json')
+              if r.returncode: return None
+              try: return json.loads(r.stdout)
+              except ValueError: return None
+          previous=load(before)
+          current=load(after)
+          date=datetime.datetime.now(datetime.timezone.utc).isoformat(timespec='seconds')
+          updates=[]
+          if 'data/events.json' in files:
+              if not isinstance(previous,list) or not isinstance(current,list):
+                  raise SystemExit('Cannot verify both event feed snapshots: no additions/removals inferred')
+              prior={x.get('id'):x for x in previous if isinstance(x,dict) and x.get('id')}
+              latest={x.get('id'):x for x in current if isinstance(x,dict) and x.get('id')}
+              for key in sorted(latest.keys()-prior.keys()):
+                  e=latest[key]
+                  updates.append(dict(id=f'added:{after}:{key}',type='added',date=date,title=e.get('title','Unnamed event'),description='Added to the upcoming events feed',area=e.get('area'),url=e.get('url'),commitUrl=f'https://github.com/justinliles/dfw-after-dark/commit/{after}'))
+              for key in sorted(prior.keys()-latest.keys()):
+                  e=prior[key]
+                  updates.append(dict(id=f'removed:{after}:{key}',type='removed',date=date,title=e.get('title','Unnamed event'),description='Removed from the rolling event feed; may have expired or been rescheduled. Not a cancellation notice.',area=e.get('area'),url=e.get('url'),commitUrl=f'https://github.com/justinliles/dfw-after-dark/commit/{after}'))
+          sitefiles={'index.html','styles.css','app.js','changelog.html','changelog.js','netlify.toml'}
+          tech=sorted(x for x in files if x in sitefiles or x.startswith(('assets/','vendor/','fonts/')))
+          if tech:
+              subject=git('show','-s','--format=%s',after).stdout.strip() or 'Website update'
+              updates.append(dict(id=f'tech:{after}',type='technology',date=date,title=subject[:120],description='Website files updated: '+', '.join(tech[:12])+(' and more' if len(tech)>12 else ''),commitUrl=f'https://github.com/justinliles/dfw-after-dark/commit/{after}'))
+          seen={x.get('id') for x in rows if isinstance(x,dict)}
+          entries=[x for x in updates if x['id'] not in seen]
+          if not entries:
+              print('No new events or site updates for this commit')
+              raise SystemExit(0)
+          rows=entries+rows
+          path.parent.mkdir(parents=True,exist_ok=True)
+          path.write_text(json.dumps(rows,ensure_ascii=False,indent=2)+'\n')
+          print(f'New changelog records: {len(entries)}; preserved existing: {len(rows)-len(entries)}')
+          PY
+      - name: Commit recorded changes
+        run: |
+          if git diff --quiet -- data/changelog.json; then
+            echo "No new change history"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/changelog.json
+          git commit -m "Record event and technology changes in public changelog"
+          git pull --rebase origin main
+          git push origin HEAD:main
