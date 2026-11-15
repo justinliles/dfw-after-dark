@@ -1,5 +1,13 @@
 [
   {
+    "id": "tech:4991e0a4c0d897136a9cd0b5931d34c3b47d8cf2",
+    "type": "technology",
+    "date": "2026-11-15T16:54:31+00:00",
+    "title": "Link new search and events pages throughout site navigation",
+    "description": "Website files updated: changelog.html",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/4991e0a4c0d897136a9cd0b5931d34c3b47d8cf2"
+  },
+  {
     "id": "tech:20d3e7be6391f3c7cfa0e9896b793cc451e82d49",
     "type": "technology",
     "date": "2026-11-15T16:54:07+00:00",
