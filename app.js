@@ -22,7 +22,7 @@
   const state = {
     events: [], places: [],
     day: 'all', category: 'all', area: 'all', q: '', savedOnly: false,
-    saved: loadSaves()
+    page: 1, pageSize: 6, saved: loadSaves()
   };
 
   const $ = (id) => document.getElementById(id);
@@ -234,11 +234,16 @@
 
   /* ---------- list ---------- */
   function renderList() {
-    const items = filtered().slice().sort((a, b) => a._start - b._start);
+    const allItems = filtered().slice().sort((a, b) => a._start - b._start);
+    const totalPages = Math.max(1, Math.ceil(allItems.length / state.pageSize));
+    state.page = Math.min(state.page, totalPages);
+    const items = allItems.slice((state.page - 1) * state.pageSize, state.page * state.pageSize);
     const cards = $('cards');
     const empty = $('empty');
     cards.setAttribute('aria-busy', 'false');
-    $('count').textContent = `${items.length} ${items.length === 1 ? 'event' : 'events'} shown`;
+    $('count').textContent = `Showing ${items.length} of ${allItems.length} events`; 
+    const paging = $('pagination');
+    if (paging) paging.innerHTML = allItems.length > state.pageSize ? `<button type="button" data-page="prev" ${state.page === 1 ? 'disabled' : ''}>← Previous</button><span>Page ${state.page} of ${totalPages} · ${allItems.length} events</span><button type="button" data-page="next" ${state.page === totalPages ? 'disabled' : ''}>Next →</button>` : '';
 
     if (!items.length) {
       cards.innerHTML = '';
@@ -260,7 +265,7 @@
         return `<section class="group" aria-label="${esc(title)}, ${esc(sub)}"><div class="grouphead"><h3>${esc(title)}</h3><span>${esc(sub)} · ${list.length} ${list.length === 1 ? 'plan' : 'plans'}</span></div>${list.map((e) => ticket(e)).join('')}</section>`;
       }).join('');
     }
-    renderMap(items);
+    renderMap(allItems);
   }
 
   /* ---------- map ---------- */
@@ -366,9 +371,19 @@
 
   /* ---------- render + events ---------- */
   function render() { renderHero(); renderDays(); renderChips(); renderSavedBadge(); renderList(); }
-  function refreshListOnly() { renderHero(); renderDays(); renderChips(); renderSavedBadge(); renderList(); }
+  function refreshListOnly() { state.page = 1; renderHero(); renderDays(); renderChips(); renderSavedBadge(); renderList(); }
 
   function bind() {
+    $('pagination')?.addEventListener('click', ev => {
+      const target = ev.target.closest('[data-page]');
+      if (!target) return;
+      const next = state.page + (target.dataset.page === 'next' ? 1 : -1);
+      const max = Math.ceil(filtered().length / state.pageSize);
+      if (next < 1 || next > max) return;
+      state.page = next;
+      renderList();
+      document.getElementById('radar-title').scrollIntoView({behavior: 'auto',block: 'start'});
+    });
     $('days').addEventListener('click', (ev) => {
       const b = ev.target.closest('[data-day]'); if (!b) return;
       state.day = b.dataset.day; refreshListOnly();
