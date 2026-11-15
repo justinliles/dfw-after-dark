@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#102B36">
+  <title>Browse Events | Out & About DFW</title>
+  <meta name="description" content="Explore live music, local art, bookstores, markets, games, festivals and hidden gems across Dallas–Fort Worth. Good plans for friends, families, couples and curious explorers.">
+  <link rel="canonical" href="https://dfwdaily.midnightmeta.dev/events.html">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://dfwdaily.midnightmeta.dev/events.html">
+  <meta property="og:title" content="Out & About DFW">
+  <meta property="og:description" content="Find your next good thing. Curated local events, art, markets, music and places to explore across DFW.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="fonts/big-shoulders-display-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/hanken-grotesk-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="vendor/leaflet/leaflet.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-view="list">
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0 1 13 0c0 5.4-6.5 11-6.5 11z"/><circle cx="12" cy="10" r="2.3"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+    <symbol id="i-ticket" viewBox="0 0 24 24"><path d="M4 7h16v3a2 2 0 0 0 0 4v3H4v-3a2 2 0 0 0 0-4z"/><path d="M14 7.5v1.5M14 11.2v1.6M14 15v1.5"/></symbol>
+    <symbol id="i-heart" viewBox="0 0 24 24"><path d="M12 20s-7.5-4.6-7.5-10.2A4.3 4.3 0 0 1 12 7.3a4.3 4.3 0 0 1 7.5 2.5C19.5 15.4 12 20 12 20z"/></symbol>
+    <symbol id="i-cal" viewBox="0 0 24 24"><rect x="4" y="5" width="16" height="15" rx="2"/><path d="M4 10h16M9 3v4M15 3v4M12 13v4M10 15h4"/></symbol>
+    <symbol id="i-out" viewBox="0 0 24 24"><path d="M7 17 17 7M9 7h8v8"/></symbol>
+    <symbol id="i-nav" viewBox="0 0 24 24"><path d="M4 11.5 20 4l-7.5 16-2-6.5z"/></symbol>
+    <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4 4"/></symbol>
+    <symbol id="i-map" viewBox="0 0 24 24"><path d="M9 4 3 6v14l6-2 6 2 6-2V4l-6 2zM9 4v14M15 6v14"/></symbol>
+    <symbol id="i-list" viewBox="0 0 24 24"><path d="M9 6h11M9 12h11M9 18h11M4.5 6h.01M4.5 12h.01M4.5 18h.01"/></symbol>
+  </defs>
+</svg>
+
+<a class="skip" href="#explore">Skip to events</a>
+
+<header class="top">
+  <a class="brand" href="/" aria-label="Out & About DFW, home">
+    <svg class="brandmark" viewBox="0 0 32 32" aria-hidden="true"><g stroke="currentColor" stroke-width="3.2" stroke-linecap="round"><line x1="16" y1="16" x2="16" y2="5"/><line x1="16" y1="16" x2="25.5" y2="21.5"/><line x1="16" y1="16" x2="6.5" y2="21.5"/><line x1="16" y1="16" x2="16" y2="27"/><line x1="16" y1="16" x2="25.5" y2="10.5"/><line x1="16" y1="16" x2="6.5" y2="10.5"/></g></svg>
+    <span class="neon">Out & About DFW</span>
+  </a>
+  <nav class="site-nav" aria-label="Site navigation"><a href="/" >Home</a><a href="/events.html" aria-current="page">Events</a><a href="/search.html">Search</a><a href="/changelog.html">Changelog</a></nav>
+</header>
+
+<main id="top">
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="skyline" aria-hidden="true"></div>
+    <div class="hero-inner">
+      <div class="hero-copy">
+        <h1 id="hero-title">FIND YOUR<br>NEXT PLAN.</h1>
+        <p class="lede">Browse seven days of handpicked events. Choose a day, filter your favorites and see six plans at a time—no endless scrolling.</p>
+        <p class="pulse" id="pulse" aria-live="polite"></p>
+      </div>
+      <div class="hero-next" id="heroNext" aria-live="polite"></div>
+    </div>
+  </section>
+
+  <section id="explore" class="explore" aria-labelledby="radar-title">
+    <div class="daybar" role="group" aria-label="Choose a day">
+      <div class="days" id="days"></div>
+    </div>
+
+    <div class="wrap">
+      <div class="heading">
+        <h2 id="radar-title">The next seven days</h2>
+        <p class="range" id="period"></p>
+      </div>
+
+      <div class="filters">
+        <div class="chips" id="chips" role="group" aria-label="Filter by type"></div>
+        <div class="filterrow">
+          <label class="field search">
+            <svg class="ico" aria-hidden="true"><use href="#i-search"/></svg>
+            <span class="sr">Search events</span>
+            <input id="search" type="search" placeholder="Search events, venues, neighborhoods" autocomplete="off">
+          </label>
+          <label class="field">
+            <span class="sr">Area</span>
+            <select id="area"><option value="all">All of DFW</option></select>
+          </label>
+          <button id="savedToggle" class="toggle" type="button" aria-pressed="false">
+            <svg class="ico" aria-hidden="true"><use href="#i-heart"/></svg>
+            Saved <span id="savedCount" class="badge" hidden></span>
+          </button>
+          <div class="viewswitch" role="group" aria-label="View">
+            <button id="viewList" type="button" aria-pressed="true"><svg class="ico" aria-hidden="true"><use href="#i-list"/></svg>List</button>
+            <button id="viewMap" type="button" aria-pressed="false"><svg class="ico" aria-hidden="true"><use href="#i-map"/></svg>Map</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="layout">
+        <div class="listcol">
+          <p class="sr" id="count" role="status" aria-live="polite"></p>
+          <div id="cards" class="cards" aria-busy="true">
+            <div class="skeleton" aria-hidden="true"></div>
+            <div class="skeleton" aria-hidden="true"></div>
+            <div class="skeleton" aria-hidden="true"></div>
+          </div>
+          <div id="empty" class="empty" hidden></div>
+          <nav id="pagination" class="pagination" aria-label="Event result pages"></nav>
+        </div>
+
+        <aside class="mapcol" id="mapPanel" aria-label="Map of event venues">
+          <div class="mapcard">
+            <div id="map" role="application" aria-label="Map of event venues. Event details are in the list."></div>
+            <p class="mapnote"><span class="key key-event"></span>Event <span class="key key-place"></span>Open any day · Pins show approximate locations. Use Directions for the exact spot.</p>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <section class="anytime" aria-labelledby="anytime-title">
+    <div class="wrap">
+      <div class="heading">
+        <h2 id="anytime-title">Open any day</h2>
+        <p class="range">Nothing on the calendar? Start here.</p>
+      </div>
+      <div id="places" class="places"></div>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap credit-footer">
+    <div><a class="neon small" href="/">Out &amp; About DFW</a><p>Less scrolling. More living.</p></div>
+    <div class="credit-links">
+      <a href="/events.html">Events</a> · <a href="/search.html">Search</a> · <a href="/changelog.html">Changelog</a>
+      <p>Made by <a href="https://midnightmeta.dev/" target="_blank" rel="noopener noreferrer">Midnight Meta</a> with Vibe Coding Engineers <a href="https://justinliles.com/" target="_blank" rel="noopener noreferrer">Justin Liles</a> and <a href="https://nayrasalamanca.com/" target="_blank" rel="noopener noreferrer">Nayra Salamanca</a>.</p>
+    </div>
+  </div>
+</footer>
+
+<noscript><p class="noscript">Out & About DFW needs JavaScript to load the event list.</p></noscript>
+<script src="vendor/leaflet/leaflet.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
