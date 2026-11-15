@@ -644,3 +644,6 @@ h2{font-family:var(--display);font-weight:800;text-transform:uppercase;font-size
 .mood-how-callout .home-button{flex:none;margin:0}
 .events-mood-link{display:inline-block;margin-top:12px;color:var(--amber);font-size:15px;font-weight:850;text-decoration:underline;text-underline-offset:4px}
 @media(max-width:750px){.mood-invite-inner,.mood-how-callout{flex-direction:column;align-items:flex-start}.mood-invite .home-button.primary,.mood-how-callout .home-button{align-self:stretch}}
+
+/* Keep all six discovery destinations usable on narrow screens. */
+@media(max-width:820px){.site-nav{display:flex;flex-wrap:wrap;row-gap:2px;column-gap:12px}.site-nav a{font-size:12px;white-space:nowrap}.top{height:auto;min-height:68px;padding-block:10px}}
