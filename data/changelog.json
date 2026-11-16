@@ -1,5 +1,575 @@
 [
   {
+    "id": "added:6c1c1892ab4f0cd19b42ef87d779da927c9dc35c:dallas-begonia-terrarium-2026-11-21",
+    "type": "added",
+    "date": "2026-11-16T15:25:04+00:00",
+    "title": "Begonia Terrarium Workshop",
+    "description": "Added to the upcoming events feed",
+    "area": "Fort Worth",
+    "url": "https://fwbg.org/full-calendar/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/6c1c1892ab4f0cd19b42ef87d779da927c9dc35c"
+  },
+  {
+    "id": "added:6c1c1892ab4f0cd19b42ef87d779da927c9dc35c:dallas-soundscape-2026-11-22",
+    "type": "added",
+    "date": "2026-11-16T15:25:04+00:00",
+    "title": "An American Soundscape — Lone Star Wind Orchestra",
+    "description": "Added to the upcoming events feed",
+    "area": "Dallas",
+    "url": "https://www.visitdallas.com/events/an-american-soundscape-an-america-250-celebration/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/6c1c1892ab4f0cd19b42ef87d779da927c9dc35c"
+  },
+  {
+    "id": "added:6c1c1892ab4f0cd19b42ef87d779da927c9dc35c:dallas-vintage-thrift-2026-11-22",
+    "type": "added",
+    "date": "2026-11-16T15:25:04+00:00",
+    "title": "Dallas Thrift & Vintage Shopping Tour",
+    "description": "Added to the upcoming events feed",
+    "area": "Dallas",
+    "url": "https://www.visitdallas.com/events/dallas-thrift-vintage-shopping-tour-4/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/6c1c1892ab4f0cd19b42ef87d779da927c9dc35c"
+  },
+  {
+    "id": "added:6c1c1892ab4f0cd19b42ef87d779da927c9dc35c:fleaharveys-cedars-art-market-2026-11-21",
+    "type": "added",
+    "date": "2026-11-16T15:25:04+00:00",
+    "title": "Flea Harvey's Cedars Open Studios Art Market",
+    "description": "Added to the upcoming events feed",
+    "area": "Dallas",
+    "url": "https://www.visitdallas.com/de/events/flea-harveys-cedars-open-studios-art-market/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/6c1c1892ab4f0cd19b42ef87d779da927c9dc35c"
+  },
+  {
+    "id": "added:6c1c1892ab4f0cd19b42ef87d779da927c9dc35c:fortworth-garden-lights-2026-11-20",
+    "type": "added",
+    "date": "2026-11-16T15:25:04+00:00",
+    "title": "Christmas in the Garden — Friday",
+    "description": "Added to the upcoming events feed",
+    "area": "Fort Worth",
+    "url": "https://christmasinthegardenfw.com/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/6c1c1892ab4f0cd19b42ef87d779da927c9dc35c"
+  },
+  {
+    "id": "added:6c1c1892ab4f0cd19b42ef87d779da927c9dc35c:fortworth-garden-lights-2026-11-21",
+    "type": "added",
+    "date": "2026-11-16T15:25:04+00:00",
+    "title": "Christmas in the Garden — Saturday",
+    "description": "Added to the upcoming events feed",
+    "area": "Fort Worth",
+    "url": "https://christmasinthegardenfw.com/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/6c1c1892ab4f0cd19b42ef87d779da927c9dc35c"
+  },
+  {
+    "id": "added:6c1c1892ab4f0cd19b42ef87d779da927c9dc35c:fortworth-garden-lights-2026-11-22",
+    "type": "added",
+    "date": "2026-11-16T15:25:04+00:00",
+    "title": "Christmas in the Garden — Sunday",
+    "description": "Added to the upcoming events feed",
+    "area": "Fort Worth",
+    "url": "https://christmasinthegardenfw.com/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/6c1c1892ab4f0cd19b42ef87d779da927c9dc35c"
+  },
+  {
+    "id": "added:6c1c1892ab4f0cd19b42ef87d779da927c9dc35c:fortworth-parade-lights-2026-11-22",
+    "type": "added",
+    "date": "2026-11-16T15:25:04+00:00",
+    "title": "GM Financial Parade of Lights",
+    "description": "Added to the upcoming events feed",
+    "area": "Fort Worth",
+    "url": "https://fortworthparadeoflights.org/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/6c1c1892ab4f0cd19b42ef87d779da927c9dc35c"
+  },
+  {
+    "id": "added:6c1c1892ab4f0cd19b42ef87d779da927c9dc35c:grapevine-cotton-belt-train-2026-11-21",
+    "type": "added",
+    "date": "2026-11-16T15:25:04+00:00",
+    "title": "Cotton Belt Route Excursion — Saturday",
+    "description": "Added to the upcoming events feed",
+    "area": "Grapevine",
+    "url": "https://www.grapevinetexasusa.com/event/cotton-belt-route-excursion/41338/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/6c1c1892ab4f0cd19b42ef87d779da927c9dc35c"
+  },
+  {
+    "id": "added:6c1c1892ab4f0cd19b42ef87d779da927c9dc35c:grapevine-cotton-belt-train-2026-11-22",
+    "type": "added",
+    "date": "2026-11-16T15:25:04+00:00",
+    "title": "Cotton Belt Route Excursion — Sunday",
+    "description": "Added to the upcoming events feed",
+    "area": "Grapevine",
+    "url": "https://www.grapevinetexasusa.com/event/cotton-belt-route-excursion/41338/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/6c1c1892ab4f0cd19b42ef87d779da927c9dc35c"
+  },
+  {
+    "id": "added:6c1c1892ab4f0cd19b42ef87d779da927c9dc35c:grapevine-ice-rink-2026-11-21",
+    "type": "added",
+    "date": "2026-11-16T15:25:04+00:00",
+    "title": "Peace Plaza Ice Rink — Opening Day",
+    "description": "Added to the upcoming events feed",
+    "area": "Grapevine",
+    "url": "https://www.grapevinetexasusa.com/event/peace-plaza-ice-rink/42324/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/6c1c1892ab4f0cd19b42ef87d779da927c9dc35c"
+  },
+  {
+    "id": "added:6c1c1892ab4f0cd19b42ef87d779da927c9dc35c:grapevine-nutcracker-2026-11-22",
+    "type": "added",
+    "date": "2026-11-16T15:25:04+00:00",
+    "title": "Nutcracker — Short and Sweet Ballet",
+    "description": "Added to the upcoming events feed",
+    "area": "Grapevine",
+    "url": "https://www.grapevinetexasusa.com/event/north-central-ballet-presents-nutcracker-short-and-sweet/41954/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/6c1c1892ab4f0cd19b42ef87d779da927c9dc35c"
+  },
+  {
+    "id": "added:6c1c1892ab4f0cd19b42ef87d779da927c9dc35c:grapevine-peace-plaza-ice-2026-11-22",
+    "type": "added",
+    "date": "2026-11-16T15:25:04+00:00",
+    "title": "Peace Plaza Ice Rink — Sunday Skating",
+    "description": "Added to the upcoming events feed",
+    "area": "Grapevine",
+    "url": "https://www.grapevinetexasusa.com/event/peace-plaza-ice-rink/42324/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/6c1c1892ab4f0cd19b42ef87d779da927c9dc35c"
+  },
+  {
+    "id": "added:6c1c1892ab4f0cd19b42ef87d779da927c9dc35c:grapevine-repticon-2026-11-22",
+    "type": "added",
+    "date": "2026-11-16T15:25:04+00:00",
+    "title": "Repticon — Sunday Reptile Expo",
+    "description": "Added to the upcoming events feed",
+    "area": "Grapevine",
+    "url": "https://www.grapevinetexasusa.com/event/repticon/41409/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/6c1c1892ab4f0cd19b42ef87d779da927c9dc35c"
+  },
+  {
+    "id": "added:6c1c1892ab4f0cd19b42ef87d779da927c9dc35c:grapevine-tea-party-2026-11-22",
+    "type": "added",
+    "date": "2026-11-16T15:25:04+00:00",
+    "title": "Sugar Plum Fairy Tea Party — Sunday",
+    "description": "Added to the upcoming events feed",
+    "area": "Grapevine",
+    "url": "https://www.grapevinetexasusa.com/event/north-central-ballet-presents-nutcracker-short-and-sweet/41954/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/6c1c1892ab4f0cd19b42ef87d779da927c9dc35c"
+  },
+  {
+    "id": "added:6c1c1892ab4f0cd19b42ef87d779da927c9dc35c:mckinney-arome-paint-2026-11-22",
+    "type": "added",
+    "date": "2026-11-16T15:25:04+00:00",
+    "title": "AROME Paint & Sip with Angel Okolie",
+    "description": "Added to the upcoming events feed",
+    "area": "McKinney",
+    "url": "https://www.visitmckinney.com/events/arome-paint-and-sip-zz4gbmkv",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/6c1c1892ab4f0cd19b42ef87d779da927c9dc35c"
+  },
+  {
+    "id": "added:6c1c1892ab4f0cd19b42ef87d779da927c9dc35c:mckinney-ceramic-kids-2026-11-21",
+    "type": "added",
+    "date": "2026-11-16T15:25:04+00:00",
+    "title": "Kids & Family Ceramics: Holiday Ornaments",
+    "description": "Added to the upcoming events feed",
+    "area": "McKinney",
+    "url": "https://www.visitmckinney.com/listing/jump-into-art-studios-310",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/6c1c1892ab4f0cd19b42ef87d779da927c9dc35c"
+  },
+  {
+    "id": "added:6c1c1892ab4f0cd19b42ef87d779da927c9dc35c:mckinney-league-cup-2026-11-20",
+    "type": "added",
+    "date": "2026-11-16T15:25:04+00:00",
+    "title": "League Challenge Cup — Friday Spectators",
+    "description": "Added to the upcoming events feed",
+    "area": "McKinney",
+    "url": "https://www.visitmckinney.com/events/league-challenge-cup-fall-2026-5gona1wh",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/6c1c1892ab4f0cd19b42ef87d779da927c9dc35c"
+  },
+  {
+    "id": "added:6c1c1892ab4f0cd19b42ef87d779da927c9dc35c:mckinney-league-cup-2026-11-21",
+    "type": "added",
+    "date": "2026-11-16T15:25:04+00:00",
+    "title": "League Challenge Cup — Saturday Spectators",
+    "description": "Added to the upcoming events feed",
+    "area": "McKinney",
+    "url": "https://www.visitmckinney.com/events/league-challenge-cup-fall-2026-5gona1wh",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/6c1c1892ab4f0cd19b42ef87d779da927c9dc35c"
+  },
+  {
+    "id": "added:6c1c1892ab4f0cd19b42ef87d779da927c9dc35c:mckinney-league-cup-2026-11-22",
+    "type": "added",
+    "date": "2026-11-16T15:25:04+00:00",
+    "title": "League Challenge Cup — Spectator Sunday",
+    "description": "Added to the upcoming events feed",
+    "area": "McKinney",
+    "url": "https://www.visitmckinney.com/events/league-challenge-cup-fall-2026-5gona1wh",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/6c1c1892ab4f0cd19b42ef87d779da927c9dc35c"
+  },
+  {
+    "id": "added:6c1c1892ab4f0cd19b42ef87d779da927c9dc35c:mckinney-vintage-market-2026-11-22",
+    "type": "added",
+    "date": "2026-11-16T15:25:04+00:00",
+    "title": "Vintage Market Days — Sunday",
+    "description": "Added to the upcoming events feed",
+    "area": "McKinney",
+    "url": "https://www.visitmckinney.com/events/vintage-market-days-9ctp3502",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/6c1c1892ab4f0cd19b42ef87d779da927c9dc35c"
+  },
+  {
+    "id": "added:6c1c1892ab4f0cd19b42ef87d779da927c9dc35c:plano-elephant-man-2026-11-22",
+    "type": "added",
+    "date": "2026-11-16T15:25:04+00:00",
+    "title": "The Real & Imagined History of the Elephant Man — Matinee",
+    "description": "Added to the upcoming events feed",
+    "area": "Addison",
+    "url": "https://events.visitplano.com/event/the-real-imagined-history-of-the-elephant-man",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/6c1c1892ab4f0cd19b42ef87d779da927c9dc35c"
+  },
+  {
+    "id": "added:6c1c1892ab4f0cd19b42ef87d779da927c9dc35c:plano-heritage-walk-2026-11-22",
+    "type": "added",
+    "date": "2026-11-16T15:25:04+00:00",
+    "title": "Legacy Heritage Walking Tour",
+    "description": "Added to the upcoming events feed",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/plano-history-walking-tour-2026",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/6c1c1892ab4f0cd19b42ef87d779da927c9dc35c"
+  },
+  {
+    "id": "added:6c1c1892ab4f0cd19b42ef87d779da927c9dc35c:plano-holiday-market-2026-11-22",
+    "type": "added",
+    "date": "2026-11-16T15:25:04+00:00",
+    "title": "Plano Holiday Market — Sunday",
+    "description": "Added to the upcoming events feed",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/calendar/7",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/6c1c1892ab4f0cd19b42ef87d779da927c9dc35c"
+  },
+  {
+    "id": "added:6c1c1892ab4f0cd19b42ef87d779da927c9dc35c:plano-legacy-east-lights-2026-11-22",
+    "type": "added",
+    "date": "2026-11-16T15:25:04+00:00",
+    "title": "Lights at Legacy East — Tree Lighting",
+    "description": "Added to the upcoming events feed",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/lights-at-legacy-east-2026",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/6c1c1892ab4f0cd19b42ef87d779da927c9dc35c"
+  },
+  {
+    "id": "added:6c1c1892ab4f0cd19b42ef87d779da927c9dc35c:plano-legacy-farmstead-2026-11-21",
+    "type": "added",
+    "date": "2026-11-16T15:25:04+00:00",
+    "title": "Global Grooves — Native American Heritage",
+    "description": "Added to the upcoming events feed",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/global-grooves-native-american-heritage",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/6c1c1892ab4f0cd19b42ef87d779da927c9dc35c"
+  },
+  {
+    "id": "added:6c1c1892ab4f0cd19b42ef87d779da927c9dc35c:plano-legacy-farmstead-2026-11-22",
+    "type": "added",
+    "date": "2026-11-16T15:25:04+00:00",
+    "title": "Holiday Lights at Assembly Park — Sunday",
+    "description": "Added to the upcoming events feed",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/holiday-lights-at-assembly-park",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/6c1c1892ab4f0cd19b42ef87d779da927c9dc35c"
+  },
+  {
+    "id": "added:6c1c1892ab4f0cd19b42ef87d779da927c9dc35c:plano-mousetrap-2026-11-22",
+    "type": "added",
+    "date": "2026-11-16T15:25:04+00:00",
+    "title": "The Mousetrap — NTPA Deaf Theatre Sunday",
+    "description": "Added to the upcoming events feed",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/the-mousetrap-ntpa-deaf-theatre",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/6c1c1892ab4f0cd19b42ef87d779da927c9dc35c"
+  },
+  {
+    "id": "added:6c1c1892ab4f0cd19b42ef87d779da927c9dc35c:plano-paw-patrol-2026-11-22",
+    "type": "added",
+    "date": "2026-11-16T15:25:04+00:00",
+    "title": "PAW Patrol Rescue Pups Immersive Experience — Sunday",
+    "description": "Added to the upcoming events feed",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/paw-patrol-rescue-pups-an-immersive-experience",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/6c1c1892ab4f0cd19b42ef87d779da927c9dc35c"
+  },
+  {
+    "id": "added:6c1c1892ab4f0cd19b42ef87d779da927c9dc35c:plano-runclub-2026-11-22",
+    "type": "added",
+    "date": "2026-11-16T15:25:04+00:00",
+    "title": "Legacy West Run or Walk Club",
+    "description": "Added to the upcoming events feed",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/legacy-west-run-club-at-nike-2026",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/6c1c1892ab4f0cd19b42ef87d779da927c9dc35c"
+  },
+  {
+    "id": "added:6c1c1892ab4f0cd19b42ef87d779da927c9dc35c:plano-streuth-clue-2026-11-22",
+    "type": "added",
+    "date": "2026-11-16T15:25:04+00:00",
+    "title": "Streuth & Clue — Sunday Mystery Matinee",
+    "description": "Added to the upcoming events feed",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/streuth-clue",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/6c1c1892ab4f0cd19b42ef87d779da927c9dc35c"
+  },
+  {
+    "id": "added:6c1c1892ab4f0cd19b42ef87d779da927c9dc35c:sammons-african-drum-2026-11-21",
+    "type": "added",
+    "date": "2026-11-16T15:25:04+00:00",
+    "title": "African Drum & Dance Class",
+    "description": "Added to the upcoming events feed",
+    "area": "Dallas",
+    "url": "https://sammonsartcenter.org/events/week/2026-11-16/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/6c1c1892ab4f0cd19b42ef87d779da927c9dc35c"
+  },
+  {
+    "id": "added:6c1c1892ab4f0cd19b42ef87d779da927c9dc35c:sammons-georgia-barge-2026-11-19",
+    "type": "added",
+    "date": "2026-11-16T15:25:04+00:00",
+    "title": "Sammons Cabaret: Georgia Barge",
+    "description": "Added to the upcoming events feed",
+    "area": "Dallas",
+    "url": "https://sammonsartcenter.org/event/sammons-cabaret-georgia-barge/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/6c1c1892ab4f0cd19b42ef87d779da927c9dc35c"
+  },
+  {
+    "id": "removed:6c1c1892ab4f0cd19b42ef87d779da927c9dc35c:arboretum-holiday-day-2026-11-15",
+    "type": "removed",
+    "date": "2026-11-16T15:25:04+00:00",
+    "title": "Holiday at the Arboretum — Daytime",
+    "description": "Removed from the rolling event feed; may have expired or been rescheduled. Not a cancellation notice.",
+    "area": "Dallas",
+    "url": "https://www.dallasarboretum.org/events-activities/holiday-at-the-arboretum/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/6c1c1892ab4f0cd19b42ef87d779da927c9dc35c"
+  },
+  {
+    "id": "removed:6c1c1892ab4f0cd19b42ef87d779da927c9dc35c:arboretum-holiday-night-2026-11-15",
+    "type": "removed",
+    "date": "2026-11-16T15:25:04+00:00",
+    "title": "Holiday at the Arboretum — Lights",
+    "description": "Removed from the rolling event feed; may have expired or been rescheduled. Not a cancellation notice.",
+    "area": "Dallas",
+    "url": "https://www.dallasarboretum.org/events-activities/holiday-at-the-arboretum/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/6c1c1892ab4f0cd19b42ef87d779da927c9dc35c"
+  },
+  {
+    "id": "removed:6c1c1892ab4f0cd19b42ef87d779da927c9dc35c:assembly-park-lights-2026-11-15",
+    "type": "removed",
+    "date": "2026-11-16T15:25:04+00:00",
+    "title": "Holiday Lights at Assembly Park",
+    "description": "Removed from the rolling event feed; may have expired or been rescheduled. Not a cancellation notice.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/holiday-lights-at-assembly-park",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/6c1c1892ab4f0cd19b42ef87d779da927c9dc35c"
+  },
+  {
+    "id": "removed:6c1c1892ab4f0cd19b42ef87d779da927c9dc35c:autumn-centerpiece-plano-2026-11-15",
+    "type": "removed",
+    "date": "2026-11-16T15:25:04+00:00",
+    "title": "Autumn Blooms & Heirloom Pumpkins Workshop",
+    "description": "Removed from the rolling event feed; may have expired or been rescheduled. Not a cancellation notice.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/calendar/day/2026/11/15",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/6c1c1892ab4f0cd19b42ef87d779da927c9dc35c"
+  },
+  {
+    "id": "removed:6c1c1892ab4f0cd19b42ef87d779da927c9dc35c:come-clay-with-me-2026-11-15",
+    "type": "removed",
+    "date": "2026-11-16T15:25:04+00:00",
+    "title": "Come Clay with Me! Pottery Experience",
+    "description": "Removed from the rolling event feed; may have expired or been rescheduled. Not a cancellation notice.",
+    "area": "McKinney",
+    "url": "https://www.visitmckinney.com/events/come-clay-with-me-pottery-experience-hkwhe2xp",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/6c1c1892ab4f0cd19b42ef87d779da927c9dc35c"
+  },
+  {
+    "id": "removed:6c1c1892ab4f0cd19b42ef87d779da927c9dc35c:dallas-zoo-lights-2026-11-15",
+    "type": "removed",
+    "date": "2026-11-16T15:25:04+00:00",
+    "title": "Dallas Zoo Lights",
+    "description": "Removed from the rolling event feed; may have expired or been rescheduled. Not a cancellation notice.",
+    "area": "Dallas",
+    "url": "https://www.dallaszoo.com/event/lights/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/6c1c1892ab4f0cd19b42ef87d779da927c9dc35c"
+  },
+  {
+    "id": "removed:6c1c1892ab4f0cd19b42ef87d779da927c9dc35c:frisco-fresh-market-2026-11-15",
+    "type": "removed",
+    "date": "2026-11-16T15:25:04+00:00",
+    "title": "Frisco Fresh Market",
+    "description": "Removed from the rolling event feed; may have expired or been rescheduled. Not a cancellation notice.",
+    "area": "Frisco",
+    "url": "https://friscofreshmarket.com/market/clock/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/6c1c1892ab4f0cd19b42ef87d779da927c9dc35c"
+  },
+  {
+    "id": "removed:6c1c1892ab4f0cd19b42ef87d779da927c9dc35c:grapevine-zak-mirz-magic-2026-11-15",
+    "type": "removed",
+    "date": "2026-11-16T15:25:04+00:00",
+    "title": "Magician Zak Mirz — Kid at Heart",
+    "description": "Removed from the rolling event feed; may have expired or been rescheduled. Not a cancellation notice.",
+    "area": "Grapevine",
+    "url": "https://www.grapevinetexasusa.com/event/magician-zak-mirz/41902/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/6c1c1892ab4f0cd19b42ef87d779da927c9dc35c"
+  },
+  {
+    "id": "removed:6c1c1892ab4f0cd19b42ef87d779da927c9dc35c:greek-festival-2026-11-15",
+    "type": "removed",
+    "date": "2026-11-16T15:25:04+00:00",
+    "title": "Fort Worth Greek Festival",
+    "description": "Removed from the rolling event feed; may have expired or been rescheduled. Not a cancellation notice.",
+    "area": "Fort Worth",
+    "url": "https://www.fortworthgreekfestival.com/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/6c1c1892ab4f0cd19b42ef87d779da927c9dc35c"
+  },
+  {
+    "id": "removed:6c1c1892ab4f0cd19b42ef87d779da927c9dc35c:harry-potter-stage-2026-11-15-115pm",
+    "type": "removed",
+    "date": "2026-11-16T15:25:04+00:00",
+    "title": "Harry Potter and the Cursed Child — High School Edition",
+    "description": "Removed from the rolling event feed; may have expired or been rescheduled. Not a cancellation notice.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/harry-potter-and-the-cursed-child",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/6c1c1892ab4f0cd19b42ef87d779da927c9dc35c"
+  },
+  {
+    "id": "removed:6c1c1892ab4f0cd19b42ef87d779da927c9dc35c:ipat-porcelain-ornament-2026-11-15",
+    "type": "removed",
+    "date": "2026-11-16T15:25:04+00:00",
+    "title": "Make a Christmas Ornament — Porcelain Art Museum",
+    "description": "Removed from the rolling event feed; may have expired or been rescheduled. Not a cancellation notice.",
+    "area": "Grapevine",
+    "url": "https://www.grapevinetexasusa.com/listing/ipat-museum-of-porcelain-art/95/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/6c1c1892ab4f0cd19b42ef87d779da927c9dc35c"
+  },
+  {
+    "id": "removed:6c1c1892ab4f0cd19b42ef87d779da927c9dc35c:mckinney-art-studio-tour-2026-11-15",
+    "type": "removed",
+    "date": "2026-11-16T15:25:04+00:00",
+    "title": "McKinney Art Studio Tour",
+    "description": "Removed from the rolling event feed; may have expired or been rescheduled. Not a cancellation notice.",
+    "area": "McKinney",
+    "url": "https://www.mastmckinney.org/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/6c1c1892ab4f0cd19b42ef87d779da927c9dc35c"
+  },
+  {
+    "id": "removed:6c1c1892ab4f0cd19b42ef87d779da927c9dc35c:paw-patrol-experience-2026-11-15",
+    "type": "removed",
+    "date": "2026-11-16T15:25:04+00:00",
+    "title": "PAW Patrol: Rescue Pups Immersive Experience",
+    "description": "Removed from the rolling event feed; may have expired or been rescheduled. Not a cancellation notice.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/paw-patrol-rescue-pups-an-immersive-experience",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/6c1c1892ab4f0cd19b42ef87d779da927c9dc35c"
+  },
+  {
+    "id": "removed:6c1c1892ab4f0cd19b42ef87d779da927c9dc35c:plano-breaking-sound-barrier-2026-11-15",
+    "type": "removed",
+    "date": "2026-11-16T15:25:04+00:00",
+    "title": "Breaking the Sound Barrier — Community Band",
+    "description": "Removed from the rolling event feed; may have expired or been rescheduled. Not a cancellation notice.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/breaking-the-sound-barrier",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/6c1c1892ab4f0cd19b42ef87d779da927c9dc35c"
+  },
+  {
+    "id": "removed:6c1c1892ab4f0cd19b42ef87d779da927c9dc35c:plano-fluid-art-2026-11-15",
+    "type": "removed",
+    "date": "2026-11-16T15:25:04+00:00",
+    "title": "Fluid Art Workshop",
+    "description": "Removed from the rolling event feed; may have expired or been rescheduled. Not a cancellation notice.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/fluid-art-workshop-2026",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/6c1c1892ab4f0cd19b42ef87d779da927c9dc35c"
+  },
+  {
+    "id": "removed:6c1c1892ab4f0cd19b42ef87d779da927c9dc35c:plano-neath-wreath-2026-11-15",
+    "type": "removed",
+    "date": "2026-11-16T15:25:04+00:00",
+    "title": "'Neath the Wreath Gift Market",
+    "description": "Removed from the rolling event feed; may have expired or been rescheduled. Not a cancellation notice.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/neath-the-wreath-holiday-gift-market-2026",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/6c1c1892ab4f0cd19b42ef87d779da927c9dc35c"
+  },
+  {
+    "id": "removed:6c1c1892ab4f0cd19b42ef87d779da927c9dc35c:plano-paint-your-pet-2026-11-15",
+    "type": "removed",
+    "date": "2026-11-16T15:25:04+00:00",
+    "title": "Paint Your Pet Workshop",
+    "description": "Removed from the rolling event feed; may have expired or been rescheduled. Not a cancellation notice.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/pipe_palette_plano_at_the_shops_at_willow_bend/calendar",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/6c1c1892ab4f0cd19b42ef87d779da927c9dc35c"
+  },
+  {
+    "id": "removed:6c1c1892ab4f0cd19b42ef87d779da927c9dc35c:plano-pumpkin-roll-2026-11-15",
+    "type": "removed",
+    "date": "2026-11-16T15:25:04+00:00",
+    "title": "Pumpkin Roll & Caramel Sauce Class",
+    "description": "Removed from the rolling event feed; may have expired or been rescheduled. Not a cancellation notice.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/calendar/day/2026/11/15",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/6c1c1892ab4f0cd19b42ef87d779da927c9dc35c"
+  },
+  {
+    "id": "removed:6c1c1892ab4f0cd19b42ef87d779da927c9dc35c:plano-rodeo-barbie-market-2026-11-15",
+    "type": "removed",
+    "date": "2026-11-16T15:25:04+00:00",
+    "title": "Rodeo Barbie Market",
+    "description": "Removed from the rolling event feed; may have expired or been rescheduled. Not a cancellation notice.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/calendar/day/2026/11/15",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/6c1c1892ab4f0cd19b42ef87d779da927c9dc35c"
+  },
+  {
+    "id": "removed:6c1c1892ab4f0cd19b42ef87d779da927c9dc35c:plano-sunday-brunch-market-2026-11-15",
+    "type": "removed",
+    "date": "2026-11-16T15:25:04+00:00",
+    "title": "Boardwalk Sunday Brunch Market",
+    "description": "Removed from the rolling event feed; may have expired or been rescheduled. Not a cancellation notice.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/sunday-brunch-market-2026",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/6c1c1892ab4f0cd19b42ef87d779da927c9dc35c"
+  },
+  {
+    "id": "removed:6c1c1892ab4f0cd19b42ef87d779da927c9dc35c:santa-village-day-2026-11-15",
+    "type": "removed",
+    "date": "2026-11-16T15:25:04+00:00",
+    "title": "Santa at the Arboretum — Daytime",
+    "description": "Removed from the rolling event feed; may have expired or been rescheduled. Not a cancellation notice.",
+    "area": "Dallas",
+    "url": "https://www.dallasarboretum.org/event/visits-with-santa/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/6c1c1892ab4f0cd19b42ef87d779da927c9dc35c"
+  },
+  {
+    "id": "removed:6c1c1892ab4f0cd19b42ef87d779da927c9dc35c:santa-village-night-2026-11-15",
+    "type": "removed",
+    "date": "2026-11-16T15:25:04+00:00",
+    "title": "Santa at the Arboretum — Evening",
+    "description": "Removed from the rolling event feed; may have expired or been rescheduled. Not a cancellation notice.",
+    "area": "Dallas",
+    "url": "https://www.dallasarboretum.org/event/visits-with-santa/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/6c1c1892ab4f0cd19b42ef87d779da927c9dc35c"
+  },
+  {
+    "id": "removed:6c1c1892ab4f0cd19b42ef87d779da927c9dc35c:snowflake-bazaar-2026-11-15",
+    "type": "removed",
+    "date": "2026-11-16T15:25:04+00:00",
+    "title": "Snowflake Bazaar",
+    "description": "Removed from the rolling event feed; may have expired or been rescheduled. Not a cancellation notice.",
+    "area": "Plano",
+    "url": "https://www.planowestband.org/snowflake",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/6c1c1892ab4f0cd19b42ef87d779da927c9dc35c"
+  },
+  {
+    "id": "removed:6c1c1892ab4f0cd19b42ef87d779da927c9dc35c:walls-clay-open-2026-11-15",
+    "type": "removed",
+    "date": "2026-11-16T15:25:04+00:00",
+    "title": "Walls of Clay — Walk-In Pottery Studio",
+    "description": "Removed from the rolling event feed; may have expired or been rescheduled. Not a cancellation notice.",
+    "area": "McKinney",
+    "url": "https://wallsofclaymckinney.com/events/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/6c1c1892ab4f0cd19b42ef87d779da927c9dc35c"
+  },
+  {
     "id": "tech:252c6be4dd95ec49aa5603dcd8869cc86e56f600",
     "type": "technology",
     "date": "2026-11-15T17:44:34+00:00",
