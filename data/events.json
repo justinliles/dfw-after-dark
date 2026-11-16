@@ -1665,7 +1665,7 @@
     "address": "1807 Gould St, Dallas, TX 75215",
     "lat": null,
     "lng": null,
-    "price": "Admission: Check organizer",
+    "price": "Free admission and parking",
     "url": "https://www.visitdallas.com/de/events/flea-harveys-cedars-open-studios-art-market/",
     "description": "More than 20 local makers, ceramics, vinyl and art during Cedars Open Studios. Organizer specifically welcomes four-legged companions.",
     "featured": true
@@ -2160,8 +2160,8 @@
     "id": "fortworth-parade-lights-2026-11-22",
     "title": "GM Financial Parade of Lights",
     "category": "Markets & Festivals",
-    "start": "2026-11-22T18:00:00-06:00",
-    "end": "2026-11-22T20:00:00-06:00",
+    "start": "2026-11-22T00:00:00-06:00",
+    "end": "2026-11-22T23:59:00-06:00",
     "venue": "Downtown Fort Worth Parade Route",
     "area": "Fort Worth",
     "address": "Downtown Fort Worth, TX 76102",
@@ -2169,7 +2169,8 @@
     "lng": null,
     "price": "Free street viewing; reserved seats extra",
     "url": "https://fortworthparadeoflights.org/",
-    "description": "Over 100 illuminated floats and marching bands. Parade begins 6 PM; streets begin closing at 3 PM; 8 PM end is approximate—consult organizer.",
-    "featured": true
+    "description": "Illuminated floats and marching bands in Downtown Fort Worth. Parade starts at 6 PM; streets begin closing around 3 PM. Check organizer for finish time and street-seat options.",
+    "featured": true,
+    "timeTBD": true
   }
 ]
