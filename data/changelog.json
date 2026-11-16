@@ -1,5 +1,13 @@
 [
   {
+    "id": "tech:9ba128c9646925ab866c8264b8b3fd6707f926de",
+    "type": "technology",
+    "date": "2026-11-16T22:56:35+00:00",
+    "title": "Simplify changelog filters and explain daily radar counts",
+    "description": "Website files updated: changelog.html",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/9ba128c9646925ab866c8264b8b3fd6707f926de"
+  },
+  {
     "id": "tech:6b63fcfc8baa6f66cbb58d57bb651bbaea50c42d",
     "type": "technology",
     "date": "2026-11-16T22:56:24+00:00",
