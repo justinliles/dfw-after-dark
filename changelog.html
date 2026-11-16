@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="theme-color" content="#102B36">
 <title>Changelog | Out & About DFW</title>
-<meta name="description" content="See what is new on Out & About DFW: events added to or removed from the seven-day radar, plus improvements to the website.">
+<meta name="description" content="Daily event totals and meaningful product and engineering improvements on Out & About DFW.">
 <link rel="canonical" href="https://dfwdaily.midnightmeta.dev/changelog.html">
 <meta property="og:title" content="What’s New | Out & About DFW">
 <meta property="og:url" content="https://dfwdaily.midnightmeta.dev/changelog.html">
@@ -26,11 +26,11 @@
     <div class="wrap">
       <p class="change-eyebrow">BEHIND THE RADAR / OPEN CHANGE HISTORY</p>
       <h1>WHAT'S<br><span>NEW?</span></h1>
-      <p class="change-intro">A running record of new discoveries, listings leaving the seven-day radar, and improvements to the site. Good things change. Here's what changed with them.</p>
+      <p class="change-intro">One daily summary of event additions and removals, plus a separate timeline of meaningful website and engineering improvements.</p>
       <div class="change-summary" id="summary" aria-live="polite">
-        <div class="change-stat"><strong id="added-count">—</strong><span>Events added</span></div>
-        <div class="change-stat"><strong id="removed-count">—</strong><span>Events removed</span></div>
-        <div class="change-stat"><strong id="tech-count">—</strong><span>Site updates</span></div>
+        <div class="change-stat"><strong id="added-count">—</strong><span>Total event additions</span></div>
+        <div class="change-stat"><strong id="removed-count">—</strong><span>Total event removals</span></div>
+        <div class="change-stat"><strong id="tech-count">—</strong><span>Product updates</span></div>
       </div>
     </div>
   </section>
@@ -45,12 +45,11 @@
   <section class="wrap change-content">
     <div class="change-heading">
       <div><p class="change-eyebrow">THE TIMELINE</p><h2>Every update,<br>in one place.</h2></div>
-      <p>Removal from the feed means a listing was removed from our rolling schedule. It <strong>does not imply cancellation</strong>. For event status, use the organizer link.</p>
+      <p>Event counts are automatically grouped by day. Removal from the rolling schedule <strong>does not imply cancellation</strong>. Technology releases are tracked individually.</p>
     </div>
     <div class="change-filters" role="group" aria-label="Filter changelog">
       <button type="button" class="change-chip" data-filter="all" aria-pressed="true">Everything</button>
-      <button type="button" class="change-chip" data-filter="added" aria-pressed="false">Added</button>
-      <button type="button" class="change-chip" data-filter="removed" aria-pressed="false">Removed</button>
+      <button type="button" class="change-chip" data-filter="daily" aria-pressed="false">Daily radar</button>
       <button type="button" class="change-chip" data-filter="technology" aria-pressed="false">Technology</button>
     </div>
     <div id="change-list" class="change-list" aria-live="polite"><p class="change-message">Loading change history…</p></div>
