@@ -1,5 +1,13 @@
 [
   {
+    "id": "tech:6b63fcfc8baa6f66cbb58d57bb651bbaea50c42d",
+    "type": "technology",
+    "date": "2026-11-16T22:56:24+00:00",
+    "title": "Aggregate daily event changelog records while preserving technology release notes",
+    "description": "Website files updated: changelog.js",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/6b63fcfc8baa6f66cbb58d57bb651bbaea50c42d"
+  },
+  {
     "id": "added:6c1c1892ab4f0cd19b42ef87d779da927c9dc35c:dallas-begonia-terrarium-2026-11-21",
     "type": "added",
     "date": "2026-11-16T15:25:04+00:00",
