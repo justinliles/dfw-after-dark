@@ -115,5 +115,18 @@
     "url": "https://www.thecomedyarena.com/home/",
     "description": "Local improv and stand-up venue with some all-ages performances and youth classes; check the specific show for age guidance before visiting.",
     "price": "Tickets and schedules vary"
+  },
+  {
+    "id": "bonnie-wenk-dog-park",
+    "title": "Bonnie Wenk Dog Park & Trail Walk",
+    "category": "Pets & Animals",
+    "venue": "Bonnie Wenk Park",
+    "area": "McKinney",
+    "address": "2996 Virginia Pkwy, McKinney, TX 75071",
+    "lat": null,
+    "lng": null,
+    "url": "https://parks.mckinneytexas.org/park/bonnie-wenk-dog-park/",
+    "description": "Verified two-acre fenced off-leash dog park with separate big- and small-dog areas, plus walking trails in the adjacent city park. Dog park hours: dawn–11 PM; first/third Wednesdays closed until 11:30 AM for maintenance. Leash required outside the fenced dog park.",
+    "price": "Free public park access"
   }
 ]
