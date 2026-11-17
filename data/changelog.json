@@ -1,5 +1,175 @@
 [
   {
+    "id": "added:37d13106304848019fe91935a530e6a9f1f977c2:mckinney-native-heritage-library-2026-11-21",
+    "type": "added",
+    "date": "2026-11-17T15:40:15+00:00",
+    "title": "Native American Heritage Celebration at the Library",
+    "description": "Added to the upcoming events feed",
+    "area": "McKinney",
+    "url": "https://www.mckinneytexas.org/2057/Calendar-and-Programs",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/37d13106304848019fe91935a530e6a9f1f977c2"
+  },
+  {
+    "id": "added:37d13106304848019fe91935a530e6a9f1f977c2:mckinney-polar-express-sensory-2026-11-20",
+    "type": "added",
+    "date": "2026-11-17T15:40:15+00:00",
+    "title": "Sensory-friendly Movie Night: The Polar Express",
+    "description": "Added to the upcoming events feed",
+    "area": "McKinney",
+    "url": "https://www.mckinneytexas.org/400/Holiday-Activities-and-Camps",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/37d13106304848019fe91935a530e6a9f1f977c2"
+  },
+  {
+    "id": "added:37d13106304848019fe91935a530e6a9f1f977c2:plano-assembly-lights-2026-11-23",
+    "type": "added",
+    "date": "2026-11-17T15:40:15+00:00",
+    "title": "Holiday Lights at Assembly Park — Monday",
+    "description": "Added to the upcoming events feed",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/holiday-lights-at-assembly-park",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/37d13106304848019fe91935a530e6a9f1f977c2"
+  },
+  {
+    "id": "added:37d13106304848019fe91935a530e6a9f1f977c2:plano-fluid-art-2026-11-23",
+    "type": "added",
+    "date": "2026-11-17T15:40:15+00:00",
+    "title": "Fluid Art Workshop — Monday",
+    "description": "Added to the upcoming events feed",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/fluid-art-workshop-2026",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/37d13106304848019fe91935a530e6a9f1f977c2"
+  },
+  {
+    "id": "added:37d13106304848019fe91935a530e6a9f1f977c2:plano-kinusaiga-fabric-2026-11-18",
+    "type": "added",
+    "date": "2026-11-17T15:40:15+00:00",
+    "title": "Kinusaiga Winter Fabric Art Workshop",
+    "description": "Added to the upcoming events feed",
+    "area": "Plano",
+    "url": "https://www.ktscraftndraft.com/event-details-registration/christmas-winter-kinusaiga-workshop-not-your-mamas-quilt-shop",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/37d13106304848019fe91935a530e6a9f1f977c2"
+  },
+  {
+    "id": "added:37d13106304848019fe91935a530e6a9f1f977c2:plano-paw-patrol-2026-11-23",
+    "type": "added",
+    "date": "2026-11-17T15:40:15+00:00",
+    "title": "PAW Patrol Rescue Pups Immersive Experience — Monday",
+    "description": "Added to the upcoming events feed",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/paw-patrol-rescue-pups-an-immersive-experience",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/37d13106304848019fe91935a530e6a9f1f977c2"
+  },
+  {
+    "id": "added:37d13106304848019fe91935a530e6a9f1f977c2:plano-thanksgiving-desserts-evening-2026-11-23",
+    "type": "added",
+    "date": "2026-11-17T15:40:15+00:00",
+    "title": "Make & Take Thanksgiving Desserts — Evening",
+    "description": "Added to the upcoming events feed",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/make-take-thanksgiving-desserts-3429",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/37d13106304848019fe91935a530e6a9f1f977c2"
+  },
+  {
+    "id": "added:37d13106304848019fe91935a530e6a9f1f977c2:plano-thanksgiving-desserts-noon-2026-11-23",
+    "type": "added",
+    "date": "2026-11-17T15:40:15+00:00",
+    "title": "Make & Take Thanksgiving Desserts — Midday",
+    "description": "Added to the upcoming events feed",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/make-take-thanksgiving-desserts-6259",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/37d13106304848019fe91935a530e6a9f1f977c2"
+  },
+  {
+    "id": "removed:37d13106304848019fe91935a530e6a9f1f977c2:arboretum-holiday-day-2026-11-16",
+    "type": "removed",
+    "date": "2026-11-17T15:40:15+00:00",
+    "title": "Holiday at the Arboretum — Daytime",
+    "description": "Removed from the rolling event feed; may have expired or been rescheduled. Not a cancellation notice.",
+    "area": "Dallas",
+    "url": "https://www.dallasarboretum.org/events-activities/holiday-at-the-arboretum/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/37d13106304848019fe91935a530e6a9f1f977c2"
+  },
+  {
+    "id": "removed:37d13106304848019fe91935a530e6a9f1f977c2:arboretum-holiday-night-2026-11-16",
+    "type": "removed",
+    "date": "2026-11-17T15:40:15+00:00",
+    "title": "Holiday at the Arboretum — Lights",
+    "description": "Removed from the rolling event feed; may have expired or been rescheduled. Not a cancellation notice.",
+    "area": "Dallas",
+    "url": "https://www.dallasarboretum.org/events-activities/holiday-at-the-arboretum/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/37d13106304848019fe91935a530e6a9f1f977c2"
+  },
+  {
+    "id": "removed:37d13106304848019fe91935a530e6a9f1f977c2:assembly-park-lights-2026-11-16",
+    "type": "removed",
+    "date": "2026-11-17T15:40:15+00:00",
+    "title": "Holiday Lights at Assembly Park",
+    "description": "Removed from the rolling event feed; may have expired or been rescheduled. Not a cancellation notice.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/holiday-lights-at-assembly-park",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/37d13106304848019fe91935a530e6a9f1f977c2"
+  },
+  {
+    "id": "removed:37d13106304848019fe91935a530e6a9f1f977c2:celestial-winter-paint-2026-11-16",
+    "type": "removed",
+    "date": "2026-11-17T15:40:15+00:00",
+    "title": "Celestial Winter Wonder Painting Night",
+    "description": "Removed from the rolling event feed; may have expired or been rescheduled. Not a cancellation notice.",
+    "area": "McKinney",
+    "url": "https://www.paintingwithatwist.com/studio/mckinney/event/4368876/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/37d13106304848019fe91935a530e6a9f1f977c2"
+  },
+  {
+    "id": "removed:37d13106304848019fe91935a530e6a9f1f977c2:grapevine-ice-rink-2026-11-21",
+    "type": "removed",
+    "date": "2026-11-17T15:40:15+00:00",
+    "title": "Peace Plaza Ice Rink — Opening Day",
+    "description": "Removed from the rolling event feed; may have expired or been rescheduled. Not a cancellation notice.",
+    "area": "Grapevine",
+    "url": "https://www.grapevinetexasusa.com/event/peace-plaza-ice-rink/42324/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/37d13106304848019fe91935a530e6a9f1f977c2"
+  },
+  {
+    "id": "removed:37d13106304848019fe91935a530e6a9f1f977c2:meatless-friendsgiving-plano-2026-11-16",
+    "type": "removed",
+    "date": "2026-11-17T15:40:15+00:00",
+    "title": "Meatless Friendsgiving Cooking Class",
+    "description": "Removed from the rolling event feed; may have expired or been rescheduled. Not a cancellation notice.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/celebrate-with-a-meatless-friendsgiving-meal",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/37d13106304848019fe91935a530e6a9f1f977c2"
+  },
+  {
+    "id": "removed:37d13106304848019fe91935a530e6a9f1f977c2:plano-fluid-art-2026-11-16",
+    "type": "removed",
+    "date": "2026-11-17T15:40:15+00:00",
+    "title": "Fluid Art Workshop",
+    "description": "Removed from the rolling event feed; may have expired or been rescheduled. Not a cancellation notice.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/fluid-art-workshop-2026",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/37d13106304848019fe91935a530e6a9f1f977c2"
+  },
+  {
+    "id": "removed:37d13106304848019fe91935a530e6a9f1f977c2:plano-legacy-farmstead-2026-11-21",
+    "type": "removed",
+    "date": "2026-11-17T15:40:15+00:00",
+    "title": "Global Grooves — Native American Heritage",
+    "description": "Removed from the rolling event feed; may have expired or been rescheduled. Not a cancellation notice.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/global-grooves-native-american-heritage",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/37d13106304848019fe91935a530e6a9f1f977c2"
+  },
+  {
+    "id": "removed:37d13106304848019fe91935a530e6a9f1f977c2:walls-clay-open-2026-11-16",
+    "type": "removed",
+    "date": "2026-11-17T15:40:15+00:00",
+    "title": "Walls of Clay — Walk-In Pottery Studio",
+    "description": "Removed from the rolling event feed; may have expired or been rescheduled. Not a cancellation notice.",
+    "area": "McKinney",
+    "url": "https://wallsofclaymckinney.com/events/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/37d13106304848019fe91935a530e6a9f1f977c2"
+  },
+  {
     "id": "tech:9ba128c9646925ab866c8264b8b3fd6707f926de",
     "type": "technology",
     "date": "2026-11-16T22:56:35+00:00",
