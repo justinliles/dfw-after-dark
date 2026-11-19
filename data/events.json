@@ -1247,6 +1247,22 @@
     "featured": false
   },
   {
+    "id": "mckinney-saturday-chess-meetup-2026-11-21",
+    "title": "Saturday Chess Meetup — All Ages",
+    "category": "Games & Play",
+    "start": "2026-11-21T11:00:00-06:00",
+    "end": "2026-11-21T13:00:00-06:00",
+    "venue": "John & Judy Gay Library",
+    "area": "McKinney",
+    "address": "6861 W Eldorado Pkwy, McKinney, TX 75070",
+    "lat": null,
+    "lng": null,
+    "price": "Free",
+    "url": "https://mckinneytexas.libcal.com/",
+    "description": "Play casual chess with other visitors; all skill levels welcome. This is not an instructional program. City library calendar confirms Saturday 11 AM–1 PM.",
+    "featured": false
+  },
+  {
     "id": "plano-bibliobar-nutcracker-storytime-2026-11-21",
     "title": "Free Nutcracker Storytime with Chamberlain Ballet",
     "category": "Books & Shops",
