@@ -494,6 +494,23 @@
     "timeTBD": true
   },
   {
+    "id": "mckinney-comedysportz-2026-11-21",
+    "title": "ComedySportz — All-Ages Improv Match",
+    "category": "Comedy & Improv",
+    "start": "2026-11-21T00:00:00-06:00",
+    "end": "2026-11-21T23:59:00-06:00",
+    "venue": "The Comedy Arena",
+    "area": "McKinney",
+    "address": "305 E Virginia St Suite 104, McKinney, TX 75069",
+    "lat": null,
+    "lng": null,
+    "price": "Ticket price: see organizer",
+    "url": "https://www.thecomedyarena.com/all-shows/",
+    "description": "Family-friendly audience-driven comedy match begins Saturday at 7 PM. End time and ticket prices are not verified; consult the organizer before booking.",
+    "featured": true,
+    "timeTBD": true
+  },
+  {
     "id": "dallas-debussy-la-mer-2026-11-21",
     "title": "Dallas Symphony — Debussy's La mer & Karen Gomyo",
     "category": "Music & Jazz",
@@ -2187,7 +2204,7 @@
     "lng": null,
     "price": "Free general-admission standing; paid reserved tables available",
     "url": "https://events.visitplano.com/event/thanksgiving-eve-party-w-george-strait-tribute-unwound",
-    "description": "All-ages George Strait tribute begins 8 PM; doors 7 PM. Event finish time unverified. Standing GA is free; reserved seating costs extra.",
+    "description": "Thanksgiving Eve George Strait tribute: show begins 8 PM, doors 7 PM. General standing is free; premium reserved options cost extra. End time see organizer.",
     "featured": true,
     "timeTBD": true
   },
