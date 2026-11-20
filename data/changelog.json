@@ -1,5 +1,15 @@
 [
   {
+    "id": "added:1d411cfcc0150f96564601dcbc9bbc0ea446bb98:mckinney-comedysportz-2026-11-21",
+    "type": "added",
+    "date": "2026-11-20T15:35:39+00:00",
+    "title": "ComedySportz — All-Ages Improv Match",
+    "description": "Added to the upcoming events feed",
+    "area": "McKinney",
+    "url": "https://www.thecomedyarena.com/all-shows/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/1d411cfcc0150f96564601dcbc9bbc0ea446bb98"
+  },
+  {
     "id": "radar:2026-11-20:added:mckinney-comedysportz-2026-11-21",
     "type": "added",
     "date": "2026-11-20T09:22:44-06:00",
