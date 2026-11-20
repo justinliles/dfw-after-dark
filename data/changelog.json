@@ -1,5 +1,565 @@
 [
   {
+    "id": "radar:2026-11-20:added:grapevine-vetro-glass-2026-11-20",
+    "type": "added",
+    "date": "2026-11-20T09:22:44-06:00",
+    "title": "Help Create a Glass Holiday Ornament",
+    "description": "Added to the verified seven-day radar",
+    "area": "Grapevine",
+    "url": "https://www.grapevinetexasusa.com/event/create-a-holiday-ornament-event-at-vetro-glassblowing%21/42256/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/d962cb0ba4cdf5f2997cbe6e7aa76fa8cb563a65"
+  },
+  {
+    "id": "radar:2026-11-20:added:dallas-city-rink-2026-11-20",
+    "type": "added",
+    "date": "2026-11-20T09:22:44-06:00",
+    "title": "CultureMap City Rink — Downtown Skating",
+    "description": "Added to the verified seven-day radar",
+    "area": "Dallas",
+    "url": "https://cityrink.culturemap.com/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/d962cb0ba4cdf5f2997cbe6e7aa76fa8cb563a65"
+  },
+  {
+    "id": "radar:2026-11-20:added:grapevine-vetro-glass-2026-11-21",
+    "type": "added",
+    "date": "2026-11-20T09:22:44-06:00",
+    "title": "Help Create a Glass Holiday Ornament",
+    "description": "Added to the verified seven-day radar",
+    "area": "Grapevine",
+    "url": "https://www.grapevinetexasusa.com/event/create-a-holiday-ornament-event-at-vetro-glassblowing%21/42256/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/d962cb0ba4cdf5f2997cbe6e7aa76fa8cb563a65"
+  },
+  {
+    "id": "radar:2026-11-20:added:dallas-city-rink-2026-11-21",
+    "type": "added",
+    "date": "2026-11-20T09:22:44-06:00",
+    "title": "CultureMap City Rink — Downtown Skating",
+    "description": "Added to the verified seven-day radar",
+    "area": "Dallas",
+    "url": "https://cityrink.culturemap.com/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/d962cb0ba4cdf5f2997cbe6e7aa76fa8cb563a65"
+  },
+  {
+    "id": "radar:2026-11-20:added:fortworth-japanese-garden-tour-2026-11-21",
+    "type": "added",
+    "date": "2026-11-20T09:22:44-06:00",
+    "title": "Japanese Garden Docent Tour",
+    "description": "Added to the verified seven-day radar",
+    "area": "Fort Worth",
+    "url": "https://fwbg.org/full-calendar/japanese-garden-tour-november-21/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/d962cb0ba4cdf5f2997cbe6e7aa76fa8cb563a65"
+  },
+  {
+    "id": "radar:2026-11-20:added:dallas-turtle-creek-arts-2026-11-21",
+    "type": "added",
+    "date": "2026-11-20T09:22:44-06:00",
+    "title": "Turtle Creek Fall Arts Festival",
+    "description": "Added to the verified seven-day radar",
+    "area": "Dallas",
+    "url": "https://www.affps.com/turtle-creek-arts-festival",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/d962cb0ba4cdf5f2997cbe6e7aa76fa8cb563a65"
+  },
+  {
+    "id": "radar:2026-11-20:added:plano-taste-korea-2026-11-21",
+    "type": "added",
+    "date": "2026-11-20T09:22:44-06:00",
+    "title": "Taste of Korea in DFW",
+    "description": "Added to the verified seven-day radar",
+    "area": "Plano",
+    "url": "https://www.eventbrite.com/e/2026-taste-of-korea-in-dfw-tickets-2004027783046",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/d962cb0ba4cdf5f2997cbe6e7aa76fa8cb563a65"
+  },
+  {
+    "id": "radar:2026-11-20:added:dallas-city-rink-tree-2026-11-21",
+    "type": "added",
+    "date": "2026-11-20T09:22:44-06:00",
+    "title": "City Rink Tree Lighting & Ice Performances",
+    "description": "Added to the verified seven-day radar",
+    "area": "Dallas",
+    "url": "https://cityrink.culturemap.com/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/d962cb0ba4cdf5f2997cbe6e7aa76fa8cb563a65"
+  },
+  {
+    "id": "radar:2026-11-20:added:dallas-zoo-lights-2026-11-21",
+    "type": "added",
+    "date": "2026-11-20T09:22:44-06:00",
+    "title": "Dallas Zoo Lights — Holiday Walk",
+    "description": "Added to the verified seven-day radar",
+    "area": "Dallas",
+    "url": "https://www.dallaszoo.com/event/lights/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/d962cb0ba4cdf5f2997cbe6e7aa76fa8cb563a65"
+  },
+  {
+    "id": "radar:2026-11-20:added:dallas-city-rink-2026-11-22",
+    "type": "added",
+    "date": "2026-11-20T09:22:44-06:00",
+    "title": "CultureMap City Rink — Downtown Skating",
+    "description": "Added to the verified seven-day radar",
+    "area": "Dallas",
+    "url": "https://cityrink.culturemap.com/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/d962cb0ba4cdf5f2997cbe6e7aa76fa8cb563a65"
+  },
+  {
+    "id": "radar:2026-11-20:added:dallas-turtle-creek-arts-2026-11-22",
+    "type": "added",
+    "date": "2026-11-20T09:22:44-06:00",
+    "title": "Turtle Creek Fall Arts Festival",
+    "description": "Added to the verified seven-day radar",
+    "area": "Dallas",
+    "url": "https://www.affps.com/turtle-creek-arts-festival",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/d962cb0ba4cdf5f2997cbe6e7aa76fa8cb563a65"
+  },
+  {
+    "id": "radar:2026-11-20:added:plano-taste-korea-2026-11-22",
+    "type": "added",
+    "date": "2026-11-20T09:22:44-06:00",
+    "title": "Taste of Korea in DFW",
+    "description": "Added to the verified seven-day radar",
+    "area": "Plano",
+    "url": "https://www.eventbrite.com/e/2026-taste-of-korea-in-dfw-tickets-2004027783046",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/d962cb0ba4cdf5f2997cbe6e7aa76fa8cb563a65"
+  },
+  {
+    "id": "radar:2026-11-20:added:dallas-zoo-lights-2026-11-22",
+    "type": "added",
+    "date": "2026-11-20T09:22:44-06:00",
+    "title": "Dallas Zoo Lights — Holiday Walk",
+    "description": "Added to the verified seven-day radar",
+    "area": "Dallas",
+    "url": "https://www.dallaszoo.com/event/lights/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/d962cb0ba4cdf5f2997cbe6e7aa76fa8cb563a65"
+  },
+  {
+    "id": "radar:2026-11-20:added:dallas-city-rink-2026-11-23",
+    "type": "added",
+    "date": "2026-11-20T09:22:44-06:00",
+    "title": "CultureMap City Rink — Downtown Skating",
+    "description": "Added to the verified seven-day radar",
+    "area": "Dallas",
+    "url": "https://cityrink.culturemap.com/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/d962cb0ba4cdf5f2997cbe6e7aa76fa8cb563a65"
+  },
+  {
+    "id": "radar:2026-11-20:added:dallas-city-rink-grinch-2026-11-23",
+    "type": "added",
+    "date": "2026-11-20T09:22:44-06:00",
+    "title": "Meet the Grinch at City Rink",
+    "description": "Added to the verified seven-day radar",
+    "area": "Dallas",
+    "url": "https://cityrink.culturemap.com/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/d962cb0ba4cdf5f2997cbe6e7aa76fa8cb563a65"
+  },
+  {
+    "id": "radar:2026-11-20:added:grapevine-peace-rink-2026-11-23",
+    "type": "added",
+    "date": "2026-11-20T09:22:44-06:00",
+    "title": "Peace Plaza Ice Rink — Timed Skating",
+    "description": "Added to the verified seven-day radar",
+    "area": "Grapevine",
+    "url": "https://www.grapevinetexasusa.com/event/peace-plaza-ice-rink/42324/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/d962cb0ba4cdf5f2997cbe6e7aa76fa8cb563a65"
+  },
+  {
+    "id": "radar:2026-11-20:added:dallas-zoo-lights-2026-11-23",
+    "type": "added",
+    "date": "2026-11-20T09:22:44-06:00",
+    "title": "Dallas Zoo Lights — Holiday Walk",
+    "description": "Added to the verified seven-day radar",
+    "area": "Dallas",
+    "url": "https://www.dallaszoo.com/event/lights/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/d962cb0ba4cdf5f2997cbe6e7aa76fa8cb563a65"
+  },
+  {
+    "id": "radar:2026-11-20:added:grapevine-vetro-glass-2026-11-24",
+    "type": "added",
+    "date": "2026-11-20T09:22:44-06:00",
+    "title": "Help Create a Glass Holiday Ornament",
+    "description": "Added to the verified seven-day radar",
+    "area": "Grapevine",
+    "url": "https://www.grapevinetexasusa.com/event/create-a-holiday-ornament-event-at-vetro-glassblowing%21/42256/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/d962cb0ba4cdf5f2997cbe6e7aa76fa8cb563a65"
+  },
+  {
+    "id": "radar:2026-11-20:added:dallas-city-rink-2026-11-24",
+    "type": "added",
+    "date": "2026-11-20T09:22:44-06:00",
+    "title": "CultureMap City Rink — Downtown Skating",
+    "description": "Added to the verified seven-day radar",
+    "area": "Dallas",
+    "url": "https://cityrink.culturemap.com/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/d962cb0ba4cdf5f2997cbe6e7aa76fa8cb563a65"
+  },
+  {
+    "id": "radar:2026-11-20:added:grapevine-peace-rink-2026-11-24",
+    "type": "added",
+    "date": "2026-11-20T09:22:44-06:00",
+    "title": "Peace Plaza Ice Rink — Timed Skating",
+    "description": "Added to the verified seven-day radar",
+    "area": "Grapevine",
+    "url": "https://www.grapevinetexasusa.com/event/peace-plaza-ice-rink/42324/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/d962cb0ba4cdf5f2997cbe6e7aa76fa8cb563a65"
+  },
+  {
+    "id": "radar:2026-11-20:added:dallas-zoo-lights-2026-11-24",
+    "type": "added",
+    "date": "2026-11-20T09:22:44-06:00",
+    "title": "Dallas Zoo Lights — Holiday Walk",
+    "description": "Added to the verified seven-day radar",
+    "area": "Dallas",
+    "url": "https://www.dallaszoo.com/event/lights/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/d962cb0ba4cdf5f2997cbe6e7aa76fa8cb563a65"
+  },
+  {
+    "id": "radar:2026-11-20:added:grapevine-vetro-glass-2026-11-25",
+    "type": "added",
+    "date": "2026-11-20T09:22:44-06:00",
+    "title": "Help Create a Glass Holiday Ornament",
+    "description": "Added to the verified seven-day radar",
+    "area": "Grapevine",
+    "url": "https://www.grapevinetexasusa.com/event/create-a-holiday-ornament-event-at-vetro-glassblowing%21/42256/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/d962cb0ba4cdf5f2997cbe6e7aa76fa8cb563a65"
+  },
+  {
+    "id": "radar:2026-11-20:added:dallas-city-rink-2026-11-25",
+    "type": "added",
+    "date": "2026-11-20T09:22:44-06:00",
+    "title": "CultureMap City Rink — Downtown Skating",
+    "description": "Added to the verified seven-day radar",
+    "area": "Dallas",
+    "url": "https://cityrink.culturemap.com/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/d962cb0ba4cdf5f2997cbe6e7aa76fa8cb563a65"
+  },
+  {
+    "id": "radar:2026-11-20:added:grapevine-peace-rink-2026-11-25",
+    "type": "added",
+    "date": "2026-11-20T09:22:44-06:00",
+    "title": "Peace Plaza Ice Rink — Timed Skating",
+    "description": "Added to the verified seven-day radar",
+    "area": "Grapevine",
+    "url": "https://www.grapevinetexasusa.com/event/peace-plaza-ice-rink/42324/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/d962cb0ba4cdf5f2997cbe6e7aa76fa8cb563a65"
+  },
+  {
+    "id": "radar:2026-11-20:added:dallas-zoo-lights-2026-11-25",
+    "type": "added",
+    "date": "2026-11-20T09:22:44-06:00",
+    "title": "Dallas Zoo Lights — Holiday Walk",
+    "description": "Added to the verified seven-day radar",
+    "area": "Dallas",
+    "url": "https://www.dallaszoo.com/event/lights/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/d962cb0ba4cdf5f2997cbe6e7aa76fa8cb563a65"
+  },
+  {
+    "id": "radar:2026-11-20:added:fortworth-ymca-turkey-trot-2026-11-26",
+    "type": "added",
+    "date": "2026-11-20T09:22:44-06:00",
+    "title": "Fort Worth YMCA Turkey Trot",
+    "description": "Added to the verified seven-day radar",
+    "area": "Fort Worth",
+    "url": "https://ymcafw.org/annual-turkey-trot/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/d962cb0ba4cdf5f2997cbe6e7aa76fa8cb563a65"
+  },
+  {
+    "id": "radar:2026-11-20:added:plano-turkey-trot-2026-11-26",
+    "type": "added",
+    "date": "2026-11-20T09:22:44-06:00",
+    "title": "Plano Turkey Trot 5K & Kids Dash",
+    "description": "Added to the verified seven-day radar",
+    "area": "Plano",
+    "url": "https://txruns.com/planoturkeytrot",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/d962cb0ba4cdf5f2997cbe6e7aa76fa8cb563a65"
+  },
+  {
+    "id": "radar:2026-11-20:added:dallas-ymca-turkey-trot-2026-11-26",
+    "type": "added",
+    "date": "2026-11-20T09:22:44-06:00",
+    "title": "Dallas YMCA Turkey Trot — 5K / 8-Mile",
+    "description": "Added to the verified seven-day radar",
+    "area": "Dallas",
+    "url": "https://ymcadallas.org/general-information-faqs",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/d962cb0ba4cdf5f2997cbe6e7aa76fa8cb563a65"
+  },
+  {
+    "id": "radar:2026-11-20:added:dallas-city-rink-2026-11-26",
+    "type": "added",
+    "date": "2026-11-20T09:22:44-06:00",
+    "title": "CultureMap City Rink — Downtown Skating",
+    "description": "Added to the verified seven-day radar",
+    "area": "Dallas",
+    "url": "https://cityrink.culturemap.com/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/d962cb0ba4cdf5f2997cbe6e7aa76fa8cb563a65"
+  },
+  {
+    "id": "radar:2026-11-20:added:plano-paw-patrol-2026-11-26",
+    "type": "added",
+    "date": "2026-11-20T09:22:44-06:00",
+    "title": "PAW Patrol Immersive Experience — Thanksgiving",
+    "description": "Added to the verified seven-day radar",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/paw-patrol-rescue-pups-an-immersive-experience",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/d962cb0ba4cdf5f2997cbe6e7aa76fa8cb563a65"
+  },
+  {
+    "id": "radar:2026-11-20:added:plano-hand-lettering-2026-11-26",
+    "type": "added",
+    "date": "2026-11-20T09:22:44-06:00",
+    "title": "Hand Lettering Workshop — Thanksgiving",
+    "description": "Added to the verified seven-day radar",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/hand-lettering-workshop-2026",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/d962cb0ba4cdf5f2997cbe6e7aa76fa8cb563a65"
+  },
+  {
+    "id": "radar:2026-11-20:added:grapevine-hotel-vin-thanksgiving-early-2026-11-26",
+    "type": "added",
+    "date": "2026-11-20T09:22:44-06:00",
+    "title": "Thanksgiving Brunch Buffet — 11 AM Seating",
+    "description": "Added to the verified seven-day radar",
+    "area": "Grapevine",
+    "url": "https://www.grapevinetexasusa.com/event/thanksgiving-brunch-buffet/42403/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/d962cb0ba4cdf5f2997cbe6e7aa76fa8cb563a65"
+  },
+  {
+    "id": "radar:2026-11-20:added:grapevine-hotel-vin-thanksgiving-late-2026-11-26",
+    "type": "added",
+    "date": "2026-11-20T09:22:44-06:00",
+    "title": "Thanksgiving Brunch Buffet — 1:30 PM Seating",
+    "description": "Added to the verified seven-day radar",
+    "area": "Grapevine",
+    "url": "https://www.grapevinetexasusa.com/event/thanksgiving-brunch-buffet/42403/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/d962cb0ba4cdf5f2997cbe6e7aa76fa8cb563a65"
+  },
+  {
+    "id": "radar:2026-11-20:added:plano-assembly-lights-2026-11-26",
+    "type": "added",
+    "date": "2026-11-20T09:22:44-06:00",
+    "title": "Holiday Lights at Assembly Park — Thanksgiving",
+    "description": "Added to the verified seven-day radar",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/holiday-lights-at-assembly-park",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/d962cb0ba4cdf5f2997cbe6e7aa76fa8cb563a65"
+  },
+  {
+    "id": "radar:2026-11-20:added:dallas-arboretum-cheer-night-2026-11-26",
+    "type": "added",
+    "date": "2026-11-20T09:22:44-06:00",
+    "title": "Thanksgiving Holiday Cheer Night at the Arboretum",
+    "description": "Added to the verified seven-day radar",
+    "area": "Dallas",
+    "url": "https://www.dallasarboretum.org/events-activities/holiday-at-the-arboretum/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/d962cb0ba4cdf5f2997cbe6e7aa76fa8cb563a65"
+  },
+  {
+    "id": "radar:2026-11-20:added:dallas-zoo-lights-2026-11-26",
+    "type": "added",
+    "date": "2026-11-20T09:22:44-06:00",
+    "title": "Dallas Zoo Lights — Holiday Walk",
+    "description": "Added to the verified seven-day radar",
+    "area": "Dallas",
+    "url": "https://www.dallaszoo.com/event/lights/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/d962cb0ba4cdf5f2997cbe6e7aa76fa8cb563a65"
+  },
+  {
+    "id": "radar:2026-11-20:removed:grapevine-books-food-drive-2026",
+    "type": "removed",
+    "date": "2026-11-20T09:22:44-06:00",
+    "title": "GRACE Thanksgiving Food Drive at Talking Animals Books",
+    "description": "Removed from rolling seven-day feed after expiry; not a cancellation notice",
+    "area": "Grapevine",
+    "url": "https://www.grapevinetexasusa.com/event/grace-grapevine-thanksgiving-food-drive%21/42501/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/d962cb0ba4cdf5f2997cbe6e7aa76fa8cb563a65"
+  },
+  {
+    "id": "radar:2026-11-20:removed:ipat-porcelain-ornament-2026-11-19",
+    "type": "removed",
+    "date": "2026-11-20T09:22:44-06:00",
+    "title": "Make a Christmas Ornament — Porcelain Art Museum",
+    "description": "Removed from rolling seven-day feed after expiry; not a cancellation notice",
+    "area": "Grapevine",
+    "url": "https://www.grapevinetexasusa.com/listing/ipat-museum-of-porcelain-art/95/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/d962cb0ba4cdf5f2997cbe6e7aa76fa8cb563a65"
+  },
+  {
+    "id": "radar:2026-11-20:removed:spoon-ring-2026-11-19",
+    "type": "removed",
+    "date": "2026-11-20T09:22:44-06:00",
+    "title": "Spoon Ring Workshop",
+    "description": "Removed from rolling seven-day feed after expiry; not a cancellation notice",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/spoon-ring-workshops",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/d962cb0ba4cdf5f2997cbe6e7aa76fa8cb563a65"
+  },
+  {
+    "id": "radar:2026-11-20:removed:farmstead-storytime-2026-11-19",
+    "type": "removed",
+    "date": "2026-11-20T09:22:44-06:00",
+    "title": "Story Time on the Farm",
+    "description": "Removed from rolling seven-day feed after expiry; not a cancellation notice",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/heritage_farmstead_museum",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/d962cb0ba4cdf5f2997cbe6e7aa76fa8cb563a65"
+  },
+  {
+    "id": "radar:2026-11-20:removed:mckinney-comedy-mix-2026-11-19",
+    "type": "removed",
+    "date": "2026-11-20T09:22:44-06:00",
+    "title": "The Comedy Mix — Thursday Show",
+    "description": "Removed from rolling seven-day feed after expiry; not a cancellation notice",
+    "area": "McKinney",
+    "url": "https://www.thecomedyarena.com/get-tickets/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/d962cb0ba4cdf5f2997cbe6e7aa76fa8cb563a65"
+  },
+  {
+    "id": "radar:2026-11-20:removed:ntpa-trolls-2026-11-19",
+    "type": "removed",
+    "date": "2026-11-20T09:22:44-06:00",
+    "title": "Trolls the Musical JR",
+    "description": "Removed from rolling seven-day feed after expiry; not a cancellation notice",
+    "area": "Plano",
+    "url": "https://ntpa.org/event/trolls-jr-plano/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/d962cb0ba4cdf5f2997cbe6e7aa76fa8cb563a65"
+  },
+  {
+    "id": "radar:2026-11-20:removed:arboretum-day-2026-11-19",
+    "type": "removed",
+    "date": "2026-11-20T09:22:44-06:00",
+    "title": "Holiday at the Arboretum — Daytime",
+    "description": "Removed from rolling seven-day feed after expiry; not a cancellation notice",
+    "area": "Dallas",
+    "url": "https://www.dallasarboretum.org/visitor-information/hours-and-admission/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/d962cb0ba4cdf5f2997cbe6e7aa76fa8cb563a65"
+  },
+  {
+    "id": "radar:2026-11-20:removed:art-with-impact-2026-11-19",
+    "type": "removed",
+    "date": "2026-11-20T09:22:44-06:00",
+    "title": "Art with Impact Exhibition",
+    "description": "Removed from rolling seven-day feed after expiry; not a cancellation notice",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/artcentre_of_plano",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/d962cb0ba4cdf5f2997cbe6e7aa76fa8cb563a65"
+  },
+  {
+    "id": "radar:2026-11-20:removed:farmstead-fiber-art-2026-11-19",
+    "type": "removed",
+    "date": "2026-11-20T09:22:44-06:00",
+    "title": "Fiber Arts Demonstration — Weaving & Spinning",
+    "description": "Removed from rolling seven-day feed after expiry; not a cancellation notice",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/fiber-arts-demonstration-fall-2026",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/d962cb0ba4cdf5f2997cbe6e7aa76fa8cb563a65"
+  },
+  {
+    "id": "radar:2026-11-20:removed:paw-patrol-2026-11-19",
+    "type": "removed",
+    "date": "2026-11-20T09:22:44-06:00",
+    "title": "PAW Patrol Rescue Pups: Immersive Experience",
+    "description": "Removed from rolling seven-day feed after expiry; not a cancellation notice",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/paw-patrol-rescue-pups-an-immersive-experience",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/d962cb0ba4cdf5f2997cbe6e7aa76fa8cb563a65"
+  },
+  {
+    "id": "radar:2026-11-20:removed:assembly-lights-2026-11-19",
+    "type": "removed",
+    "date": "2026-11-20T09:22:44-06:00",
+    "title": "Holiday Lights at Assembly Park",
+    "description": "Removed from rolling seven-day feed after expiry; not a cancellation notice",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/holiday-lights-at-assembly-park",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/d962cb0ba4cdf5f2997cbe6e7aa76fa8cb563a65"
+  },
+  {
+    "id": "radar:2026-11-20:removed:arboretum-night-2026-11-19",
+    "type": "removed",
+    "date": "2026-11-20T09:22:44-06:00",
+    "title": "Holiday at the Arboretum — Lights",
+    "description": "Removed from rolling seven-day feed after expiry; not a cancellation notice",
+    "area": "Dallas",
+    "url": "https://www.dallasarboretum.org/events-activities/holiday-at-the-arboretum/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/d962cb0ba4cdf5f2997cbe6e7aa76fa8cb563a65"
+  },
+  {
+    "id": "radar:2026-11-20:removed:zoo-lights-2026-11-19",
+    "type": "removed",
+    "date": "2026-11-20T09:22:44-06:00",
+    "title": "Dallas Zoo Lights",
+    "description": "Removed from rolling seven-day feed after expiry; not a cancellation notice",
+    "area": "Dallas",
+    "url": "https://www.dallaszoo.com/event/lights/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/d962cb0ba4cdf5f2997cbe6e7aa76fa8cb563a65"
+  },
+  {
+    "id": "radar:2026-11-20:removed:grapevine-house-of-shine-life-maps-2026-11-19",
+    "type": "removed",
+    "date": "2026-11-20T09:22:44-06:00",
+    "title": "What's Your Shine? Life Maps Workshop",
+    "description": "Removed from rolling seven-day feed after expiry; not a cancellation notice",
+    "area": "Grapevine",
+    "url": "https://www.grapevinetexasusa.com/event/what%E2%80%99s-your-shine%3F-life-maps/42396/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/d962cb0ba4cdf5f2997cbe6e7aa76fa8cb563a65"
+  },
+  {
+    "id": "radar:2026-11-20:removed:clay-ornaments-2026-11-19",
+    "type": "removed",
+    "date": "2026-11-20T09:22:44-06:00",
+    "title": "Clay Christmas Ornaments Workshop",
+    "description": "Removed from rolling seven-day feed after expiry; not a cancellation notice",
+    "area": "McKinney",
+    "url": "https://www.visitmckinney.com/events/clay-christmas-ornaments-workshop-62q265pc",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/d962cb0ba4cdf5f2997cbe6e7aa76fa8cb563a65"
+  },
+  {
+    "id": "radar:2026-11-20:removed:night-at-museum-2026-11-19",
+    "type": "removed",
+    "date": "2026-11-20T09:22:44-06:00",
+    "title": "Night at the Museum — Play Street Plano",
+    "description": "Removed from rolling seven-day feed after expiry; not a cancellation notice",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/night-at-the-museum-play-street-plano-2026",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/d962cb0ba4cdf5f2997cbe6e7aa76fa8cb563a65"
+  },
+  {
+    "id": "radar:2026-11-20:removed:sammons-georgia-barge-2026-11-19",
+    "type": "removed",
+    "date": "2026-11-20T09:22:44-06:00",
+    "title": "Sammons Cabaret: Georgia Barge",
+    "description": "Removed from rolling seven-day feed after expiry; not a cancellation notice",
+    "area": "Dallas",
+    "url": "https://sammonsartcenter.org/event/sammons-cabaret-georgia-barge/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/d962cb0ba4cdf5f2997cbe6e7aa76fa8cb563a65"
+  },
+  {
+    "id": "radar:2026-11-20:removed:making-god-laugh-2026-11-19-20",
+    "type": "removed",
+    "date": "2026-11-20T09:22:44-06:00",
+    "title": "Making God Laugh — Stage Comedy",
+    "description": "Removed from rolling seven-day feed after expiry; not a cancellation notice",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/cox_playhouse",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/d962cb0ba4cdf5f2997cbe6e7aa76fa8cb563a65"
+  },
+  {
+    "id": "radar:2026-11-20:removed:mckinney-vintage-tree-2026-11-21",
+    "type": "removed",
+    "date": "2026-11-20T09:22:44-06:00",
+    "title": "Vintage Ceramic Tree & Cactus Painting Workshop",
+    "description": "Removed redundant duplicate listing",
+    "area": "McKinney",
+    "url": "https://www.visitmckinney.com/events/vintage-tree-and-cactus-workshop-sury4j30",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/d962cb0ba4cdf5f2997cbe6e7aa76fa8cb563a65"
+  },
+  {
+    "id": "radar:2026-11-20:removed:plano-bibliobar-nutcracker-storytime-2026-11-21",
+    "type": "removed",
+    "date": "2026-11-20T09:22:44-06:00",
+    "title": "Free Nutcracker Storytime with Chamberlain Ballet",
+    "description": "Removed redundant duplicate listing",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/free-nutcracker-storytime-with-the-chamberlain-ballet-at-bibliobar-bookstore-7790",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/d962cb0ba4cdf5f2997cbe6e7aa76fa8cb563a65"
+  },
+  {
     "id": "added:822ce021a54b1dea66dee1f977b5a59f59335700:mckinney-saturday-chess-meetup-2026-11-21",
     "type": "added",
     "date": "2026-11-19T15:19:03+00:00",
