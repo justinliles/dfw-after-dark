@@ -11,6 +11,7 @@
   const today=keyOf(new Date()),week=Array.from({length:7},(_,i)=>addDay(today,i));
   let events=[],selections=null,round=0;
   const keywordRules={
+    afterdark:[['Music & Jazz',8],['night',7],['evening',5],['jazz',7],['comedy',6],['improv',6],['concert',5],['lights',4],['late',7],['arcade',4]],
     music:[['Music & Jazz',9],['music',4],['jazz',5],['concert',4],['symphony',4],['band',3],['comedy',3],['improv',3],['theatre',3],['show',2],['live',1]],
     creative:[['Art & Culture',9],['Books & Shops',6],['art',5],['gallery',4],['artist',3],['pottery',5],['painting',4],['workshop',4],['craft',3],['book',4],['author',4],['museum',3]],
     play:[['Games & Play',10],['games',5],['arcade',5],['chess',6],['magic',5],['interactive',3],['improv',3],['comedy',3],['escape',4],['play',3]],
@@ -46,13 +47,14 @@
   }
   function inputs(){
     const form=$('mood-form');
-    return {mood:form.elements.mood.value,group:form.elements.group.value,day:$('mood-day').value,area:$('mood-area').value,budget:$('mood-budget').value};
+    return {mood:(form.elements.afterdark?'afterdark':form.elements.mood.value),group:form.elements.group.value,day:$('mood-day').value,area:$('mood-area').value,budget:$('mood-budget').value};
   }
   function eligible(e,p){
     if(p.day!=='all'&&!covers(e,p.day))return false;
     if(p.area!=='all'&&e.area!==p.area)return false;
     if(p.budget!=='any'&&(e._budget===null||(p.budget==='free'?e._budget!==0:e._budget>Number(p.budget))))return false;
     if(p.group==='family'&&isAdultRestricted(e))return false;
+    if(p.mood==='afterdark' && !/night|evening|jazz|comedy|improv|lights|late|concert|music|arcade/i.test([e.title,e.description,e.category].join(' ')))return false;
     return true;
   }
   function score(e,p,seed){
@@ -76,7 +78,7 @@
   }
   function why(e,p){
     const bits=[];
-    if(p.mood!=='surprise')bits.push({'music':'Matches your music and entertainment mood','creative':'Fits your creative and curious side','play':'A playful pick for getting out','explore':'An opportunity to explore DFW'}[p.mood]);
+    if(p.mood!=='surprise')bits.push({'music':'Matches your music and entertainment mood','creative':'Fits your creative and curious side','play':'A playful pick for getting out','explore':'An opportunity to explore DFW','afterdark':'An evening out in DFW'}[p.mood]);
     else bits.push('An interesting pick from this week');
     if(p.area!=='all')bits.push('in '+e.area);
     if(e._budget===0)bits.push('free entry listed');
@@ -124,5 +126,13 @@
     $('mood-loaded').textContent='Event data is unavailable. Please refresh to try again.';
     $('mood-submit').disabled=true;
   });
+  const selectedMood=new URLSearchParams(location.search).get('mood');
+  if(['music','creative','play','explore','surprise','afterdark'].includes(selectedMood)){
+    const choice=document.querySelector('input[name="mood"][value="'+(selectedMood==='afterdark'?'music':selectedMood)+'"]');
+    if(choice)choice.checked=true;
+    if(selectedMood==='afterdark') {
+      const input=document.createElement('input');input.type='hidden';input.name='afterdark';input.value='1';$('mood-form').appendChild(input);
+    }
+  }
   $('mood-submit').disabled=true;
 })();
