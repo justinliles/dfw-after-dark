@@ -1,5 +1,13 @@
 [
   {
+    "id": "tech:16cb306f06cfcd8029f44db0eabf9913be666502",
+    "type": "technology",
+    "date": "2026-11-21T15:04:40+00:00",
+    "title": "Simplify homepage and enable static shortlist and mood discovery",
+    "description": "Website files updated: index.html",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/16cb306f06cfcd8029f44db0eabf9913be666502"
+  },
+  {
     "id": "added:1d411cfcc0150f96564601dcbc9bbc0ea446bb98:mckinney-comedysportz-2026-11-21",
     "type": "added",
     "date": "2026-11-20T15:35:39+00:00",
