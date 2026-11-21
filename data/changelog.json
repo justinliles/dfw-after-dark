@@ -1,5 +1,13 @@
 [
   {
+    "id": "tech:6242635a77343a65318b4070618353d1587ed2ae",
+    "type": "technology",
+    "date": "2026-11-21T15:16:59+00:00",
+    "title": "Run event detail and sitemap generation on every Netlify production build",
+    "description": "Website files updated: netlify.toml",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/6242635a77343a65318b4070618353d1587ed2ae"
+  },
+  {
     "id": "tech:ef583c1afa32f7ffc57ce0e4e7ffad986f8e66f4",
     "type": "technology",
     "date": "2026-11-21T15:04:51+00:00",
