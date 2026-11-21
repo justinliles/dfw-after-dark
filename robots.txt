@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://dfwdaily.midnightmeta.dev/sitemap.xml
