@@ -1,11 +1,43 @@
 [
   {
+    "id": "tech:6e605f5fc5297fdfccc44c567ed3fb3610f45901",
+    "type": "technology",
+    "date": "2026-11-21T15:27:30Z",
+    "title": "Fix portrait mobile event pages with responsive titles, navigation and details",
+    "description": "Updated scripts/build-event-pages.cjs; mobile event headings, navigation and buttons now adapt to portrait screens.",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/6e605f5fc5297fdfccc44c567ed3fb3610f45901"
+  },
+  {
     "id": "tech:6242635a77343a65318b4070618353d1587ed2ae",
     "type": "technology",
     "date": "2026-11-21T15:16:59+00:00",
     "title": "Run event detail and sitemap generation on every Netlify production build",
     "description": "Website files updated: netlify.toml",
     "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/6242635a77343a65318b4070618353d1587ed2ae"
+  },
+  {
+    "id": "tech:47f7e7ca3dead0b7bde53729d28246ba0f02b110",
+    "type": "technology",
+    "date": "2026-11-21T15:16:44Z",
+    "title": "Add automatic build-time event pages and rolling sitemap generator",
+    "description": "Updated scripts/build-event-pages.cjs; build-time event detail pages and sitemap pruning are generated automatically.",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/47f7e7ca3dead0b7bde53729d28246ba0f02b110"
+  },
+  {
+    "id": "tech:296b15023388c009efd7414f07df573c309bf054",
+    "type": "technology",
+    "date": "2026-11-21T15:04:59Z",
+    "title": "Add sitemap for core routes and verified event detail pages",
+    "description": "Updated sitemap.xml; part of the event discovery and search indexing improvements.",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/296b15023388c009efd7414f07df573c309bf054"
+  },
+  {
+    "id": "tech:62a8c8d2b9ae9e04dd7ef0912aa49f62bd5d9ef3",
+    "type": "technology",
+    "date": "2026-11-21T15:04:54Z",
+    "title": "Add crawlable canonical sitemap and robots directives",
+    "description": "Updated robots.txt; part of the event discovery and search indexing improvements.",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/62a8c8d2b9ae9e04dd7ef0912aa49f62bd5d9ef3"
   },
   {
     "id": "tech:ef583c1afa32f7ffc57ce0e4e7ffad986f8e66f4",
@@ -16,12 +48,44 @@
     "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/ef583c1afa32f7ffc57ce0e4e7ffad986f8e66f4"
   },
   {
+    "id": "tech:7ee06acf532014ce84bc2625b8addfa31d420ed2",
+    "type": "technology",
+    "date": "2026-11-21T15:04:50Z",
+    "title": "Publish indexable event page with verified Event JSON-LD",
+    "description": "Updated event/dallas-turtle-creek-arts-2026-11-21.html; part of the event discovery and search indexing improvements.",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/7ee06acf532014ce84bc2625b8addfa31d420ed2"
+  },
+  {
+    "id": "tech:373dc0e186d6b876b713a141093525f6bfc2f389",
+    "type": "technology",
+    "date": "2026-11-21T15:04:48Z",
+    "title": "Publish indexable event page with verified Event JSON-LD",
+    "description": "Updated event/mckinney-vintage-market-days-2026-11-21.html; part of the event discovery and search indexing improvements.",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/373dc0e186d6b876b713a141093525f6bfc2f389"
+  },
+  {
+    "id": "tech:7c31a2296bf371195c9cec21bfb2e3013d104b28",
+    "type": "technology",
+    "date": "2026-11-21T15:04:47Z",
+    "title": "Publish indexable event page with verified Event JSON-LD",
+    "description": "Updated event/mckinney-vintage-ceramic-tree-2026-11-21.html; part of the event discovery and search indexing improvements.",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/7c31a2296bf371195c9cec21bfb2e3013d104b28"
+  },
+  {
     "id": "tech:16cb306f06cfcd8029f44db0eabf9913be666502",
     "type": "technology",
     "date": "2026-11-21T15:04:40+00:00",
     "title": "Simplify homepage and enable static shortlist and mood discovery",
     "description": "Website files updated: index.html",
     "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/16cb306f06cfcd8029f44db0eabf9913be666502"
+  },
+  {
+    "id": "tech:b1f44e6cc8b1fd4aa6f0a4315265bb6cfdca4fdf",
+    "type": "technology",
+    "date": "2026-11-21T15:04:35Z",
+    "title": "Simplify homepage and enable static shortlist and mood discovery",
+    "description": "Updated discover.js; part of the event discovery and search indexing improvements.",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/b1f44e6cc8b1fd4aa6f0a4315265bb6cfdca4fdf"
   },
   {
     "id": "added:1d411cfcc0150f96564601dcbc9bbc0ea446bb98:mckinney-comedysportz-2026-11-21",
