@@ -34,8 +34,9 @@ function home(){
  for(const e of events)if(chosen.length<4&&!chosen.some(x=>x.id===e.id))chosen.push(e);
  const sample=chosen.slice(0,4);
  status.textContent=events.length?events.length+' upcoming listings · Showing just four highlights':'No upcoming listings right now';
+ if(list.children.length && list.dataset.prerendered==='true') return;
  list.innerHTML=sample.length?sample.map(e=>'<article class="home-pick"><span class="home-pick-date">'+escape(pretty(e))+' · '+escape(time(e))+'</span><h3>'+escape(e.title)+'</h3><p>'+escape(e.venue)+' · '+escape(e.area)+'</p><p>'+escape(e.description||'')+'</p>'+details(e)+'</article>').join(''):'<p class="home-muted">Nothing scheduled right now. Browse the anytime destinations on the Events page.</p>';
- lucky.addEventListener('click',()=>{const e=pick(events);box.hidden=false;box.innerHTML=e?luckyCard(e):'<p>No upcoming events to choose from yet.</p>';box.scrollIntoView({behavior:'smooth',block:'nearest'})});
+ if(lucky)lucky.addEventListener('click',()=>{const e=pick(events);box.hidden=false;box.innerHTML=e?luckyCard(e):'<p>No upcoming events to choose from yet.</p>';box.scrollIntoView({behavior:'smooth',block:'nearest'})});
 }
 function search(){
  const input=q('#query');if(!input)return;
