@@ -1,5 +1,15 @@
 [
   {
+    "id": "removed:144a1c16acc0c84dc39407f14513d88fc076c4b1:fortworth-ostara-market-jazz-2026-11-28",
+    "type": "removed",
+    "date": "2026-11-23T16:36:30+00:00",
+    "title": "Ostara Holiday Market — Live Acoustic Jazz",
+    "description": "Removed from the rolling event feed; may have expired or been rescheduled. Not a cancellation notice.",
+    "area": "Fort Worth",
+    "url": "https://www.fortworth.com/event/ostara-holiday-market-%28small-business-saturday%29/43229/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/144a1c16acc0c84dc39407f14513d88fc076c4b1"
+  },
+  {
     "id": "tech:160c4c90b82ed77867fe0c8465b9d6026e81e5de",
     "type": "technology",
     "date": "2026-11-23T16:35:18Z",
