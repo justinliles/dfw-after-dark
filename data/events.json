@@ -51,6 +51,23 @@
     "timeTBD": true
   },
   {
+    "id": "grapevine-tom-t-turkey-2026-11-23",
+    "title": "Tom T. Turkey Pardoning — Grapevine Holiday Season Kickoff",
+    "category": "Family & Play",
+    "start": "2026-11-23T00:00:00-06:00",
+    "end": "2026-11-23T23:59:00-06:00",
+    "venue": "Historic Cotton Belt Depot District",
+    "area": "Grapevine",
+    "address": "705 S Main St, Grapevine, TX 76051",
+    "lat": null,
+    "lng": null,
+    "price": "Free public ceremony (local event report)",
+    "url": "https://www.grapevinetexasusa.com/articles/post/mayor-to-pardon-tom-t-turkey/",
+    "description": "Free public Thanksgiving turkey pardon begins 10 AM at the Historic Cotton Belt Depot; 10:30 AM preview of Santa's North Pole Express. Ceremony ending hour not published; see organizer.",
+    "featured": false,
+    "timeTBD": true
+  },
+  {
     "id": "plano-fluid-art-2026-11-23",
     "title": "Fluid Art Workshop — Monday",
     "category": "Art & Culture",
@@ -81,22 +98,6 @@
     "price": "$18 + tax/fees; 75-minute timed skate with rentals",
     "url": "https://cityrink.culturemap.com/",
     "description": "Organizer-confirmed daily operating window, not a reserved slot. Choose a timed 75-minute skating session; skating is weather dependent.",
-    "featured": false
-  },
-  {
-    "id": "grapevine-tom-t-turkey-2026-11-23",
-    "title": "Tom T. Turkey Pardoning — Grapevine Holiday Season Kickoff",
-    "category": "Family & Play",
-    "start": "2026-11-23T10:00:00-06:00",
-    "end": "2026-11-23T10:30:00-06:00",
-    "venue": "Historic Cotton Belt Depot District",
-    "area": "Grapevine",
-    "address": "705 S Main St, Grapevine, TX 76051",
-    "lat": null,
-    "lng": null,
-    "price": "Free public ceremony (local event report)",
-    "url": "https://www.grapevinetexasusa.com/articles/post/mayor-to-pardon-tom-t-turkey/",
-    "description": "An unusually charming Thanksgiving tradition: Grapevine's ceremonial turkey pardon begins at 10 AM, followed by a preview of the Santa North Pole Express. Free attendance described by local reporting; ceremony duration is based on the 10:30 AM preview start. Check organizer for public access.",
     "featured": false
   },
   {
@@ -346,6 +347,23 @@
     "timeTBD": true
   },
   {
+    "id": "mckinney-comedy-open-mic-2026-11-24",
+    "title": "Open Mic Night — New Local Comics",
+    "category": "Comedy & Improv",
+    "start": "2026-11-24T00:00:00-06:00",
+    "end": "2026-11-24T23:59:00-06:00",
+    "venue": "The Comedy Arena",
+    "area": "McKinney",
+    "address": "305 E Virginia St Suite 104, McKinney, TX 75069",
+    "lat": null,
+    "lng": null,
+    "price": "Ticket price and age policy: see organizer",
+    "url": "https://www.thecomedyarena.com/get-tickets/",
+    "description": "The Comedy Arena confirms the Tuesday November 24 open mic begins 7:30 PM. End time, ticket price and age suitability not confirmed by organizer; check details.",
+    "featured": false,
+    "timeTBD": true
+  },
+  {
     "id": "mckinney-yes-and-jam-2026-11-24",
     "title": "The Yes, And Improv Jam — McKinney",
     "category": "Comedy & Improv",
@@ -539,22 +557,6 @@
     "end": "2026-11-24T20:30:00-06:00",
     "lat": null,
     "lng": null,
-    "featured": false
-  },
-  {
-    "id": "mckinney-comedy-open-mic-2026-11-24",
-    "title": "Open Mic Night — New Local Comics",
-    "category": "Comedy & Improv",
-    "start": "2026-11-24T19:30:00-06:00",
-    "end": "2026-11-24T22:30:00-06:00",
-    "venue": "The Comedy Arena",
-    "area": "McKinney",
-    "address": "305 E Virginia St Suite 104, McKinney, TX 75069",
-    "lat": null,
-    "lng": null,
-    "price": "Free per third-party event calendar; verify organizer and age policy",
-    "url": "https://www.thecomedyarena.com/get-tickets/",
-    "description": "Weekly Tuesday stand-up open mic with new local performers. Organizer confirms 7:30 PM November 24; end time and free pricing come from an event calendar. Verify age/content guidance.",
     "featured": false
   },
   {
