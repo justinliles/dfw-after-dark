@@ -1,5 +1,35 @@
 [
   {
+    "id": "added:d0e27d1fd83ce91fc34a55a15701ed2fcd704536:grapevine-tom-t-turkey-2026-11-23",
+    "type": "added",
+    "date": "2026-11-23T16:12:44+00:00",
+    "title": "Tom T. Turkey Pardoning — Grapevine Holiday Season Kickoff",
+    "description": "Added to the upcoming events feed",
+    "area": "Grapevine",
+    "url": "https://www.grapevinetexasusa.com/articles/post/mayor-to-pardon-tom-t-turkey/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/d0e27d1fd83ce91fc34a55a15701ed2fcd704536"
+  },
+  {
+    "id": "added:d0e27d1fd83ce91fc34a55a15701ed2fcd704536:mckinney-comedy-open-mic-2026-11-24",
+    "type": "added",
+    "date": "2026-11-23T16:12:44+00:00",
+    "title": "Open Mic Night — New Local Comics",
+    "description": "Added to the upcoming events feed",
+    "area": "McKinney",
+    "url": "https://www.thecomedyarena.com/get-tickets/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/d0e27d1fd83ce91fc34a55a15701ed2fcd704536"
+  },
+  {
+    "id": "added:d0e27d1fd83ce91fc34a55a15701ed2fcd704536:mckinney-yes-and-jam-2026-11-24",
+    "type": "added",
+    "date": "2026-11-23T16:12:44+00:00",
+    "title": "The Yes, And Improv Jam — McKinney",
+    "description": "Added to the upcoming events feed",
+    "area": "McKinney",
+    "url": "https://www.thecomedyarena.com/get-tickets/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/d0e27d1fd83ce91fc34a55a15701ed2fcd704536"
+  },
+  {
     "id": "tech:e3cf339ed2a5a4338b535827d1669edaac83ae1f",
     "type": "technology",
     "date": "2026-11-23T16:06:59+00:00",
