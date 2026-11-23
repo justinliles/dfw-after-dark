@@ -8,6 +8,14 @@
     "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/e3cf339ed2a5a4338b535827d1669edaac83ae1f"
   },
   {
+    "id": "tech:c3a45d8ef154f7470dc071a7a1ca9006d4ef0019",
+    "type": "technology",
+    "date": "2026-11-23T16:06:24Z",
+    "title": "Improve rolling event shortlist and ongoing date labels",
+    "description": "Updated the event-page build script to show the correct continuing dates for multi-day events and prioritize three current, organizer-linked homepage picks while automatically excluding expired events.",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/c3a45d8ef154f7470dc071a7a1ca9006d4ef0019"
+  },
+  {
     "id": "added:1c7614a84aa2f78e37dd88f3bbcef4e8baa1f401:dallas-arboretum-day-2026-11-29",
     "type": "added",
     "date": "2026-11-23T16:02:30+00:00",
