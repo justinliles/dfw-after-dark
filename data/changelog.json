@@ -1,5 +1,25 @@
 [
   {
+    "id": "removed:64f179cefc0b162bd8e635014643b7b6de0e8951:fortworth-cafe-modern-pizza-patio-2026-11-27",
+    "type": "removed",
+    "date": "2026-11-23T16:37:47+00:00",
+    "title": "Pizza on the Patio at the Modern Art Museum",
+    "description": "Removed from the rolling event feed; may have expired or been rescheduled. Not a cancellation notice.",
+    "area": "Fort Worth",
+    "url": "https://www.fortworth.com/event/pizza-on-the-patio-at-caf%C3%A9-modern/43218/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/64f179cefc0b162bd8e635014643b7b6de0e8951"
+  },
+  {
+    "id": "removed:64f179cefc0b162bd8e635014643b7b6de0e8951:grapevine-traditional-blues-2026-11-28",
+    "type": "removed",
+    "date": "2026-11-23T16:37:47+00:00",
+    "title": "Traditional Blues Band — Live Roots Music",
+    "description": "Removed from the rolling event feed; may have expired or been rescheduled. Not a cancellation notice.",
+    "area": "Grapevine",
+    "url": "https://www.grapevinetexasusa.com/event/live-music-at-the-bull-the-traditional-blues-band/42480/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/64f179cefc0b162bd8e635014643b7b6de0e8951"
+  },
+  {
     "id": "tech:e40725c24a7ce6db2188e026cef91c25a17b4267",
     "type": "technology",
     "date": "2026-11-23T16:37:21+00:00",
