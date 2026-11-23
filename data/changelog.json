@@ -1,5 +1,115 @@
 [
   {
+    "id": "added:b830cd38901b90658b1b0292eef30cea8a1aa828:fortworth-cafe-modern-pizza-patio-2026-11-27",
+    "type": "added",
+    "date": "2026-11-23T16:28:02+00:00",
+    "title": "Pizza on the Patio at the Modern Art Museum",
+    "description": "Added to the upcoming events feed",
+    "area": "Fort Worth",
+    "url": "https://www.fortworth.com/event/pizza-on-the-patio-at-caf%C3%A9-modern/43218/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/b830cd38901b90658b1b0292eef30cea8a1aa828"
+  },
+  {
+    "id": "added:b830cd38901b90658b1b0292eef30cea8a1aa828:fortworth-jubilee-scrooge-fri-2026-11-27",
+    "type": "added",
+    "date": "2026-11-23T16:28:02+00:00",
+    "title": "If Scrooge Was a Brother — Jubilee Theatre Friday",
+    "description": "Added to the upcoming events feed",
+    "area": "Fort Worth",
+    "url": "https://www.jubileetheatre.org/scrooge",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/b830cd38901b90658b1b0292eef30cea8a1aa828"
+  },
+  {
+    "id": "added:b830cd38901b90658b1b0292eef30cea8a1aa828:fortworth-jubilee-scrooge-sat-evening-2026-11-28",
+    "type": "added",
+    "date": "2026-11-23T16:28:02+00:00",
+    "title": "If Scrooge Was a Brother — Saturday Evening",
+    "description": "Added to the upcoming events feed",
+    "area": "Fort Worth",
+    "url": "https://www.jubileetheatre.org/scrooge",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/b830cd38901b90658b1b0292eef30cea8a1aa828"
+  },
+  {
+    "id": "added:b830cd38901b90658b1b0292eef30cea8a1aa828:fortworth-jubilee-scrooge-sat-mat-2026-11-28",
+    "type": "added",
+    "date": "2026-11-23T16:28:02+00:00",
+    "title": "If Scrooge Was a Brother — Saturday Matinee",
+    "description": "Added to the upcoming events feed",
+    "area": "Fort Worth",
+    "url": "https://www.jubileetheatre.org/scrooge",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/b830cd38901b90658b1b0292eef30cea8a1aa828"
+  },
+  {
+    "id": "added:b830cd38901b90658b1b0292eef30cea8a1aa828:fortworth-jubilee-scrooge-sun-mat-2026-11-29",
+    "type": "added",
+    "date": "2026-11-23T16:28:02+00:00",
+    "title": "If Scrooge Was a Brother — Sunday Matinee",
+    "description": "Added to the upcoming events feed",
+    "area": "Fort Worth",
+    "url": "https://www.jubileetheatre.org/scrooge",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/b830cd38901b90658b1b0292eef30cea8a1aa828"
+  },
+  {
+    "id": "added:b830cd38901b90658b1b0292eef30cea8a1aa828:grapevine-rudolph-gift-escape-2026-11-23",
+    "type": "added",
+    "date": "2026-11-23T16:28:02+00:00",
+    "title": "Rudolph's Gift — Holiday Escape Room",
+    "description": "Added to the upcoming events feed",
+    "area": "Grapevine",
+    "url": "https://www.grapevinetexasusa.com/event/rudolphs-gift/42387/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/b830cd38901b90658b1b0292eef30cea8a1aa828"
+  },
+  {
+    "id": "added:b830cd38901b90658b1b0292eef30cea8a1aa828:grapevine-santa-wonderland-2026-11-23",
+    "type": "added",
+    "date": "2026-11-23T16:28:02+00:00",
+    "title": "Santa's Wonderland — Free Holiday Photo Experience",
+    "description": "Added to the upcoming events feed",
+    "area": "Grapevine",
+    "url": "https://www.grapevinetexasusa.com/event/santa%E2%80%99s-wonderland-at-grapevine-bass-pro-shops/42477/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/b830cd38901b90658b1b0292eef30cea8a1aa828"
+  },
+  {
+    "id": "added:b830cd38901b90658b1b0292eef30cea8a1aa828:grapevine-sea-life-elf-search-2026-11-23",
+    "type": "added",
+    "date": "2026-11-23T16:28:02+00:00",
+    "title": "The Sea Star Search — Aquarium Holiday Puzzle Trail",
+    "description": "Added to the upcoming events feed",
+    "area": "Grapevine",
+    "url": "https://www.visitsealife.com/grapevine/whats-inside/events-page/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/b830cd38901b90658b1b0292eef30cea8a1aa828"
+  },
+  {
+    "id": "added:b830cd38901b90658b1b0292eef30cea8a1aa828:richardson-holmes-holidays-fri-2026-11-27",
+    "type": "added",
+    "date": "2026-11-23T16:28:02+00:00",
+    "title": "Holmes for the Holidays — Friday Mystery Theatre",
+    "description": "Added to the upcoming events feed",
+    "area": "Richardson",
+    "url": "https://www.rcttheatre.com/shows.html",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/b830cd38901b90658b1b0292eef30cea8a1aa828"
+  },
+  {
+    "id": "added:b830cd38901b90658b1b0292eef30cea8a1aa828:richardson-holmes-holidays-sat-2026-11-28",
+    "type": "added",
+    "date": "2026-11-23T16:28:02+00:00",
+    "title": "Holmes for the Holidays — Saturday Mystery Theatre",
+    "description": "Added to the upcoming events feed",
+    "area": "Richardson",
+    "url": "https://www.rcttheatre.com/shows.html",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/b830cd38901b90658b1b0292eef30cea8a1aa828"
+  },
+  {
+    "id": "added:b830cd38901b90658b1b0292eef30cea8a1aa828:richardson-holmes-holidays-sun-2026-11-29",
+    "type": "added",
+    "date": "2026-11-23T16:28:02+00:00",
+    "title": "Holmes for the Holidays — Sunday Mystery Matinee",
+    "description": "Added to the upcoming events feed",
+    "area": "Richardson",
+    "url": "https://www.rcttheatre.com/shows.html",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/b830cd38901b90658b1b0292eef30cea8a1aa828"
+  },
+  {
     "id": "added:d0e27d1fd83ce91fc34a55a15701ed2fcd704536:grapevine-tom-t-turkey-2026-11-23",
     "type": "added",
     "date": "2026-11-23T16:12:44+00:00",
