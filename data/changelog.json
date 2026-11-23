@@ -1,5 +1,13 @@
 [
   {
+    "id": "tech:160c4c90b82ed77867fe0c8465b9d6026e81e5de",
+    "type": "technology",
+    "date": "2026-11-23T16:35:18Z",
+    "title": "Regenerate crawler-visible sitemap for current seven-day DFW events",
+    "description": "Rebuilt sitemap.xml with 141 active event detail pages and six canonical site routes; removed expired Nov 21 URLs so crawlers no longer encounter stale event links.",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/160c4c90b82ed77867fe0c8465b9d6026e81e5de"
+  },
+  {
     "id": "added:fd09a79e025b9d8a2b6f03d365d2df3f17be86ab:mckinney-chestnut-square-farmers-2026-11-28",
     "type": "added",
     "date": "2026-11-23T16:29:38+00:00",
