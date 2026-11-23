@@ -1788,22 +1788,6 @@
     "featured": true
   },
   {
-    "id": "grapevine-traditional-blues-2026-11-28",
-    "title": "Traditional Blues Band — Live Roots Music",
-    "category": "Live Music",
-    "start": "2026-11-28T19:00:00-06:00",
-    "end": "2026-11-28T22:00:00-06:00",
-    "venue": "Bohemian Bull",
-    "area": "Grapevine",
-    "address": "1112 W Northwest Hwy, Grapevine, TX 76051",
-    "lat": null,
-    "lng": null,
-    "price": "Free; verify venue age policy",
-    "url": "https://www.grapevinetexasusa.com/event/live-music-at-the-bull-the-traditional-blues-band/42480/",
-    "description": "Free traditional blues set; check the venue's family seating and age policy.",
-    "featured": false
-  },
-  {
     "id": "plano-legacy-sat-night-live-2026-11-28",
     "title": "Saturday Music Near Free People",
     "category": "Live Music",
@@ -2262,22 +2246,6 @@
     "description": "3 PM Sunday matinee. Music and theater with a contemporary take on a classic holiday story; complete end time and ticket availability unverified.",
     "featured": false,
     "timeTBD": true
-  },
-  {
-    "id": "fortworth-cafe-modern-pizza-patio-2026-11-27",
-    "title": "Pizza on the Patio at the Modern Art Museum",
-    "category": "Art & Culture",
-    "start": "2026-11-27T17:00:00-06:00",
-    "end": "2026-11-27T20:00:00-06:00",
-    "venue": "Café Modern at the Modern Art Museum",
-    "area": "Fort Worth",
-    "address": "3200 Darnell St, Fort Worth, TX 76107",
-    "lat": null,
-    "lng": null,
-    "price": "Food priced à la carte; event entry price not listed",
-    "url": "https://www.fortworth.com/event/pizza-on-the-patio-at-caf%C3%A9-modern/43218/",
-    "description": "A relaxed Friday-evening café patio outing beside the Modern's reflecting pond, with specialty pizzas and seasonal food from 5–8 PM. Check museum admission separately if visiting galleries.",
-    "featured": false
   },
   {
     "id": "mckinney-chestnut-square-farmers-2026-11-28",
