@@ -1,5 +1,13 @@
 [
   {
+    "id": "tech:e40725c24a7ce6db2188e026cef91c25a17b4267",
+    "type": "technology",
+    "date": "2026-11-23T16:37:21+00:00",
+    "title": "Refresh three SEO-visible cards with dated family-friendly music and holiday picks",
+    "description": "Website files updated: index.html",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/e40725c24a7ce6db2188e026cef91c25a17b4267"
+  },
+  {
     "id": "removed:144a1c16acc0c84dc39407f14513d88fc076c4b1:fortworth-ostara-market-jazz-2026-11-28",
     "type": "removed",
     "date": "2026-11-23T16:36:30+00:00",
