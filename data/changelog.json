@@ -1,5 +1,13 @@
 [
   {
+    "id": "tech:c8078fabaed7800bb60e8991a6a560b07e9f08c2",
+    "type": "technology",
+    "date": "2026-11-23T16:40:18Z",
+    "title": "Prune inactive event URLs and index 138 verified Nov 23–29 listings",
+    "description": "Updated sitemap.xml to contain six canonical core routes and exactly 138 current Nov 23–29 event-detail pages, removing inactive entries; the generated build sitemap remains aligned.",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/c8078fabaed7800bb60e8991a6a560b07e9f08c2"
+  },
+  {
     "id": "removed:64f179cefc0b162bd8e635014643b7b6de0e8951:fortworth-cafe-modern-pizza-patio-2026-11-27",
     "type": "removed",
     "date": "2026-11-23T16:37:47+00:00",
@@ -26,6 +34,14 @@
     "title": "Refresh three SEO-visible cards with dated family-friendly music and holiday picks",
     "description": "Website files updated: index.html",
     "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/e40725c24a7ce6db2188e026cef91c25a17b4267"
+  },
+  {
+    "id": "tech:66c44d12c36207082c4561592ef3c5395d14bb3e",
+    "type": "technology",
+    "date": "2026-11-23T16:36:52Z",
+    "title": "Prefer verified family-friendly Sinatra live-band performance in homepage shortlist",
+    "description": "Updated build-time homepage editorial priority so the three pre-rendered event cards use a confirmed all-ages live music performance, preserving interactive discovery and mobile event details.",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/66c44d12c36207082c4561592ef3c5395d14bb3e"
   },
   {
     "id": "removed:144a1c16acc0c84dc39407f14513d88fc076c4b1:fortworth-ostara-market-jazz-2026-11-28",
