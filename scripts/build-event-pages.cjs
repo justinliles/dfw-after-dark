@@ -24,6 +24,9 @@ const keep = new Set();
 const staticPaths = ['/','/events.html','/search.html','/mood.html','/how-it-works.html','/changelog.html'];
 function dateLabel(e) {
  const d = new Date(e.start);
+ if (dayKey(d)<today && dayKey(new Date(e.end))>=today) {
+  return 'Ongoing through '+new Intl.DateTimeFormat('en-US',{timeZone:zone,dateStyle:'full'}).format(new Date(e.end));
+ }
  return new Intl.DateTimeFormat('en-US',{timeZone:zone,dateStyle:'full',...(e.timeTBD?{}:{timeStyle:'short'})}).format(d);
 }
 function schemaFor(e,url) {
@@ -76,7 +79,10 @@ for(const filename of fs.readdirSync(eventDir)) {
 const indexPath=path.join(root,'index.html');
 let index=fs.readFileSync(indexPath,'utf8');
 const featured=active.filter(e=>e.featured&&!e.timeTBD);
-const shortlist=[...featured,...active.filter(e=>!e.timeTBD)].filter((e,i,a)=>a.findIndex(x=>x.id===e.id)===i).slice(0,3);
+// Editorial lead stories for this rolling edition; each disappears when it leaves the active window.
+const editorIds=['grapevine-carol-of-lights-2026-11-23','mckinney-home-for-holidays-2026-11-27','fortworth-ostara-market-jazz-2026-11-28'];
+const editorPicks=editorIds.map(id=>active.find(e=>e.id===id&&!e.timeTBD)).filter(Boolean);
+const shortlist=[...editorPicks,...featured,...active.filter(e=>!e.timeTBD)].filter((e,i,a)=>a.findIndex(x=>x.id===e.id)===i).slice(0,3);
 const cards=shortlist.map(e=>'<article class="home-pick"><span class="home-pick-date">'+esc(dateLabel(e))+'</span><h3><a href="/event/'+encodeURIComponent(e.id)+'.html">'+esc(e.title)+'</a></h3><p>'+esc(e.venue)+' · '+esc(e.area)+'</p><p>'+esc(e.price||'Price: See organizer')+'</p><p>'+esc(e.description||'')+'</p><a href="/event/'+encodeURIComponent(e.id)+'.html">Event details ↗</a></article>').join('');
 index=index.replace(/(<div id="home-cards"[^>]*>)[\s\S]*?(<\/div><\/section>)/,(_,open,close)=>open+cards+close);
 index=index.replace(/(<p id="home-status"[^>]*>)[\s\S]*?(<\/p>)/,(_,open,close)=>open+'Updated daily · '+shortlist.length+' handpicked DFW plans'+close);
