@@ -1,5 +1,13 @@
 [
   {
+    "id": "tech:e3cf339ed2a5a4338b535827d1669edaac83ae1f",
+    "type": "technology",
+    "date": "2026-11-23T16:06:59+00:00",
+    "title": "Pre-render three current Nov 23–29 verified homepage shortlist cards",
+    "description": "Website files updated: index.html",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/e3cf339ed2a5a4338b535827d1669edaac83ae1f"
+  },
+  {
     "id": "added:1c7614a84aa2f78e37dd88f3bbcef4e8baa1f401:dallas-arboretum-day-2026-11-29",
     "type": "added",
     "date": "2026-11-23T16:02:30+00:00",
