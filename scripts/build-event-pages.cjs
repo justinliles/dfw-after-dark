@@ -80,7 +80,7 @@ const indexPath=path.join(root,'index.html');
 let index=fs.readFileSync(indexPath,'utf8');
 const featured=active.filter(e=>e.featured&&!e.timeTBD);
 // Editorial lead stories for this rolling edition; each disappears when it leaves the active window.
-const editorIds=['grapevine-carol-of-lights-2026-11-23','mckinney-home-for-holidays-2026-11-27','fortworth-ostara-market-jazz-2026-11-28'];
+const editorIds=['grapevine-carol-of-lights-2026-11-23','mckinney-home-for-holidays-2026-11-27','grapevine-sinatra-tribute-2026-11-29'];
 const editorPicks=editorIds.map(id=>active.find(e=>e.id===id&&!e.timeTBD)).filter(Boolean);
 const shortlist=[...editorPicks,...featured,...active.filter(e=>!e.timeTBD)].filter((e,i,a)=>a.findIndex(x=>x.id===e.id)===i).slice(0,3);
 const cards=shortlist.map(e=>'<article class="home-pick"><span class="home-pick-date">'+esc(dateLabel(e))+'</span><h3><a href="/event/'+encodeURIComponent(e.id)+'.html">'+esc(e.title)+'</a></h3><p>'+esc(e.venue)+' · '+esc(e.area)+'</p><p>'+esc(e.price||'Price: See organizer')+'</p><p>'+esc(e.description||'')+'</p><a href="/event/'+encodeURIComponent(e.id)+'.html">Event details ↗</a></article>').join('');
