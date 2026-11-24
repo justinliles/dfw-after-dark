@@ -78,11 +78,20 @@ for(const filename of fs.readdirSync(eventDir)) {
 }
 const indexPath=path.join(root,'index.html');
 let index=fs.readFileSync(indexPath,'utf8');
-const featured=active.filter(e=>e.featured&&!e.timeTBD);
-// Editorial lead stories for this rolling edition; each disappears when it leaves the active window.
-const editorIds=['grapevine-carol-of-lights-2026-11-23','mckinney-home-for-holidays-2026-11-27','grapevine-sinatra-tribute-2026-11-29'];
-const editorPicks=editorIds.map(id=>active.find(e=>e.id===id&&!e.timeTBD)).filter(Boolean);
-const shortlist=[...editorPicks,...featured,...active.filter(e=>!e.timeTBD)].filter((e,i,a)=>a.findIndex(x=>x.id===e.id)===i).slice(0,3);
+// Prefer future, confirmed-time featured events and avoid hard-coded daily IDs.
+const now = Date.now();
+const upcoming=active.filter(e=>!e.timeTBD&&Date.parse(e.end)>=now);
+const featured=upcoming.filter(e=>e.featured);
+const ordered=[...featured,...upcoming].filter((e,i,a)=>a.findIndex(x=>x.id===e.id)===i);
+const shortlist=[];
+for(const e of ordered) {
+ if(shortlist.length===3)break;
+ if(!shortlist.some(x=>dayKey(new Date(x.start))===dayKey(new Date(e.start))))shortlist.push(e);
+}
+for(const e of ordered) {
+ if(shortlist.length===3)break;
+ if(!shortlist.some(x=>x.id===e.id))shortlist.push(e);
+}
 const cards=shortlist.map(e=>'<article class="home-pick"><span class="home-pick-date">'+esc(dateLabel(e))+'</span><h3><a href="/event/'+encodeURIComponent(e.id)+'.html">'+esc(e.title)+'</a></h3><p>'+esc(e.venue)+' · '+esc(e.area)+'</p><p>'+esc(e.price||'Price: See organizer')+'</p><p>'+esc(e.description||'')+'</p><a href="/event/'+encodeURIComponent(e.id)+'.html">Event details ↗</a></article>').join('');
 index=index.replace(/(<div id="home-cards"[^>]*>)[\s\S]*?(<\/div><\/section>)/,(_,open,close)=>open+cards+close);
 index=index.replace(/(<p id="home-status"[^>]*>)[\s\S]*?(<\/p>)/,(_,open,close)=>open+'Updated daily · '+shortlist.length+' handpicked DFW plans'+close);
