@@ -1,5 +1,13 @@
 [
   {
+    "id": "tech:2d7102037d23ee33d97866d295646468c9547635",
+    "type": "technology",
+    "date": "2026-11-24T15:40:10+00:00",
+    "title": "Refresh November 24 static homepage event cards",
+    "description": "Website files updated: index.html",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/2d7102037d23ee33d97866d295646468c9547635"
+  },
+  {
     "id": "added:2555f5caf59e0ade9821ecd88af989f7051a3693:fortworth-ostara-jazz-market-2026-11-28",
     "type": "added",
     "date": "2026-11-24T15:39:07+00:00",
