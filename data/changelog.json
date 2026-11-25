@@ -1,5 +1,305 @@
 [
   {
+    "id": "added:ec2e8a391cc76f3ba793d84832a8ae4d55f80a1b:grapevine-christmas-cartoons-2026-12-01",
+    "type": "added",
+    "date": "2026-11-25T15:12:32+00:00",
+    "title": "Classic Christmas Cartoons & Crafts",
+    "description": "Added to the upcoming events feed",
+    "area": "Grapevine",
+    "url": "https://www.grapevinetexasusa.com/event/classic-christmas-cartoons-%26-crafts/42336/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/ec2e8a391cc76f3ba793d84832a8ae4d55f80a1b"
+  },
+  {
+    "id": "added:ec2e8a391cc76f3ba793d84832a8ae4d55f80a1b:grapevine-meet-me-st-louis-2026-12-01",
+    "type": "added",
+    "date": "2026-11-25T15:12:32+00:00",
+    "title": "Meet Me in St. Louis — Classic Cinema",
+    "description": "Added to the upcoming events feed",
+    "area": "Grapevine",
+    "url": "https://www.grapevinetexasusa.com/event/meet-me-in-st-louis-%281944%29/42078/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/ec2e8a391cc76f3ba793d84832a8ae4d55f80a1b"
+  },
+  {
+    "id": "added:ec2e8a391cc76f3ba793d84832a8ae4d55f80a1b:grapevine-peace-rink-2026-12-01",
+    "type": "added",
+    "date": "2026-11-25T15:12:32+00:00",
+    "title": "Peace Plaza Ice Rink — Tuesday Sessions",
+    "description": "Added to the upcoming events feed",
+    "area": "Grapevine",
+    "url": "https://www.grapevinetexasusa.com/event/peace-plaza-ice-rink/42324/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/ec2e8a391cc76f3ba793d84832a8ae4d55f80a1b"
+  },
+  {
+    "id": "added:ec2e8a391cc76f3ba793d84832a8ae4d55f80a1b:grapevine-talking-animals-anniversary-2026-12-01",
+    "type": "added",
+    "date": "2026-11-25T15:12:32+00:00",
+    "title": "Talking Animals Books — Anniversary Ribbon Cutting",
+    "description": "Added to the upcoming events feed",
+    "area": "Grapevine",
+    "url": "https://www.grapevinetexasusa.com/event/talking-animals-books-1-year-anniversary-ribbon-cutting/42510/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/ec2e8a391cc76f3ba793d84832a8ae4d55f80a1b"
+  },
+  {
+    "id": "added:ec2e8a391cc76f3ba793d84832a8ae4d55f80a1b:mckinney-farmhouse-shop-2026-11-29",
+    "type": "added",
+    "date": "2026-11-25T15:12:32+00:00",
+    "title": "FarmHouse Fresh — Sunday Shop",
+    "description": "Added to the upcoming events feed",
+    "area": "McKinney",
+    "url": "https://www.visitmckinney.com/events/farmhouse-fresh-animal-sanctuary-black-friday-event-1fhibutx",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/ec2e8a391cc76f3ba793d84832a8ae4d55f80a1b"
+  },
+  {
+    "id": "added:ec2e8a391cc76f3ba793d84832a8ae4d55f80a1b:mckinney-hard-nights-day-2026-11-28",
+    "type": "added",
+    "date": "2026-11-25T15:12:32+00:00",
+    "title": "Hard Nights Day — Beatles Tribute",
+    "description": "Added to the upcoming events feed",
+    "area": "McKinney",
+    "url": "https://www.visitmckinney.com/events/hard-nights-day-a-beatles-tribute-at-tupps-b187totn",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/ec2e8a391cc76f3ba793d84832a8ae4d55f80a1b"
+  },
+  {
+    "id": "added:ec2e8a391cc76f3ba793d84832a8ae4d55f80a1b:mckinney-turkey-tour-2026",
+    "type": "added",
+    "date": "2026-11-25T15:12:32+00:00",
+    "title": "Inflatable Turkey Tour — Find the Flock",
+    "description": "Added to the upcoming events feed",
+    "area": "McKinney",
+    "url": "https://www.visitmckinney.com/inflatable-turkeys",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/ec2e8a391cc76f3ba793d84832a8ae4d55f80a1b"
+  },
+  {
+    "id": "added:ec2e8a391cc76f3ba793d84832a8ae4d55f80a1b:mckinney-watercolor-2026-12-01",
+    "type": "added",
+    "date": "2026-11-25T15:12:32+00:00",
+    "title": "Watercolor Techniques — Oranges and Camellias",
+    "description": "Added to the upcoming events feed",
+    "area": "McKinney",
+    "url": "https://www.visitmckinney.com/events/watercolor-techniques-fruits-and-flowers-with-amelia-audish-12499",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/ec2e8a391cc76f3ba793d84832a8ae4d55f80a1b"
+  },
+  {
+    "id": "added:ec2e8a391cc76f3ba793d84832a8ae4d55f80a1b:plano-assembly-lights-2026-12-01",
+    "type": "added",
+    "date": "2026-11-25T15:12:32+00:00",
+    "title": "Holiday Lights at Assembly Park — Tuesday",
+    "description": "Added to the upcoming events feed",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/holiday-lights-at-assembly-park",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/ec2e8a391cc76f3ba793d84832a8ae4d55f80a1b"
+  },
+  {
+    "id": "added:ec2e8a391cc76f3ba793d84832a8ae4d55f80a1b:plano-deerfield-lights-2026-12-01",
+    "type": "added",
+    "date": "2026-11-25T15:12:32+00:00",
+    "title": "Deerfield Holiday Lights — Opening Night",
+    "description": "Added to the upcoming events feed",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/deerfield-holiday-lights-2026",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/ec2e8a391cc76f3ba793d84832a8ae4d55f80a1b"
+  },
+  {
+    "id": "added:ec2e8a391cc76f3ba793d84832a8ae4d55f80a1b:plano-watercolor-cards-2026-12-01",
+    "type": "added",
+    "date": "2026-11-25T15:12:32+00:00",
+    "title": "Holiday Watercolor — Three Greeting Cards",
+    "description": "Added to the upcoming events feed",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/holiday-watercolor-workshop-make-3-greeting-cards",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/ec2e8a391cc76f3ba793d84832a8ae4d55f80a1b"
+  },
+  {
+    "id": "removed:ec2e8a391cc76f3ba793d84832a8ae4d55f80a1b:dallas-city-rink-2026-11-24",
+    "type": "removed",
+    "date": "2026-11-25T15:12:32+00:00",
+    "title": "CultureMap City Rink — Downtown Skating",
+    "description": "Removed from the rolling event feed; may have expired or been rescheduled. Not a cancellation notice.",
+    "area": "Dallas",
+    "url": "https://cityrink.culturemap.com/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/ec2e8a391cc76f3ba793d84832a8ae4d55f80a1b"
+  },
+  {
+    "id": "removed:ec2e8a391cc76f3ba793d84832a8ae4d55f80a1b:dallas-zoo-lights-2026-11-24",
+    "type": "removed",
+    "date": "2026-11-25T15:12:32+00:00",
+    "title": "Dallas Zoo Lights — Holiday Walk",
+    "description": "Removed from the rolling event feed; may have expired or been rescheduled. Not a cancellation notice.",
+    "area": "Dallas",
+    "url": "https://www.dallaszoo.com/event/lights/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/ec2e8a391cc76f3ba793d84832a8ae4d55f80a1b"
+  },
+  {
+    "id": "removed:ec2e8a391cc76f3ba793d84832a8ae4d55f80a1b:grapevine-charlie-brown-double-2026-11-24",
+    "type": "removed",
+    "date": "2026-11-25T15:12:32+00:00",
+    "title": "Charlie Brown Thanksgiving & Christmas — Animated Double Feature",
+    "description": "Removed from the rolling event feed; may have expired or been rescheduled. Not a cancellation notice.",
+    "area": "Grapevine",
+    "url": "https://www.grapevinetexasusa.com/event/animated-double-feature%3A-a-charlie-brown/42115/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/ec2e8a391cc76f3ba793d84832a8ae4d55f80a1b"
+  },
+  {
+    "id": "removed:ec2e8a391cc76f3ba793d84832a8ae4d55f80a1b:grapevine-peace-rink-2026-11-24",
+    "type": "removed",
+    "date": "2026-11-25T15:12:32+00:00",
+    "title": "Peace Plaza Ice Rink — Timed Skating",
+    "description": "Removed from the rolling event feed; may have expired or been rescheduled. Not a cancellation notice.",
+    "area": "Grapevine",
+    "url": "https://www.grapevinetexasusa.com/event/peace-plaza-ice-rink/42324/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/ec2e8a391cc76f3ba793d84832a8ae4d55f80a1b"
+  },
+  {
+    "id": "removed:ec2e8a391cc76f3ba793d84832a8ae4d55f80a1b:grapevine-rocky4-movie-2026-11-24",
+    "type": "removed",
+    "date": "2026-11-25T15:12:32+00:00",
+    "title": "Rocky IV (1985) — Classic Movie",
+    "description": "Removed from the rolling event feed; may have expired or been rescheduled. Not a cancellation notice.",
+    "area": "Grapevine",
+    "url": "https://www.grapevinetexasusa.com/event/rocky-iv-%281985%29/42114/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/ec2e8a391cc76f3ba793d84832a8ae4d55f80a1b"
+  },
+  {
+    "id": "removed:ec2e8a391cc76f3ba793d84832a8ae4d55f80a1b:grapevine-rustic-painting-2026-11-24",
+    "type": "removed",
+    "date": "2026-11-25T15:12:32+00:00",
+    "title": "Pick Your Rustic Christmas Painting",
+    "description": "Removed from the rolling event feed; may have expired or been rescheduled. Not a cancellation notice.",
+    "area": "Grapevine",
+    "url": "https://www.grapevinetexasusa.com/event/bogo-50%25-off-pick-your-rustic-christmas/42365/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/ec2e8a391cc76f3ba793d84832a8ae4d55f80a1b"
+  },
+  {
+    "id": "removed:ec2e8a391cc76f3ba793d84832a8ae4d55f80a1b:grapevine-santa-clause-movie-2026-11-24",
+    "type": "removed",
+    "date": "2026-11-25T15:12:32+00:00",
+    "title": "The Santa Clause (1994) — Classic Movie",
+    "description": "Removed from the rolling event feed; may have expired or been rescheduled. Not a cancellation notice.",
+    "area": "Grapevine",
+    "url": "https://www.grapevinetexasusa.com/event/the-santa-clause-%281994%29/42113/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/ec2e8a391cc76f3ba793d84832a8ae4d55f80a1b"
+  },
+  {
+    "id": "removed:ec2e8a391cc76f3ba793d84832a8ae4d55f80a1b:grapevine-thanksgiving-cartoons-10am-2026-11-24",
+    "type": "removed",
+    "date": "2026-11-25T15:12:32+00:00",
+    "title": "Thanksgiving Cartoons & Crafts — Morning",
+    "description": "Removed from the rolling event feed; may have expired or been rescheduled. Not a cancellation notice.",
+    "area": "Grapevine",
+    "url": "https://www.grapevinetexasusa.com/event/thanksgiving-cartoons-%26-crafts/42150/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/ec2e8a391cc76f3ba793d84832a8ae4d55f80a1b"
+  },
+  {
+    "id": "removed:ec2e8a391cc76f3ba793d84832a8ae4d55f80a1b:grapevine-thanksgiving-cartoons-1pm-2026-11-24",
+    "type": "removed",
+    "date": "2026-11-25T15:12:32+00:00",
+    "title": "Thanksgiving Cartoons & Crafts — Afternoon",
+    "description": "Removed from the rolling event feed; may have expired or been rescheduled. Not a cancellation notice.",
+    "area": "Grapevine",
+    "url": "https://www.grapevinetexasusa.com/event/thanksgiving-cartoons-%26-crafts/42150/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/ec2e8a391cc76f3ba793d84832a8ae4d55f80a1b"
+  },
+  {
+    "id": "removed:ec2e8a391cc76f3ba793d84832a8ae4d55f80a1b:grapevine-vetro-glass-2026-11-24",
+    "type": "removed",
+    "date": "2026-11-25T15:12:32+00:00",
+    "title": "Help Create a Glass Holiday Ornament",
+    "description": "Removed from the rolling event feed; may have expired or been rescheduled. Not a cancellation notice.",
+    "area": "Grapevine",
+    "url": "https://www.grapevinetexasusa.com/event/create-a-holiday-ornament-event-at-vetro-glassblowing%21/42256/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/ec2e8a391cc76f3ba793d84832a8ae4d55f80a1b"
+  },
+  {
+    "id": "removed:ec2e8a391cc76f3ba793d84832a8ae4d55f80a1b:mckinney-comedy-open-mic-2026-11-24",
+    "type": "removed",
+    "date": "2026-11-25T15:12:32+00:00",
+    "title": "Open Mic Night — New Local Comics",
+    "description": "Removed from the rolling event feed; may have expired or been rescheduled. Not a cancellation notice.",
+    "area": "McKinney",
+    "url": "https://www.thecomedyarena.com/get-tickets/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/ec2e8a391cc76f3ba793d84832a8ae4d55f80a1b"
+  },
+  {
+    "id": "removed:ec2e8a391cc76f3ba793d84832a8ae4d55f80a1b:mckinney-yes-and-jam-2026-11-24",
+    "type": "removed",
+    "date": "2026-11-25T15:12:32+00:00",
+    "title": "The Yes, And Improv Jam — McKinney",
+    "description": "Removed from the rolling event feed; may have expired or been rescheduled. Not a cancellation notice.",
+    "area": "McKinney",
+    "url": "https://www.thecomedyarena.com/get-tickets/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/ec2e8a391cc76f3ba793d84832a8ae4d55f80a1b"
+  },
+  {
+    "id": "removed:ec2e8a391cc76f3ba793d84832a8ae4d55f80a1b:plano-assembly-lights-2026-11-24",
+    "type": "removed",
+    "date": "2026-11-25T15:12:32+00:00",
+    "title": "Holiday Lights at Assembly Park — Tuesday",
+    "description": "Removed from the rolling event feed; may have expired or been rescheduled. Not a cancellation notice.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/holiday-lights-at-assembly-park",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/ec2e8a391cc76f3ba793d84832a8ae4d55f80a1b"
+  },
+  {
+    "id": "removed:ec2e8a391cc76f3ba793d84832a8ae4d55f80a1b:plano-fluid-art-2026-11-24",
+    "type": "removed",
+    "date": "2026-11-25T15:12:32+00:00",
+    "title": "Fluid Art Painting Workshops — Tuesday",
+    "description": "Removed from the rolling event feed; may have expired or been rescheduled. Not a cancellation notice.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/fluid-art-workshop-2026",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/ec2e8a391cc76f3ba793d84832a8ae4d55f80a1b"
+  },
+  {
+    "id": "removed:ec2e8a391cc76f3ba793d84832a8ae4d55f80a1b:plano-friends-trivia-2026-11-24",
+    "type": "removed",
+    "date": "2026-11-25T15:12:32+00:00",
+    "title": "Friends-Themed Trivia at Lexus Box Garden",
+    "description": "Removed from the rolling event feed; may have expired or been rescheduled. Not a cancellation notice.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/friends-themed-trivia-night",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/ec2e8a391cc76f3ba793d84832a8ae4d55f80a1b"
+  },
+  {
+    "id": "removed:ec2e8a391cc76f3ba793d84832a8ae4d55f80a1b:plano-paint-home-2026-11-24",
+    "type": "removed",
+    "date": "2026-11-25T15:12:32+00:00",
+    "title": "Paint Your Home — Guided Canvas Class",
+    "description": "Removed from the rolling event feed; may have expired or been rescheduled. Not a cancellation notice.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/paint-your-home-2026",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/ec2e8a391cc76f3ba793d84832a8ae4d55f80a1b"
+  },
+  {
+    "id": "removed:ec2e8a391cc76f3ba793d84832a8ae4d55f80a1b:plano-paw-patrol-2026-11-24",
+    "type": "removed",
+    "date": "2026-11-25T15:12:32+00:00",
+    "title": "PAW Patrol Rescue Pups — Immersive Experience Tuesday",
+    "description": "Removed from the rolling event feed; may have expired or been rescheduled. Not a cancellation notice.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/paw-patrol-rescue-pups-an-immersive-experience",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/ec2e8a391cc76f3ba793d84832a8ae4d55f80a1b"
+  },
+  {
+    "id": "removed:ec2e8a391cc76f3ba793d84832a8ae4d55f80a1b:plano-spoon-ring-2026-11-24",
+    "type": "removed",
+    "date": "2026-11-25T15:12:32+00:00",
+    "title": "Pendant & Key-Ring Workshop — Spoon Art",
+    "description": "Removed from the rolling event feed; may have expired or been rescheduled. Not a cancellation notice.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/spoon-ring-workshops",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/ec2e8a391cc76f3ba793d84832a8ae4d55f80a1b"
+  },
+  {
+    "id": "removed:ec2e8a391cc76f3ba793d84832a8ae4d55f80a1b:plano-yoga-rest-restore-2026-11-24",
+    "type": "removed",
+    "date": "2026-11-25T15:12:32+00:00",
+    "title": "Rest & Restore — Yoga Nidra and Sound",
+    "description": "Removed from the rolling event feed; may have expired or been rescheduled. Not a cancellation notice.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/rest-restore-yoga-nidra-and-sound-september",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/ec2e8a391cc76f3ba793d84832a8ae4d55f80a1b"
+  },
+  {
     "id": "tech:2d7102037d23ee33d97866d295646468c9547635",
     "type": "technology",
     "date": "2026-11-24T15:40:10+00:00",
