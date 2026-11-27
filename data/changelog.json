@@ -1,5 +1,235 @@
 [
   {
+    "id": "added:bfc38a7c0a7f369ed60676c704b5c5ea441a0f69:grapevine-christmas-cartoons-2026-12-03",
+    "type": "added",
+    "date": "2026-11-27T15:40:03+00:00",
+    "title": "Classic Christmas Cartoons & Crafts",
+    "description": "Added to the upcoming events feed",
+    "area": "Grapevine",
+    "url": "https://www.grapevinetexasusa.com/event/classic-christmas-cartoons-%26-crafts/42348/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/bfc38a7c0a7f369ed60676c704b5c5ea441a0f69"
+  },
+  {
+    "id": "added:bfc38a7c0a7f369ed60676c704b5c5ea441a0f69:grapevine-parade-lights-2026-12-03",
+    "type": "added",
+    "date": "2026-11-27T15:40:03+00:00",
+    "title": "47th Annual Parade of Lights",
+    "description": "Added to the upcoming events feed",
+    "area": "Grapevine",
+    "url": "https://www.grapevinetexasusa.com/event/47th-annual-parade-of-lights/41934/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/bfc38a7c0a7f369ed60676c704b5c5ea441a0f69"
+  },
+  {
+    "id": "added:bfc38a7c0a7f369ed60676c704b5c5ea441a0f69:mckinney-clay-ornaments-2026-12-03",
+    "type": "added",
+    "date": "2026-11-27T15:40:03+00:00",
+    "title": "Clay Christmas Ornaments Workshop",
+    "description": "Added to the upcoming events feed",
+    "area": "McKinney",
+    "url": "https://www.visitmckinney.com/events/clay-christmas-ornaments-workshop-nu3r6a1e",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/bfc38a7c0a7f369ed60676c704b5c5ea441a0f69"
+  },
+  {
+    "id": "added:bfc38a7c0a7f369ed60676c704b5c5ea441a0f69:mckinney-open-art-studio-2026-11-28",
+    "type": "added",
+    "date": "2026-11-27T15:40:03+00:00",
+    "title": "Open Studio — Art Drop-In",
+    "description": "Added to the upcoming events feed",
+    "area": "McKinney",
+    "url": "https://www.visitmckinney.com/events/open-studio-art-drop-in-eadym865",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/bfc38a7c0a7f369ed60676c704b5c5ea441a0f69"
+  },
+  {
+    "id": "added:bfc38a7c0a7f369ed60676c704b5c5ea441a0f69:plano-assembly-lights-2026-12-03",
+    "type": "added",
+    "date": "2026-11-27T15:40:03+00:00",
+    "title": "Holiday Lights at Assembly Park",
+    "description": "Added to the upcoming events feed",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/holiday-lights-at-assembly-park",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/bfc38a7c0a7f369ed60676c704b5c5ea441a0f69"
+  },
+  {
+    "id": "added:bfc38a7c0a7f369ed60676c704b5c5ea441a0f69:plano-deerfield-lights-2026-12-03",
+    "type": "added",
+    "date": "2026-11-27T15:40:03+00:00",
+    "title": "Deerfield Holiday Lights",
+    "description": "Added to the upcoming events feed",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/deerfield-holiday-lights-2026",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/bfc38a7c0a7f369ed60676c704b5c5ea441a0f69"
+  },
+  {
+    "id": "added:bfc38a7c0a7f369ed60676c704b5c5ea441a0f69:plano-farmstead-lights-2026-12-03",
+    "type": "added",
+    "date": "2026-11-27T15:40:03+00:00",
+    "title": "Lights on the Farmstead",
+    "description": "Added to the upcoming events feed",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/lights-on-the-farm-2026",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/bfc38a7c0a7f369ed60676c704b5c5ea441a0f69"
+  },
+  {
+    "id": "added:bfc38a7c0a7f369ed60676c704b5c5ea441a0f69:plano-fluid-art-2026-12-03",
+    "type": "added",
+    "date": "2026-11-27T15:40:03+00:00",
+    "title": "Fluid Art Workshop",
+    "description": "Added to the upcoming events feed",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/fluid-art-workshop-2026",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/bfc38a7c0a7f369ed60676c704b5c5ea441a0f69"
+  },
+  {
+    "id": "added:bfc38a7c0a7f369ed60676c704b5c5ea441a0f69:plano-ntpa-dalmatians-2026-12-03",
+    "type": "added",
+    "date": "2026-11-27T15:40:03+00:00",
+    "title": "101 Dalmatians KIDS",
+    "description": "Added to the upcoming events feed",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/101-dalmatians-kids-2026",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/bfc38a7c0a7f369ed60676c704b5c5ea441a0f69"
+  },
+  {
+    "id": "added:bfc38a7c0a7f369ed60676c704b5c5ea441a0f69:plano-snowman-paint-2026-12-03",
+    "type": "added",
+    "date": "2026-11-27T15:40:03+00:00",
+    "title": "Let It Snow Rustic Snowman",
+    "description": "Added to the upcoming events feed",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/let-it-snow-rustic-snowman",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/bfc38a7c0a7f369ed60676c704b5c5ea441a0f69"
+  },
+  {
+    "id": "added:bfc38a7c0a7f369ed60676c704b5c5ea441a0f69:richardson-vocal-majority-2026-12-03",
+    "type": "added",
+    "date": "2026-11-27T15:40:03+00:00",
+    "title": "Vocal Majority Christmas Spectacular",
+    "description": "Added to the upcoming events feed",
+    "area": "Richardson",
+    "url": "https://events.visitplano.com/event/vocal-majority-christmas-spectacular",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/bfc38a7c0a7f369ed60676c704b5c5ea441a0f69"
+  },
+  {
+    "id": "removed:bfc38a7c0a7f369ed60676c704b5c5ea441a0f69:dallas-arboretum-cheer-night-2026-11-26",
+    "type": "removed",
+    "date": "2026-11-27T15:40:03+00:00",
+    "title": "Thanksgiving Holiday Cheer Night at the Arboretum",
+    "description": "Removed from the rolling event feed; may have expired or been rescheduled. Not a cancellation notice.",
+    "area": "Dallas",
+    "url": "https://www.dallasarboretum.org/events-activities/holiday-at-the-arboretum/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/bfc38a7c0a7f369ed60676c704b5c5ea441a0f69"
+  },
+  {
+    "id": "removed:bfc38a7c0a7f369ed60676c704b5c5ea441a0f69:dallas-city-rink-2026-11-26",
+    "type": "removed",
+    "date": "2026-11-27T15:40:03+00:00",
+    "title": "CultureMap City Rink — Downtown Skating",
+    "description": "Removed from the rolling event feed; may have expired or been rescheduled. Not a cancellation notice.",
+    "area": "Dallas",
+    "url": "https://cityrink.culturemap.com/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/bfc38a7c0a7f369ed60676c704b5c5ea441a0f69"
+  },
+  {
+    "id": "removed:bfc38a7c0a7f369ed60676c704b5c5ea441a0f69:dallas-ymca-turkey-trot-2026-11-26",
+    "type": "removed",
+    "date": "2026-11-27T15:40:03+00:00",
+    "title": "Dallas YMCA Turkey Trot — 5K / 8-Mile",
+    "description": "Removed from the rolling event feed; may have expired or been rescheduled. Not a cancellation notice.",
+    "area": "Dallas",
+    "url": "https://ymcadallas.org/general-information-faqs",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/bfc38a7c0a7f369ed60676c704b5c5ea441a0f69"
+  },
+  {
+    "id": "removed:bfc38a7c0a7f369ed60676c704b5c5ea441a0f69:dallas-zoo-lights-2026-11-26",
+    "type": "removed",
+    "date": "2026-11-27T15:40:03+00:00",
+    "title": "Dallas Zoo Lights — Holiday Walk",
+    "description": "Removed from the rolling event feed; may have expired or been rescheduled. Not a cancellation notice.",
+    "area": "Dallas",
+    "url": "https://www.dallaszoo.com/event/lights/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/bfc38a7c0a7f369ed60676c704b5c5ea441a0f69"
+  },
+  {
+    "id": "removed:bfc38a7c0a7f369ed60676c704b5c5ea441a0f69:fortworth-ymca-turkey-trot-2026-11-26",
+    "type": "removed",
+    "date": "2026-11-27T15:40:03+00:00",
+    "title": "Fort Worth YMCA Turkey Trot",
+    "description": "Removed from the rolling event feed; may have expired or been rescheduled. Not a cancellation notice.",
+    "area": "Fort Worth",
+    "url": "https://ymcafw.org/annual-turkey-trot/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/bfc38a7c0a7f369ed60676c704b5c5ea441a0f69"
+  },
+  {
+    "id": "removed:bfc38a7c0a7f369ed60676c704b5c5ea441a0f69:grapevine-hotel-vin-thanksgiving-early-2026-11-26",
+    "type": "removed",
+    "date": "2026-11-27T15:40:03+00:00",
+    "title": "Thanksgiving Brunch Buffet — 11 AM Seating",
+    "description": "Removed from the rolling event feed; may have expired or been rescheduled. Not a cancellation notice.",
+    "area": "Grapevine",
+    "url": "https://www.grapevinetexasusa.com/event/thanksgiving-brunch-buffet/42403/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/bfc38a7c0a7f369ed60676c704b5c5ea441a0f69"
+  },
+  {
+    "id": "removed:bfc38a7c0a7f369ed60676c704b5c5ea441a0f69:grapevine-hotel-vin-thanksgiving-late-2026-11-26",
+    "type": "removed",
+    "date": "2026-11-27T15:40:03+00:00",
+    "title": "Thanksgiving Brunch Buffet — 1:30 PM Seating",
+    "description": "Removed from the rolling event feed; may have expired or been rescheduled. Not a cancellation notice.",
+    "area": "Grapevine",
+    "url": "https://www.grapevinetexasusa.com/event/thanksgiving-brunch-buffet/42403/",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/bfc38a7c0a7f369ed60676c704b5c5ea441a0f69"
+  },
+  {
+    "id": "removed:bfc38a7c0a7f369ed60676c704b5c5ea441a0f69:plano-assembly-lights-2026-11-26",
+    "type": "removed",
+    "date": "2026-11-27T15:40:03+00:00",
+    "title": "Holiday Lights at Assembly Park — Thanksgiving",
+    "description": "Removed from the rolling event feed; may have expired or been rescheduled. Not a cancellation notice.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/holiday-lights-at-assembly-park",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/bfc38a7c0a7f369ed60676c704b5c5ea441a0f69"
+  },
+  {
+    "id": "removed:bfc38a7c0a7f369ed60676c704b5c5ea441a0f69:plano-hand-lettering-2026-11-26",
+    "type": "removed",
+    "date": "2026-11-27T15:40:03+00:00",
+    "title": "Hand Lettering Workshop — Thanksgiving",
+    "description": "Removed from the rolling event feed; may have expired or been rescheduled. Not a cancellation notice.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/hand-lettering-workshop-2026",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/bfc38a7c0a7f369ed60676c704b5c5ea441a0f69"
+  },
+  {
+    "id": "removed:bfc38a7c0a7f369ed60676c704b5c5ea441a0f69:plano-paw-patrol-2026-11-26",
+    "type": "removed",
+    "date": "2026-11-27T15:40:03+00:00",
+    "title": "PAW Patrol Immersive Experience — Thanksgiving",
+    "description": "Removed from the rolling event feed; may have expired or been rescheduled. Not a cancellation notice.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/paw-patrol-rescue-pups-an-immersive-experience",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/bfc38a7c0a7f369ed60676c704b5c5ea441a0f69"
+  },
+  {
+    "id": "removed:bfc38a7c0a7f369ed60676c704b5c5ea441a0f69:plano-spoon-ring-2026-11-26",
+    "type": "removed",
+    "date": "2026-11-27T15:40:03+00:00",
+    "title": "Spoon Ring Workshop",
+    "description": "Removed from the rolling event feed; may have expired or been rescheduled. Not a cancellation notice.",
+    "area": "Plano",
+    "url": "https://events.visitplano.com/event/spoon-ring-workshops",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/bfc38a7c0a7f369ed60676c704b5c5ea441a0f69"
+  },
+  {
+    "id": "removed:bfc38a7c0a7f369ed60676c704b5c5ea441a0f69:plano-turkey-trot-2026-11-26",
+    "type": "removed",
+    "date": "2026-11-27T15:40:03+00:00",
+    "title": "Plano Turkey Trot 5K & Kids Dash",
+    "description": "Removed from the rolling event feed; may have expired or been rescheduled. Not a cancellation notice.",
+    "area": "Plano",
+    "url": "https://txruns.com/planoturkeytrot",
+    "commitUrl": "https://github.com/justinliles/dfw-after-dark/commit/bfc38a7c0a7f369ed60676c704b5c5ea441a0f69"
+  },
+  {
     "id": "added:ca715a343f77c9c451256a57505d88d7370cd3ea:dallas-dma-wee-wednesday-2026-12-02",
     "type": "added",
     "date": "2026-11-26T15:54:28+00:00",
