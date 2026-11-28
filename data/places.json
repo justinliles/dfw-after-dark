@@ -128,5 +128,18 @@
     "url": "https://parks.mckinneytexas.org/park/bonnie-wenk-dog-park/",
     "description": "Verified two-acre fenced off-leash dog park with separate big- and small-dog areas, plus walking trails in the adjacent city park. Dog park hours: dawn–11 PM; first/third Wednesdays closed until 11:30 AM for maintenance. Leash required outside the fenced dog park.",
     "price": "Free public park access"
+  },
+  {
+    "id": "historic-nash-farm",
+    "title": "Historic Nash Farm",
+    "category": "Art & Culture",
+    "venue": "Nash Farm",
+    "area": "Grapevine",
+    "address": "626 Ball St, Grapevine, TX 76051",
+    "lat": null,
+    "lng": null,
+    "price": "Free during regular hours; special events may charge",
+    "url": "https://www.grapevinetexasusa.com/nash-farm/",
+    "description": "Living-history farm. Tuesday–Sunday 9 AM–5 PM; closed Monday. Special events may change access."
   }
 ]
